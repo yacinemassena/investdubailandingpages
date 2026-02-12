@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.answer-capsule {
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+}
+
+.brand-green-glow {
+  background: radial-gradient(circle, rgba(40, 222, 145, 0.08) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.btn-primary {
+  background-color: #000000;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #1a1a1a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 20px -5px rgba(40, 222, 145, 0.2);
+}
+
+.btn-secondary {
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-secondary:hover {
+  background-color: #f9f9f8;
+  border-color: #28de91;
+}
