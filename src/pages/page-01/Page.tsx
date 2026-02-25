@@ -1,0 +1,86 @@
+import { Navbar, Hero, Opportunity, ProjectResults, WhyGapExists, TakeAction, HowItWorks, WhyInvestDubai, FAQ, FinalCTA, Footer } from '../../components/landing';
+import { pageContent } from './newconfig';
+
+export default function Page() {
+  return (
+    <div className="min-h-screen bg-brand-bg">
+      <Navbar 
+        links={pageContent.nav.links}
+        loginText={pageContent.nav.loginText}
+        ctaText={pageContent.nav.ctaText}
+      />
+      <main>
+        <Hero 
+          eyebrow={pageContent.hero.eyebrow}
+          headline={pageContent.hero.headline}
+          headlineSecondLine={pageContent.hero.headlineSecondLine}
+          subheadline={pageContent.hero.subheadline}
+          primaryCta={pageContent.hero.primaryCta}
+          secondaryCta={pageContent.hero.secondaryCta}
+          stats={pageContent.hero.stats}
+        />
+        <Opportunity 
+          label={pageContent.opportunity.label}
+          title={pageContent.opportunity.title}
+          body={pageContent.opportunity.body}
+          pullQuote={pageContent.opportunity.pullQuote}
+          chart={pageContent.opportunity.chart}
+          cta={pageContent.opportunity.cta}
+        />
+        <ProjectResults 
+          headline={pageContent.projectResults.headline}
+          subheadline={pageContent.projectResults.subheadline}
+          latestProjectsLabel={pageContent.projectResults.latestProjectsLabel}
+          showMoreText={pageContent.projectResults.showMoreText}
+          projects={pageContent.projectResults.projects}
+        />
+        <WhyGapExists 
+          label={pageContent.whyGapExists.label}
+          title={pageContent.whyGapExists.title}
+          subtitle={pageContent.whyGapExists.subtitle}
+          cards={pageContent.whyGapExists.cards}
+        />
+        <TakeAction 
+          label={pageContent.takeAction.label}
+          title={pageContent.takeAction.title}
+          subtitle={pageContent.takeAction.subtitle}
+          metrics={pageContent.takeAction.metrics}
+          primaryCta={pageContent.takeAction.primaryCta}
+          secondaryCta={pageContent.takeAction.secondaryCta}
+        />
+        <HowItWorks 
+          label={pageContent.howItWorks.label}
+          title={pageContent.howItWorks.title}
+          steps={pageContent.howItWorks.steps}
+          cta={pageContent.howItWorks.cta}
+        />
+        <WhyInvestDubai 
+          label={pageContent.whyInvestDubai.label}
+          title={pageContent.whyInvestDubai.title}
+          subtitle={pageContent.whyInvestDubai.subtitle}
+          trustPoints={pageContent.whyInvestDubai.trustPoints}
+          highlightCard={pageContent.whyInvestDubai.highlightCard}
+          alignedIncentives={pageContent.whyInvestDubai.alignedIncentives}
+        />
+        <FAQ 
+          label={pageContent.faq.label}
+          title={pageContent.faq.title}
+          subtitle={pageContent.faq.subtitle}
+          cta={pageContent.faq.cta}
+          questions={pageContent.faq.questions}
+        />
+        <FinalCTA 
+          label={pageContent.finalCta.label}
+          title={pageContent.finalCta.title}
+          subtitle={pageContent.finalCta.subtitle}
+          primaryCta={pageContent.finalCta.primaryCta}
+          secondaryCta={pageContent.finalCta.secondaryCta}
+        />
+      </main>
+      <Footer 
+        copyright={pageContent.footer.copyright}
+        links={pageContent.footer.links}
+      />
+    </div>
+  );
+}

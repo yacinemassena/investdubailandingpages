@@ -1,0 +1,55 @@
+InvestDubai Landing Pages - Complete Page List
+
+HOME PAGE:
+- NewHomepage (The Opportunity Page)
+
+LANDING PAGES:
+- Page 01: How Hands-Free Property Flipping Works
+- Page 01 v2: How Hands-Free Property Flipping Works (Version 2)
+- Page 02: Minimum Investment (5,000 AED)
+- Page 02 v2: Minimum Investment (Version 2)
+- Page 03: Flipping vs Buy-to-Let
+- Page 03 v2: Flipping vs Buy-to-Let (Version 2)
+- Page 04: Security & SPV Ownership
+- Page 04 v2: Security & SPV Ownership (Version 2)
+- Page 05: Dubai Market 2026
+- Page 05 v2: Dubai Market 2026 (Version 2)
+- Page 06: Timeline (6-18 Months)
+- Page 06 v2: Timeline (Version 2)
+- Page 07: Returns & Profit Sharing
+- Page 07 v2: Returns & Profit Sharing (Version 2)
+- Page 08: Remote Investing
+- Page 08 v2: Remote Investing (Version 2)
+- Page 09: Beginner's Guide
+- Page 09 v2: Beginner's Guide (Version 2)
+- Page 10: Complete FAQ Hub
+- Page 10 v2: Complete FAQ Hub (Version 2)
+
+ADDITIONAL PAGE:
+- TheOpportunity
+
+TOTAL: 23 pages (1 home page + 20 landing pages + 2 additional pages)
+
+DIRECTORY STRUCTURE:
+/src/pages/newhomepage/
+/src/pages/theopportunity/
+/src/pages/page-01/
+/src/pages/page-01-v2/
+/src/pages/page-02/
+/src/pages/page-02-v2/
+/src/pages/page-03/
+/src/pages/page-03-v2/
+/src/pages/page-04/
+/src/pages/page-04-v2/
+/src/pages/page-05/
+/src/pages/page-05-v2/
+/src/pages/page-06/
+/src/pages/page-06-v2/
+/src/pages/page-07/
+/src/pages/page-07-v2/
+/src/pages/page-08/
+/src/pages/page-08-v2/
+/src/pages/page-09/
+/src/pages/page-09-v2/
+/src/pages/page-10/
+/src/pages/page-10-v2/

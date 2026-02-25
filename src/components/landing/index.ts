@@ -1,0 +1,11 @@
+export { Navbar } from './Navbar';
+export { Hero } from './Hero';
+export { Opportunity } from './Opportunity';
+export { ProjectResults } from './ProjectResults';
+export { WhyGapExists } from './WhyGapExists';
+export { TakeAction } from './TakeAction';
+export { HowItWorks } from './HowItWorks';
+export { WhyInvestDubai } from './WhyInvestDubai';
+export { FAQ } from './FAQ';
+export { FinalCTA } from './FinalCTA';
+export { Footer } from './Footer';
