@@ -27,7 +27,7 @@ const App = () => {
     <BrowserRouter>
       <ChatBubble />
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<TheOpportunity />} />
         <Route path="/page/1" element={<Page1 />} />
         <Route path="/page/2" element={<Page2 />} />
         <Route path="/page/3" element={<Page3 />} />
@@ -39,7 +39,7 @@ const App = () => {
         <Route path="/page/9" element={<Page9 />} />
         <Route path="/page/10" element={<Page10 />} />
         {/* Standalone pages */}
-        <Route path="/theopportunity" element={<TheOpportunity />} />
+        <Route path="/theopportunity" element={<Homepage />} />
         <Route path="/faq" element={<OpportunityFAQPage />} />
         <Route path="/investopedia" element={<OpportunityInvestopediaPage />} />
         <Route path="/investopedia/:slug" element={<OpportunityArticlePage />} />

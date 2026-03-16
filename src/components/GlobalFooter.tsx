@@ -18,19 +18,6 @@ export const GlobalFooter = () => {
             </ul>
           </div>
 
-          {/* Landing Pages */}
-          <div>
-            <h4 className="text-white font-semibold mb-4">Landing Pages</h4>
-            <ul className="space-y-2 text-sm">
-              <li><a href="/page/1" className="text-gray-400 hover:text-white transition-colors">Page 1</a></li>
-              <li><a href="/page/2" className="text-gray-400 hover:text-white transition-colors">Page 2</a></li>
-              <li><a href="/page/3" className="text-gray-400 hover:text-white transition-colors">Page 3</a></li>
-              <li><a href="/page/4" className="text-gray-400 hover:text-white transition-colors">Page 4</a></li>
-              <li><a href="/page/5" className="text-gray-400 hover:text-white transition-colors">Page 5</a></li>
-              <li><a href="/v2/page/1" className="text-gray-400 hover:text-white transition-colors">V2 Pages →</a></li>
-            </ul>
-          </div>
-
           {/* Investopedia */}
           <div>
             <h4 className="text-white font-semibold mb-4">Investopedia</h4>

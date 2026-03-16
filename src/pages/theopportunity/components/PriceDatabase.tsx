@@ -7,11 +7,11 @@ const neighborhoodCategories = [
     category: 'Ultra-Luxury Villas',
     description: 'Exclusive villa communities with premium amenities',
     neighborhoods: [
-      { id: 'palm-jumeirah', name: 'Palm Jumeirah', active: false, description: 'Iconic man-made island with beachfront villas' },
+      { id: 'palm-jumeirah', name: 'Palm Jumeirah', active: true, description: 'Iconic man-made island with beachfront villas' },
       { id: 'emirates-hills', name: 'Emirates Hills', active: false, description: 'Dubai\'s Beverly Hills with golf course views' },
       { id: 'jumeirah-islands', name: 'Jumeirah Islands', active: true, description: 'Gated community with 46 islands and lakes' },
-      { id: 'al-barari', name: 'Al Barari', active: false, description: 'Botanical luxury living with lush greenery' },
-      { id: 'arabian-ranches', name: 'Arabian Ranches', active: false, description: 'Desert-themed golf community' },
+      { id: 'al-barari', name: 'Al Barari', active: true, description: 'Botanical luxury living with lush greenery' },
+      { id: 'arabian-ranches', name: 'Arabian Ranches', active: true, description: 'Desert-themed golf community' },
       { id: 'dubai-hills-estate', name: 'Dubai Hills Estate', active: false, description: 'Modern master-planned community' },
     ]
   },
@@ -19,9 +19,9 @@ const neighborhoodCategories = [
     category: 'Premium Apartments',
     description: 'High-rise luxury living in prime locations',
     neighborhoods: [
-      { id: 'downtown-dubai', name: 'Downtown Dubai', active: false, description: 'Home to Burj Khalifa and Dubai Mall' },
-      { id: 'dubai-marina', name: 'Dubai Marina', active: false, description: 'Waterfront living with marina views' },
-      { id: 'business-bay', name: 'Business Bay', active: false, description: 'Central business district with canal views' },
+      { id: 'downtown-dubai', name: 'Downtown Dubai', active: true, description: 'Home to Burj Khalifa and Dubai Mall' },
+      { id: 'dubai-marina', name: 'Dubai Marina', active: true, description: 'Waterfront living with marina views' },
+      { id: 'business-bay', name: 'Business Bay', active: true, description: 'Central business district with canal views' },
       { id: 'jbr', name: 'Jumeirah Beach Residence (JBR)', active: false, description: 'Beachfront towers with resort lifestyle' },
       { id: 'city-walk', name: 'City Walk', active: false, description: 'Urban living with retail and dining' },
     ]
@@ -54,6 +54,162 @@ const neighborhoods = neighborhoodCategories.flatMap(cat =>
   cat.neighborhoods.map(n => ({ ...n, category: cat.category }))
 );
 
+// Palm Jumeirah market data (TRANSFERRED SALES - AED per sqft)
+const palmJumeirahData = [
+  { quarter: 'Q3-2020', price: 1466 },
+  { quarter: 'Q4-2020', price: 1483 },
+  { quarter: 'Q1-2021', price: 1603 },
+  { quarter: 'Q2-2021', price: 1793 },
+  { quarter: 'Q3-2021', price: 2330 },
+  { quarter: 'Q4-2021', price: 2479 },
+  { quarter: 'Q1-2022', price: 2258 },
+  { quarter: 'Q2-2022', price: 2446 },
+  { quarter: 'Q3-2022', price: 2602 },
+  { quarter: 'Q4-2022', price: 3110 },
+  { quarter: 'Q1-2023', price: 2596 },
+  { quarter: 'Q2-2023', price: 2735 },
+  { quarter: 'Q3-2023', price: 2908 },
+  { quarter: 'Q4-2023', price: 2895 },
+  { quarter: 'Q1-2024', price: 2827 },
+  { quarter: 'Q2-2024', price: 2724 },
+  { quarter: 'Q3-2024', price: 2761 },
+  { quarter: 'Q4-2024', price: 2799 },
+  { quarter: 'Q1-2025', price: 2863 },
+  { quarter: 'Q2-2025', price: 3002 },
+  { quarter: 'Q3-2025', price: 3486 },
+  { quarter: 'Q4-2025', price: 3750 },
+];
+
+// Arabian Ranches market data (TRANSFERRED SALES - AED per sqft)
+const arabianRanchesData = [
+  { quarter: 'Q3-2020', price: 788 },
+  { quarter: 'Q4-2020', price: 807 },
+  { quarter: 'Q1-2021', price: 888 },
+  { quarter: 'Q2-2021', price: 998 },
+  { quarter: 'Q3-2021', price: 1094 },
+  { quarter: 'Q4-2021', price: 1181 },
+  { quarter: 'Q1-2022', price: 1198 },
+  { quarter: 'Q2-2022', price: 1257 },
+  { quarter: 'Q3-2022', price: 1229 },
+  { quarter: 'Q4-2022', price: 1267 },
+  { quarter: 'Q1-2023', price: 1395 },
+  { quarter: 'Q2-2023', price: 1423 },
+  { quarter: 'Q3-2023', price: 1460 },
+  { quarter: 'Q4-2023', price: 1610 },
+  { quarter: 'Q1-2024', price: 1746 },
+  { quarter: 'Q2-2024', price: 1708 },
+  { quarter: 'Q3-2024', price: 1914 },
+  { quarter: 'Q4-2024', price: 1922 },
+  { quarter: 'Q1-2025', price: 2108 },
+  { quarter: 'Q2-2025', price: 2163 },
+  { quarter: 'Q3-2025', price: 2261 },
+  { quarter: 'Q4-2025', price: 2283 },
+];
+
+// Business Bay market data (TRANSFERRED SALES - AED per sqft)
+const businessBayData = [
+  { quarter: 'Q3-2020', price: 1282 },
+  { quarter: 'Q4-2020', price: 1323 },
+  { quarter: 'Q1-2021', price: 1284 },
+  { quarter: 'Q2-2021', price: 1338 },
+  { quarter: 'Q3-2021', price: 1546 },
+  { quarter: 'Q4-2021', price: 1449 },
+  { quarter: 'Q1-2022', price: 1581 },
+  { quarter: 'Q2-2022', price: 1615 },
+  { quarter: 'Q3-2022', price: 1768 },
+  { quarter: 'Q4-2022', price: 1946 },
+  { quarter: 'Q1-2023', price: 1985 },
+  { quarter: 'Q2-2023', price: 1776 },
+  { quarter: 'Q3-2023', price: 2295 },
+  { quarter: 'Q4-2023', price: 2093 },
+  { quarter: 'Q1-2024', price: 2222 },
+  { quarter: 'Q2-2024', price: 2419 },
+  { quarter: 'Q3-2024', price: 2383 },
+  { quarter: 'Q4-2024', price: 2308 },
+  { quarter: 'Q1-2025', price: 2353 },
+  { quarter: 'Q2-2025', price: 2316 },
+  { quarter: 'Q3-2025', price: 2587 },
+  { quarter: 'Q4-2025', price: 2431 },
+];
+
+// Dubai Marina market data (TRANSFERRED SALES - AED per sqft)
+const dubaiMarinaData = [
+  { quarter: 'Q3-2020', price: 1137 },
+  { quarter: 'Q4-2020', price: 1158 },
+  { quarter: 'Q1-2021', price: 1197 },
+  { quarter: 'Q2-2021', price: 1340 },
+  { quarter: 'Q3-2021', price: 1382 },
+  { quarter: 'Q4-2021', price: 1391 },
+  { quarter: 'Q1-2022', price: 1406 },
+  { quarter: 'Q2-2022', price: 1469 },
+  { quarter: 'Q3-2022', price: 1581 },
+  { quarter: 'Q4-2022', price: 1824 },
+  { quarter: 'Q1-2023', price: 1717 },
+  { quarter: 'Q2-2023', price: 1656 },
+  { quarter: 'Q3-2023', price: 1641 },
+  { quarter: 'Q4-2023', price: 1653 },
+  { quarter: 'Q1-2024', price: 1848 },
+  { quarter: 'Q2-2024', price: 1935 },
+  { quarter: 'Q3-2024', price: 1865 },
+  { quarter: 'Q4-2024', price: 2037 },
+  { quarter: 'Q1-2025', price: 2404 },
+  { quarter: 'Q2-2025', price: 2509 },
+  { quarter: 'Q3-2025', price: 2287 },
+  { quarter: 'Q4-2025', price: 2246 },
+];
+
+// Al Barari market data (TRANSFERRED SALES - AED per sqft)
+const alBarariData = [
+  { quarter: 'Q3-2020', price: 663 },
+  { quarter: 'Q4-2020', price: 991 },
+  { quarter: 'Q1-2021', price: 889 },
+  { quarter: 'Q2-2021', price: 1001 },
+  { quarter: 'Q3-2021', price: 1155 },
+  { quarter: 'Q4-2021', price: 1069 },
+  { quarter: 'Q1-2022', price: 1054 },
+  { quarter: 'Q2-2022', price: 1265 },
+  { quarter: 'Q3-2022', price: 1426 },
+  { quarter: 'Q4-2022', price: 1182 },
+  { quarter: 'Q1-2023', price: 1282 },
+  { quarter: 'Q2-2023', price: 1496 },
+  { quarter: 'Q3-2023', price: 1461 },
+  { quarter: 'Q4-2023', price: 1013 },
+  { quarter: 'Q1-2024', price: 1316 },
+  { quarter: 'Q2-2024', price: 1731 },
+  { quarter: 'Q3-2024', price: 1659 },
+  { quarter: 'Q4-2024', price: 1764 },
+  { quarter: 'Q1-2025', price: 1732 },
+  { quarter: 'Q2-2025', price: 1658 },
+  { quarter: 'Q3-2025', price: 1467 },
+  { quarter: 'Q4-2025', price: 2041 },
+];
+
+// Downtown Dubai market data from chart.csv (TRANSFERRED SALES - AED per sqft)
+const downtownDubaiData = [
+  { quarter: 'Q3-2020', price: 1735 },
+  { quarter: 'Q4-2020', price: 1826 },
+  { quarter: 'Q1-2021', price: 1688 },
+  { quarter: 'Q2-2021', price: 1900 },
+  { quarter: 'Q3-2021', price: 1929 },
+  { quarter: 'Q4-2021', price: 2159 },
+  { quarter: 'Q1-2022', price: 2130 },
+  { quarter: 'Q2-2022', price: 2253 },
+  { quarter: 'Q3-2022', price: 2240 },
+  { quarter: 'Q4-2022', price: 2232 },
+  { quarter: 'Q1-2023', price: 2384 },
+  { quarter: 'Q2-2023', price: 2294 },
+  { quarter: 'Q3-2023', price: 2415 },
+  { quarter: 'Q4-2023', price: 2607 },
+  { quarter: 'Q1-2024', price: 2602 },
+  { quarter: 'Q2-2024', price: 2682 },
+  { quarter: 'Q3-2024', price: 2819 },
+  { quarter: 'Q4-2024', price: 2707 },
+  { quarter: 'Q1-2025', price: 2754 },
+  { quarter: 'Q2-2025', price: 2767 },
+  { quarter: 'Q3-2025', price: 2823 },
+  { quarter: 'Q4-2025', price: 3570 },
+];
+
 // Jumeirah Islands market data from Ji marketoverview.csv
 const jumeirahIslandsData = [
   { quarter: 'Q3-2020', price: 8684 },
@@ -79,6 +235,37 @@ const jumeirahIslandsData = [
   { quarter: 'Q3-2025', price: 31782 },
   { quarter: 'Q4-2025', price: 38237 },
 ];
+
+// Map neighborhood IDs to their data
+const neighborhoodPriceData: Record<string, { quarter: string; price: number }[]> = {
+  'downtown-dubai': downtownDubaiData,
+  'jumeirah-islands': jumeirahIslandsData,
+  'business-bay': businessBayData,
+  'dubai-marina': dubaiMarinaData,
+  'al-barari': alBarariData,
+  'palm-jumeirah': palmJumeirahData,
+  'arabian-ranches': arabianRanchesData,
+};
+
+// Helper to get price metrics
+const getPriceMetrics = (data: { quarter: string; price: number }[]) => {
+  const latest = data[data.length - 1];
+  const first = data[0];
+  const yearAgo = data[data.length - 5];
+  const peak = data.reduce((max, d) => d.price > max.price ? d : max, data[0]);
+  
+  const growthPercent = ((latest.price - first.price) / first.price * 100).toFixed(0);
+  const yoyPercent = yearAgo ? ((latest.price - yearAgo.price) / yearAgo.price * 100).toFixed(1) : null;
+  
+  // Calculate min/max for chart scaling
+  const minPrice = Math.min(...data.map(d => d.price));
+  const maxPrice = Math.max(...data.map(d => d.price));
+  const padding = (maxPrice - minPrice) * 0.1;
+  const chartMin = Math.floor((minPrice - padding) / 100) * 100;
+  const chartMax = Math.ceil((maxPrice + padding) / 100) * 100;
+  
+  return { latest, first, peak, growthPercent, yoyPercent, chartMin, chartMax };
+};
 
 export const PriceDatabase = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -251,7 +438,10 @@ export const PriceDatabase = () => {
           </div>
 
           {/* Price Data Visualization */}
-          {selectedNeighborhood?.id === 'jumeirah-islands' ? (
+          {selectedNeighborhood?.active && neighborhoodPriceData[selectedNeighborhood.id] ? (() => {
+            const priceData = neighborhoodPriceData[selectedNeighborhood.id];
+            const metrics = getPriceMetrics(priceData);
+            return (
             <div className="space-y-8">
               {/* Key Metrics */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -260,10 +450,10 @@ export const PriceDatabase = () => {
                     <div className="w-10 h-10 bg-brand-accent/10 rounded-xl flex items-center justify-center">
                       <TrendingUp className="w-5 h-5 text-brand-accent" />
                     </div>
-                    <span className="text-gray-400 text-sm">Latest Price (Q4-2025)</span>
+                    <span className="text-gray-400 text-sm">Latest Price ({metrics.latest.quarter})</span>
                   </div>
-                  <div className="text-3xl font-bold text-white mb-1">AED 38,237</div>
-                  <div className="text-sm text-brand-accent">+20.3% YoY</div>
+                  <div className="text-3xl font-bold text-white mb-1">AED {metrics.latest.price.toLocaleString()}</div>
+                  {metrics.yoyPercent && <div className="text-sm text-brand-accent">+{metrics.yoyPercent}% YoY</div>}
                 </div>
                 
                 <div className="bg-[#111] border border-white/5 rounded-2xl p-6">
@@ -273,8 +463,8 @@ export const PriceDatabase = () => {
                     </div>
                     <span className="text-gray-400 text-sm">5-Year Growth</span>
                   </div>
-                  <div className="text-3xl font-bold text-white mb-1">+340%</div>
-                  <div className="text-sm text-gray-400">Since Q3-2020</div>
+                  <div className="text-3xl font-bold text-white mb-1">+{metrics.growthPercent}%</div>
+                  <div className="text-sm text-gray-400">Since {metrics.first.quarter}</div>
                 </div>
                 
                 <div className="bg-[#111] border border-white/5 rounded-2xl p-6">
@@ -284,8 +474,8 @@ export const PriceDatabase = () => {
                     </div>
                     <span className="text-gray-400 text-sm">Peak Price</span>
                   </div>
-                  <div className="text-3xl font-bold text-white mb-1">AED 38,237</div>
-                  <div className="text-sm text-gray-400">Q4-2025</div>
+                  <div className="text-3xl font-bold text-white mb-1">AED {metrics.peak.price.toLocaleString()}</div>
+                  <div className="text-sm text-gray-400">{metrics.peak.quarter}</div>
                 </div>
               </div>
 
@@ -309,9 +499,9 @@ export const PriceDatabase = () => {
                     
                     {/* Price line */}
                     <polyline
-                      points={jumeirahIslandsData.map((d, i) => {
-                        const x = (i / (jumeirahIslandsData.length - 1)) * 1000;
-                        const y = 320 - ((d.price - 8000) / 30000) * 320;
+                      points={priceData.map((d, i) => {
+                        const x = (i / (priceData.length - 1)) * 1000;
+                        const y = 320 - ((d.price - metrics.chartMin) / (metrics.chartMax - metrics.chartMin)) * 320;
                         return `${x},${y}`;
                       }).join(' ')}
                       fill="none"
@@ -331,9 +521,9 @@ export const PriceDatabase = () => {
                     <polygon
                       points={[
                         '0,320',
-                        ...jumeirahIslandsData.map((d, i) => {
-                          const x = (i / (jumeirahIslandsData.length - 1)) * 1000;
-                          const y = 320 - ((d.price - 8000) / 30000) * 320;
+                        ...priceData.map((d, i) => {
+                          const x = (i / (priceData.length - 1)) * 1000;
+                          const y = 320 - ((d.price - metrics.chartMin) / (metrics.chartMax - metrics.chartMin)) * 320;
                           return `${x},${y}`;
                         }),
                         '1000,320'
@@ -344,22 +534,22 @@ export const PriceDatabase = () => {
                   
                   {/* Y-axis labels */}
                   <div className="absolute left-0 top-0 h-full flex flex-col justify-between text-xs text-gray-500 -ml-12">
-                    <span>38K</span>
-                    <span>30K</span>
-                    <span>22K</span>
-                    <span>14K</span>
-                    <span>8K</span>
+                    <span>{(metrics.chartMax / 1000).toFixed(1)}K</span>
+                    <span>{((metrics.chartMax * 0.75 + metrics.chartMin * 0.25) / 1000).toFixed(1)}K</span>
+                    <span>{((metrics.chartMax + metrics.chartMin) / 2000).toFixed(1)}K</span>
+                    <span>{((metrics.chartMax * 0.25 + metrics.chartMin * 0.75) / 1000).toFixed(1)}K</span>
+                    <span>{(metrics.chartMin / 1000).toFixed(1)}K</span>
                   </div>
                 </div>
                 
                 {/* X-axis labels */}
                 <div className="flex justify-between mt-4 text-xs text-gray-500">
-                  <span>Q3 2020</span>
+                  <span>{priceData[0].quarter}</span>
                   <span>2021</span>
                   <span>2022</span>
                   <span>2023</span>
                   <span>2024</span>
-                  <span>Q4 2025</span>
+                  <span>{priceData[priceData.length - 1].quarter}</span>
                 </div>
               </div>
 
@@ -377,9 +567,9 @@ export const PriceDatabase = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      {jumeirahIslandsData.slice().reverse().map((data, i, arr) => {
+                      {priceData.slice().reverse().map((data, i, arr) => {
                         const prevQuarter = arr[i + 1];
-                        const yearAgo = jumeirahIslandsData.find((_, idx) => idx === jumeirahIslandsData.length - 1 - i - 4);
+                        const yearAgo = priceData.find((_, idx) => idx === priceData.length - 1 - i - 4);
                         const qoqChange = prevQuarter ? ((data.price - prevQuarter.price) / prevQuarter.price * 100).toFixed(1) : null;
                         const yoyChange = yearAgo ? ((data.price - yearAgo.price) / yearAgo.price * 100).toFixed(1) : null;
                         
@@ -407,7 +597,8 @@ export const PriceDatabase = () => {
                 </div>
               </div>
             </div>
-          ) : (
+          );
+          })() : (
             <div className="bg-[#111] border border-white/5 rounded-3xl p-12 text-center">
               <div className="w-16 h-16 bg-white/5 rounded-2xl flex items-center justify-center mx-auto mb-6">
                 <Search className="w-8 h-8 text-gray-500" />
