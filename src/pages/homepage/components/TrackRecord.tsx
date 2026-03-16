@@ -12,10 +12,10 @@ export const TrackRecord = () => {
           <span className="inline-block px-4 py-2 bg-brand-accent/20 text-brand-accent text-sm font-semibold rounded-full mb-6">
             {trackRecord.label}
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight tracking-wide">
             {trackRecord.title}
           </h2>
-          <p className="text-lg text-gray-400 leading-relaxed">
+          <p className="text-lg text-gray-400 leading-relaxed tracking-wide">
             {trackRecord.subtitle}
           </p>
         </div>
@@ -40,28 +40,49 @@ export const TrackRecord = () => {
           ))}
         </div>
 
-        <h3 className="text-xl font-bold text-white mb-6 text-center">Sample Completed Projects</h3>
-        <div className="grid md:grid-cols-5 gap-4 mb-12">
+        <h3 className="text-xl font-bold text-white mb-6 text-center tracking-wide">Sample Completed Projects</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-16">
           {trackRecord.projects.map((project, i) => (
             <div 
               key={i} 
-              className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-brand-accent/50 transition-all group"
+              className="bg-white rounded-2xl overflow-hidden shadow-sm flex flex-col group transition-all duration-300 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.3)]"
             >
-              <div className="text-lg font-bold text-white mb-4 group-hover:text-brand-accent transition-colors">
-                {project.name}
-              </div>
-              <div className="space-y-3 text-sm">
-                <div className="flex justify-between">
-                  <span className="text-gray-500">Investment</span>
-                  <span className="text-gray-300 font-medium">{project.investment}</span>
+              {/* Image Container */}
+              {project.image && (
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src={project.image} 
+                    alt={project.name}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute top-3 left-3 flex items-center gap-1.5 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-full border border-black/5">
+                    <div className="w-1.5 h-1.5 bg-[#1DB976] rounded-full shadow-[0_0_8px_rgba(29,219,118,0.6)]" />
+                    <span className="text-xs font-bold text-black uppercase tracking-wider">Sold</span>
+                  </div>
                 </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-500">Sale</span>
-                  <span className="text-gray-300 font-medium">{project.salePrice}</span>
+              )}
+
+              {/* Content Container */}
+              <div className="p-5 flex-1 flex flex-col">
+                <h3 className="text-lg font-bold text-black mb-3">{project.name}</h3>
+                
+                <div className="space-y-2 mb-6">
+                  <div className="flex flex-col text-sm">
+                    <span className="text-gray-500 font-medium">Total Investment:</span>
+                    <span className="font-bold text-gray-900">{project.investment}</span>
+                  </div>
+                  <div className="flex flex-col text-sm">
+                    <span className="text-gray-500 font-medium">Selling Price:</span>
+                    <span className="font-bold text-gray-900">{project.salePrice}</span>
+                  </div>
                 </div>
-                <div className="flex justify-between pt-3 border-t border-white/10">
-                  <span className="text-gray-500">ROI</span>
-                  <span className="text-brand-accent font-bold text-lg">{project.roi}</span>
+
+                {/* ROI Bar */}
+                <div className="mt-auto">
+                  <div className="bg-[#1DB976] rounded-xl p-3.5 flex justify-between items-center shadow-[0_4px_12px_rgba(29,219,118,0.2)]">
+                    <span className="text-white text-xs font-black uppercase tracking-widest">ROI:</span>
+                    <span className="text-white text-2xl font-black">{project.roi}</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -74,7 +95,7 @@ export const TrackRecord = () => {
 
         <div className="text-center">
           <a 
-            href="#"
+            href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-white text-brand-dark px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors shadow-xl"
           >
             {trackRecord.cta}

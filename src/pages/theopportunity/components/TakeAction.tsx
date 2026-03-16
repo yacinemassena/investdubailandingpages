@@ -8,7 +8,7 @@ export const TakeAction = () => {
     <section className="py-24 bg-brand-dark">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-[11px] uppercase tracking-[0.2em] font-bold text-brand-accent mb-4 block">
+          <span className="section-label">
             {takeAction.label}
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 leading-tight">
@@ -33,11 +33,11 @@ export const TakeAction = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="#" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium flex items-center gap-2 hover:opacity-90 transition-opacity">
+          <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium flex items-center gap-2 hover:opacity-90 transition-opacity">
             {takeAction.primaryCta}
             <ArrowRight className="w-4 h-4" />
           </a>
-          <a href="#" className="border border-white/20 text-white px-8 py-4 rounded-full font-medium flex items-center gap-2 hover:bg-white/5 transition-colors">
+          <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="border border-white/20 text-white px-8 py-4 rounded-full font-medium flex items-center gap-2 hover:bg-white/5 transition-colors">
             <Phone className="w-4 h-4" />
             {takeAction.secondaryCta}
           </a>

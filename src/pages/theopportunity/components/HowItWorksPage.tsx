@@ -1,18 +1,20 @@
 import { useState } from 'react';
 import { UserPlus, Search, Wallet, Eye, Banknote, ArrowRight, Phone, MessageCircle, Instagram, Users, LayoutDashboard, Mail, CheckCircle, Play } from 'lucide-react';
 import Logo from '../../../assets/logo.svg';
+import { WhatsAppMockup } from './WhatsAppMockup';
+import { InstagramMockup } from './InstagramMockup';
 
 const processSteps = [
   {
     number: '01',
     title: 'Create Your Account',
-    description: 'Sign up online in under 2 minutes. Complete identity verification (KYC) — we verify your documents within 24-48 hours. No payment required until you invest.',
+    description: 'Sign up online in under 2 minutes. Complete identity verification (KYC), and we verify your documents within 24–48 hours. No payment required until you invest.',
     icon: UserPlus,
     details: [
       'Simple online registration',
       'Government ID + proof of address',
       'Approval within 24-48 hours',
-      'Free account — no commitment'
+      'Free account, no commitment'
     ]
   },
   {
@@ -30,7 +32,7 @@ const processSteps = [
   {
     number: '03',
     title: 'Invest & Become a Co-Owner',
-    description: 'Fund your wallet via bank transfer and allocate capital to your chosen project. A dedicated SPV is created — you become a legal co-owner of the villa.',
+    description: 'Fund your wallet via bank transfer and allocate capital to your chosen project. A dedicated SPV is created, and you become a legal co-owner of the villa.',
     icon: Wallet,
     details: [
       'Minimum €1,000 investment',
@@ -76,23 +78,24 @@ const experienceFeatures = [
   {
     icon: Instagram,
     title: 'Weekly Instagram Stories',
-    description: 'Follow our renovation progress through weekly Instagram story updates. See the actual work happening — demolition, construction, finishing touches. Nothing hidden, everything documented.',
+    description: 'Follow our renovation progress through weekly Instagram story updates. See the actual work happening, including demolition, construction, and finishing touches. Nothing hidden, everything documented.',
     highlight: 'Visual progress tracking',
     image: 'https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&w=800&q=80'
   },
   {
     icon: Users,
     title: 'Meet Our In-House Architects',
-    description: 'Our renovations are executed by our own in-house architecture and construction teams. Daily on-site supervision ensures quality control. You\'ll see our architects in the updates — real people, real accountability.',
+    description: 'Our renovations are executed by our own in-house architecture and construction teams. Daily on-site supervision ensures quality control. You\'ll see our architects in the updates, real people and real accountability.',
     highlight: '50+ villas completed',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80',
+    video: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/videos/architects-video.mp4'
   },
   {
     icon: LayoutDashboard,
     title: 'Easy-to-Use Platform',
     description: 'Your investor dashboard gives you complete visibility: project milestones, budget tracking, timeline updates, and all documentation in one place. Simple, clean, and always accessible.',
     highlight: '24/7 dashboard access',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80'
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/dashboard-2.png'
   },
   {
     icon: Mail,
@@ -111,23 +114,23 @@ export const HowItWorksPage = () => {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-brand-bg/80 backdrop-blur-md border-b border-brand-border">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
-          <a href="/newhomepage" className="flex items-center">
+          <a href="/" className="flex items-center">
             <img src={Logo} alt="InvestDubai" className="h-6" />
           </a>
           
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-brand-muted">
-            <a href="/newhomepage#opportunity" className="hover:text-brand-dark transition-colors">The Opportunity</a>
-            <a href="/newhomepage/how-it-works" className="text-brand-dark font-semibold">How It Works</a>
-            <a href="/newhomepage/investopedia" className="hover:text-brand-dark transition-colors">Investopedia</a>
-            <a href="/newhomepage/price-database" className="hover:text-brand-dark transition-colors">Price Database</a>
-            <a href="/newhomepage/faq" className="hover:text-brand-dark transition-colors">FAQ</a>
+            <a href="/theopportunity" className="hover:text-brand-dark transition-colors">The Opportunity</a>
+            <a href="/how-it-works" className="text-brand-dark font-semibold">How It Works</a>
+            <a href="/investopedia" className="hover:text-brand-dark transition-colors">Investopedia</a>
+            <a href="/price-database" className="hover:text-brand-dark transition-colors">Price Database</a>
+            <a href="/faq" className="hover:text-brand-dark transition-colors">FAQ</a>
           </div>
 
           <div className="flex items-center gap-4">
-            <a href="#" className="text-sm font-medium text-brand-muted hover:text-brand-dark transition-colors">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-brand-muted hover:text-brand-dark transition-colors">
               Log In
             </a>
-            <a href="#" className="bg-brand-accent text-white px-5 py-2.5 rounded-full text-sm font-medium shadow-md shadow-brand-accent/25 hover:shadow-lg hover:-translate-y-0.5 transition-all">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="bg-brand-accent text-white px-5 py-2.5 rounded-full text-sm font-medium shadow-md shadow-brand-accent/25 hover:shadow-lg hover:-translate-y-0.5 transition-all">
               Create Your Account
             </a>
           </div>
@@ -135,17 +138,26 @@ export const HowItWorksPage = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16">
-        <div className="max-w-4xl mx-auto px-6 lg:px-12 text-center">
+      <section className="relative pt-32 pb-16 overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5723.jpg" 
+            alt="Dubai luxury villa" 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-white/75" />
+        </div>
+        <div className="max-w-4xl mx-auto px-6 lg:px-12 text-center relative z-10">
           <span className="section-label">The Complete Process</span>
           <h1 className="text-4xl md:text-5xl font-bold text-brand-dark mb-6 leading-tight">
             How Hands-Free Villa Flipping Works
           </h1>
           <p className="text-base md:text-lg text-brand-muted max-w-2xl mx-auto mb-8 leading-relaxed">
-            From creating your account to collecting your profits — here's exactly what happens at every stage. Full transparency, no surprises.
+            From creating your account to collecting your profits, here's exactly what happens at every stage. Full transparency, no surprises.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 shadow-md shadow-brand-accent/25 hover:shadow-lg hover:-translate-y-0.5 transition-all">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 shadow-md shadow-brand-accent/25 hover:shadow-lg hover:-translate-y-0.5 transition-all">
               Create Your Free Account
               <ArrowRight className="w-4 h-4" />
             </a>
@@ -295,22 +307,60 @@ export const HowItWorksPage = () => {
                 className={`grid md:grid-cols-2 gap-8 items-center ${i % 2 === 1 ? 'md:flex-row-reverse' : ''}`}
               >
                 <div className={`${i % 2 === 1 ? 'md:order-2' : ''}`}>
-                  <div className="relative rounded-2xl overflow-hidden aspect-video">
-                    <img 
-                      src={feature.image} 
-                      alt={feature.title}
-                      className="w-full h-full object-cover"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                    <div className="absolute bottom-4 left-4 flex items-center gap-3">
-                      <div className="w-10 h-10 bg-brand-accent rounded-xl flex items-center justify-center">
-                        <feature.icon className="w-5 h-5 text-white" />
+                  {feature.title === 'Dedicated WhatsApp Group' ? (
+                    <div className="relative">
+                      <WhatsAppMockup />
+                      <div className="absolute bottom-4 left-4 flex items-center gap-3 z-20">
+                        <div className="w-10 h-10 bg-brand-accent rounded-xl flex items-center justify-center shadow-lg">
+                          <feature.icon className="w-5 h-5 text-white" />
+                        </div>
+                        <span className="text-xs font-bold text-white uppercase tracking-wider bg-black/50 backdrop-blur-md px-3 py-1.5 rounded-full shadow-lg">
+                          {feature.highlight}
+                        </span>
                       </div>
-                      <span className="text-xs font-bold text-white uppercase tracking-wider bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full">
-                        {feature.highlight}
-                      </span>
                     </div>
-                  </div>
+                  ) : feature.title === 'Weekly Instagram Stories' ? (
+                    <div className="relative">
+                      <InstagramMockup />
+                      <div className="absolute -bottom-6 left-4 flex items-center gap-3 z-[40]">
+                        <div className="w-10 h-10 bg-brand-accent rounded-xl flex items-center justify-center shadow-lg">
+                          <feature.icon className="w-5 h-5 text-white" />
+                        </div>
+                        <span className="text-xs font-bold text-white uppercase tracking-wider bg-black/50 backdrop-blur-md px-3 py-1.5 rounded-full shadow-lg border border-white/10">
+                          {feature.highlight}
+                        </span>
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="relative rounded-2xl overflow-hidden aspect-video">
+                      {feature.video ? (
+                        <video 
+                          autoPlay 
+                          loop 
+                          muted 
+                          playsInline
+                          className="w-full h-full object-cover"
+                        >
+                          <source src={feature.video} type="video/mp4" />
+                        </video>
+                      ) : (
+                        <img 
+                          src={feature.image} 
+                          alt={feature.title}
+                          className="w-full h-full object-cover"
+                        />
+                      )}
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                      <div className="absolute bottom-4 left-4 flex items-center gap-3">
+                        <div className="w-10 h-10 bg-brand-accent rounded-xl flex items-center justify-center">
+                          <feature.icon className="w-5 h-5 text-white" />
+                        </div>
+                        <span className="text-xs font-bold text-white uppercase tracking-wider bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full">
+                          {feature.highlight}
+                        </span>
+                      </div>
+                    </div>
+                  )}
                 </div>
                 <div className={`${i % 2 === 1 ? 'md:order-1' : ''}`}>
                   <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">{feature.title}</h3>
@@ -328,7 +378,7 @@ export const HowItWorksPage = () => {
                   No Black-Box Investing
                 </h3>
                 <p className="text-gray-400 leading-relaxed mb-6 text-lg">
-                  Traditional real estate investments leave you in the dark. You send money and hope for the best. We do the opposite — radical transparency at every stage.
+                  Traditional real estate investments leave you in the dark. You send money and hope for the best. We do the opposite, with radical transparency at every stage.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3">
@@ -381,11 +431,11 @@ export const HowItWorksPage = () => {
             Join 2,500+ investors. Browse available projects, see full financials, and invest when you're ready. No payment required until you find a project you love.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 shadow-md shadow-brand-accent/25 hover:shadow-lg hover:-translate-y-0.5 transition-all">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 shadow-md shadow-brand-accent/25 hover:shadow-lg hover:-translate-y-0.5 transition-all">
               Create Your Free Account
               <ArrowRight className="w-4 h-4" />
             </a>
-            <a href="#" className="border border-brand-border bg-brand-bg text-brand-dark px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="border border-brand-border bg-brand-bg text-brand-dark px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all">
               <Phone className="w-4 h-4" />
               Book a Call
             </a>
@@ -405,11 +455,11 @@ export const HowItWorksPage = () => {
             <div>
               <h4 className="text-white font-semibold mb-4">Homepage</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="/newhomepage" className="text-gray-400 hover:text-white transition-colors">New Homepage</a></li>
-                <li><a href="/newhomepage#opportunity" className="text-gray-400 hover:text-white transition-colors">The Opportunity</a></li>
-                <li><a href="/newhomepage/how-it-works" className="text-gray-400 hover:text-white transition-colors">How It Works</a></li>
-                <li><a href="/newhomepage/faq" className="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
-                <li><a href="/newhomepage/price-database" className="text-gray-400 hover:text-white transition-colors">Price Database</a></li>
+                <li><a href="/" className="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                <li><a href="/theopportunity" className="text-gray-400 hover:text-white transition-colors">The Opportunity</a></li>
+                <li><a href="/how-it-works" className="text-gray-400 hover:text-white transition-colors">How It Works</a></li>
+                <li><a href="/faq" className="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
+                <li><a href="/price-database" className="text-gray-400 hover:text-white transition-colors">Price Database</a></li>
               </ul>
             </div>
 
@@ -430,11 +480,11 @@ export const HowItWorksPage = () => {
             <div>
               <h4 className="text-white font-semibold mb-4">Investopedia</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="/newhomepage/investopedia" className="text-gray-400 hover:text-white transition-colors">All Articles</a></li>
-                <li><a href="/newhomepage/investopedia?cat=getting-started" className="text-gray-400 hover:text-white transition-colors">Getting Started</a></li>
-                <li><a href="/newhomepage/investopedia?cat=dubai-market" className="text-gray-400 hover:text-white transition-colors">Dubai Market</a></li>
-                <li><a href="/newhomepage/investopedia?cat=legal-tax" className="text-gray-400 hover:text-white transition-colors">Legal & Tax</a></li>
-                <li><a href="/newhomepage/investopedia?cat=strategy" className="text-gray-400 hover:text-white transition-colors">Strategy</a></li>
+                <li><a href="/investopedia" className="text-gray-400 hover:text-white transition-colors">All Articles</a></li>
+                <li><a href="/investopedia?cat=getting-started" className="text-gray-400 hover:text-white transition-colors">Getting Started</a></li>
+                <li><a href="/investopedia?cat=dubai-market" className="text-gray-400 hover:text-white transition-colors">Dubai Market</a></li>
+                <li><a href="/investopedia?cat=legal-tax" className="text-gray-400 hover:text-white transition-colors">Legal & Tax</a></li>
+                <li><a href="/investopedia?cat=strategy" className="text-gray-400 hover:text-white transition-colors">Strategy</a></li>
               </ul>
             </div>
 
@@ -442,11 +492,10 @@ export const HowItWorksPage = () => {
             <div>
               <h4 className="text-white font-semibold mb-4">Legal</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Risk Disclosure</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">SPV Structure</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Contact Us</a></li>
+                <li><a href="https://www.investdubai.com/legal/terms-of-use" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Terms of Use</a></li>
+                <li><a href="https://www.investdubai.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
+                <li><a href="https://www.investdubai.com/legal/cookie-policy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Cookie Policy</a></li>
+                <li><a href="https://www.investdubai.com/legal/legal-information" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Legal Information</a></li>
               </ul>
             </div>
           </div>
@@ -459,8 +508,21 @@ export const HowItWorksPage = () => {
                 © 2026 InvestDubai. All rights reserved.
               </span>
             </div>
-            <p className="text-xs text-gray-600 max-w-xl text-center md:text-right">
-              Capital at risk. Returns not guaranteed. Past performance is not indicative of future results. InvestDubai operates through a regulated crowdfunding partner in the UAE.
+          </div>
+
+          {/* Risk Disclosure */}
+          <div className="pt-8 mt-8 border-t border-white/10">
+            <p className="text-[11px] text-gray-500 leading-relaxed mb-4">
+              <span className="font-semibold text-gray-400">RISK WARNING:</span> Investments in real estate, including through crowdfunding platforms, involve risks, including the risk of partial or total loss of the invested capital and the risk of illiquidity. Past performance is not indicative of future results, and no return is guaranteed.
+            </p>
+            <p className="text-[11px] text-gray-500 leading-relaxed mb-4">
+              The information presented on this website is provided for strictly informational purposes only and does not constitute investment advice, a personal recommendation, or an offer or solicitation to invest. Before making any investment decision, you should conduct your own due diligence and, where appropriate, seek advice from an independent professional advisor.
+            </p>
+            <p className="text-[11px] text-gray-500 leading-relaxed mb-4">
+              For investments made through a crowdfunding platform, please refer to the relevant risk disclosure documentation available here: <a href="https://www.investdubai.com/legal/legal-information" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white underline">key risk disclosure</a>.
+            </p>
+            <p className="text-[11px] text-gray-500 leading-relaxed">
+              This website is for informational purposes only. Any projects presented (including past projects) are shown for illustrative purposes only. To create an account and access available investment opportunities, you must visit the platform operated by our partner SmartCrowd.
             </p>
           </div>
         </div>

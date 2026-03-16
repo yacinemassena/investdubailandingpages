@@ -27,7 +27,7 @@ export const Hero = ({ eyebrow, headline, headlineSecondLine, subheadline, prima
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-            <a href="#" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium flex items-center gap-2 text-base hover:opacity-90 transition-opacity">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium flex items-center gap-2 text-base hover:opacity-90 transition-opacity">
               {primaryCta}
               <ArrowRight className="w-4 h-4" />
             </a>

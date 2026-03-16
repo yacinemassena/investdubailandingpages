@@ -118,7 +118,7 @@ const Navbar = ({
     <nav className={`fixed left-0 right-0 z-50 transition-all duration-300 ${isInIframe() ? 'top-0' : 'top-10'} ${isScrolled ? 'bg-white/90 backdrop-blur-md border-b py-3' : 'bg-transparent py-5'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-12">
-          <a href="#" className="flex items-center">
+          <a href="/" className="flex items-center">
             <img src={logo} alt="InvestDubai" className="h-6" />
           </a>
           <div className="hidden md:flex items-center gap-8 font-medium text-sm text-zinc-600">
@@ -134,9 +134,9 @@ const Navbar = ({
             <Globe size={14} />
             {language === 'en' ? 'EN' : 'FR'}
           </button>
-          <button className="bg-black text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-zinc-800 transition-all">
+          <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="bg-black text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-zinc-800 transition-all">
             {language === 'en' ? 'Get Started' : "S'inscrire"}
-          </button>
+          </a>
         </div>
         <button 
           className="md:hidden p-2"
@@ -158,7 +158,7 @@ const Navbar = ({
             >
               {language === 'en' ? 'Français' : 'English'}
             </button>
-            <button className="bg-black text-white py-4 rounded-full font-medium">{language === 'en' ? 'Get Started' : "S'inscrire"}</button>
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="bg-black text-white py-4 rounded-full font-medium block text-center">{language === 'en' ? 'Get Started' : "S'inscrire"}</a>
           </div>
         </div>
       )}
@@ -182,14 +182,14 @@ const Hero = ({ content, language }: { content: LanguageContent; language: 'en' 
           {content.answerCapsule.substring(0, 200)}...
         </p>
         <div className="flex flex-wrap gap-4 mt-4">
-          <button className="text-white px-8 py-4 rounded-full font-bold text-sm tracking-wide hover:opacity-90 flex items-center gap-2 group transition-all" style={{ backgroundColor: '#28de91' }}>
+          <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="text-white px-8 py-4 rounded-full font-bold text-sm tracking-wide hover:opacity-90 flex items-center gap-2 group transition-all" style={{ backgroundColor: '#28de91' }}>
             {language === 'en' ? 'Get Started' : "S'inscrire"}
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-          </button>
-          <button className="flex items-center gap-2 px-6 py-4 rounded-full font-bold text-sm text-zinc-500 hover:text-black transition-colors">
+          </a>
+          <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-4 rounded-full font-bold text-sm text-zinc-500 hover:text-black transition-colors">
             <Phone size={14} />
             {language === 'en' ? 'Book a Call with an Advisor' : 'Appeler un conseiller'}
-          </button>
+          </a>
         </div>
         <div className="mt-12 grid grid-cols-2 md:grid-cols-3 gap-8">
           <StatCard label={content.metricLabel} value={content.metricValue} subValue={content.metricSubtext} />
@@ -303,13 +303,13 @@ const TrustSection = ({ content, language }: { content: LanguageContent; languag
           </ul>
 
           <div className="flex flex-col gap-3">
-            <button className="w-full text-black py-4 rounded-full font-bold text-sm tracking-widest hover:opacity-90 transition-colors" style={{ backgroundColor: '#28de91' }}>
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="w-full text-black py-4 rounded-full font-bold text-sm tracking-widest hover:opacity-90 transition-colors block text-center" style={{ backgroundColor: '#28de91' }}>
               {language === 'en' ? 'Get Started' : "S'inscrire"}
-            </button>
-            <button className="w-full py-3 rounded-full font-medium text-sm text-zinc-500 hover:text-zinc-700 transition-colors flex items-center justify-center gap-2">
+            </a>
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="w-full py-3 rounded-full font-medium text-sm text-zinc-500 hover:text-zinc-700 transition-colors flex items-center justify-center gap-2">
               <Phone size={14} />
               {language === 'en' ? 'Book a Call with an Advisor' : 'Appeler un conseiller'}
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -359,13 +359,13 @@ const FinalCTA = ({ content, language }: { content: LanguageContent; language: '
         <h2 className="text-4xl md:text-6xl font-bold tracking-tight text-white">{content.nextStep.title}</h2>
         <p className="text-zinc-400 text-lg max-w-xl">{content.nextStep.subtitle}</p>
         <div className="flex flex-col sm:flex-row gap-4 mt-4">
-          <button className="text-black px-10 py-5 rounded-full font-bold text-sm tracking-widest hover:scale-105 transition-transform" style={{ backgroundColor: '#28de91' }}>
+          <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="text-black px-10 py-5 rounded-full font-bold text-sm tracking-widest hover:scale-105 transition-transform" style={{ backgroundColor: '#28de91' }}>
             {language === 'en' ? 'Get Started' : "S'inscrire"}
-          </button>
-          <button className="border border-white/20 text-white px-10 py-5 rounded-full font-bold text-sm tracking-widest hover:bg-white/10 transition-all flex items-center justify-center gap-2">
+          </a>
+          <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="border border-white/20 text-white px-10 py-5 rounded-full font-bold text-sm tracking-widest hover:bg-white/10 transition-all flex items-center justify-center gap-2">
             <Phone size={14} />
             {language === 'en' ? 'Book a Call with an Advisor' : 'Appeler un conseiller'}
-          </button>
+          </a>
         </div>
         <p className="text-zinc-500 text-xs uppercase tracking-widest mt-4">{content.nextStep.footnote}</p>
       </div>

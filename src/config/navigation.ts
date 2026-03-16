@@ -1,14 +1,14 @@
 export const navigationConfig = {
   links: [
     { label: 'The Opportunity', href: '/theopportunity' },
-    { label: 'How It Works', href: '/theopportunity/how-it-works' },
-    { label: 'Investopedia', href: '/theopportunity/investopedia' },
-    { label: 'Price Database', href: '/theopportunity/price-database' },
-    { label: 'FAQ', href: '/theopportunity/faq' },
+    { label: 'How It Works', href: '/how-it-works' },
+    { label: 'Investopedia', href: '/investopedia' },
+    { label: 'Price Database', href: '/price-database' },
+    { label: 'FAQ', href: '/faq' },
   ],
   logoHref: '/',
   loginText: 'Log In',
-  loginHref: '#',
+  loginHref: 'https://investdubai.my.smartcrowd.ae/',
   ctaText: 'Get Started',
-  ctaHref: '#',
+  ctaHref: 'https://investdubai.my.smartcrowd.ae/',
 };

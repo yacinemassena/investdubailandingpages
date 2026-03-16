@@ -166,7 +166,7 @@ Dubai Hills Estate offers compelling investment potential in a well-planned, fam
 
 **Investment Verdict**: Strong opportunity for family-focused rental and emerging flip strategies.`,
     slug: 'is-dubai-hills-estate-good-investment',
-    image: '/images/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5723.jpg',
   },
   {
     id: 6002,
@@ -334,7 +334,7 @@ Premium pricing for golf frontage:
 
 Dubai Hills Estate offers diverse pricing across its extensive inventory. Understanding the sub-communities and property types helps investors identify the best opportunities. For flip investors, the maturing early phases present growing renovation spreads with strong family buyer demand.`,
     slug: 'dubai-hills-estate-property-prices-2026',
-    image: '/images/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5728.jpg',
   },
   {
     id: 6003,
@@ -571,7 +571,7 @@ Dubai Hills Estate's family appeal creates strong, consistent demand for quality
 
 For flip investors, targeting family-appropriate renovations in villa communities like Sidra and Maple can access premium buyer demand. The key is creating homes that meet family needs and photograph well for marketing.`,
     slug: 'dubai-hills-estate-families-complete-guide',
-    image: '/images/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5754.jpg',
   },
   {
     id: 6004,
@@ -813,7 +813,7 @@ Dubai Hills Estate offers accessible flip opportunities in a growing, family-foc
 
 The community's maturing inventory and strong demand create favorable conditions for value-add investors. Focus on creating family-ready homes that meet practical needs, and the market will reward you with solid returns.`,
     slug: 'flipping-properties-dubai-hills-estate-guide',
-    image: '/images/0A6A5756.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5756.jpg',
   },
   {
     id: 6005,
@@ -1022,7 +1022,7 @@ Dubai Hills Estate delivers competitive rental yields driven by strong family de
 
 However, for investors seeking maximum returns, the flip strategy significantly outperforms rental income. The optimal approach may combine both: flip to build capital, then transition to rental for passive income.`,
     slug: 'dubai-hills-estate-rental-yields-analysis',
-    image: '/images/0A6A5758.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5758.jpg',
   },
   {
     id: 6006,
@@ -1212,6 +1212,6 @@ Both Dubai Hills Estate and Arabian Ranches offer compelling family-focused inve
 
 For flip investors, Arabian Ranches' older inventory may offer larger renovation spreads, while Dubai Hills' central location and growing demand provide strong buyer interest. The optimal choice depends on your priorities and investment timeline.`,
     slug: 'dubai-hills-estate-vs-arabian-ranches-comparison',
-    image: '/images/0K8A7227.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7227.jpg',
   },
 ];

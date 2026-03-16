@@ -9,7 +9,7 @@ export const FinalCTA = () => {
     <section className="relative py-20 overflow-hidden">
       <div className="absolute inset-0">
         <img 
-          src="/images/0A6A5754.jpg" 
+          src="https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5754.jpg" 
           alt="Dubai luxury villa" 
           className="w-full h-full object-cover"
         />
@@ -22,23 +22,23 @@ export const FinalCTA = () => {
           <span className="text-white text-sm font-medium">Start from AED 4,000</span>
         </div>
         
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight text-white">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 tracking-wide">
           {finalCta.title}
         </h2>
-        <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-10 max-w-2xl mx-auto">
+        <p className="text-lg text-white/70 max-w-3xl mx-auto leading-relaxed mb-10 tracking-wide">
           {finalCta.subtitle}
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
           <a 
-            href="#" 
+            href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" 
             className="bg-white text-brand-accent px-8 py-4 rounded-full font-semibold flex items-center gap-2 text-base hover:bg-gray-100 transition-colors shadow-xl"
           >
             {finalCta.primaryCta}
             <ArrowRight className="w-5 h-5" />
           </a>
           <a 
-            href="#" 
+            href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" 
             className="bg-white/10 backdrop-blur-sm border border-white/30 text-white px-8 py-4 rounded-full font-semibold flex items-center gap-2 text-base hover:bg-white/20 transition-colors"
           >
             <Phone className="w-4 h-4" />

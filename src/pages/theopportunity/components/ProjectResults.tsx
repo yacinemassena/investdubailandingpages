@@ -70,12 +70,6 @@ export const ProjectResults = () => {
           ))}
         </div>
 
-        <div className="text-center">
-          <button className="bg-white text-black px-10 py-3.5 rounded-full font-bold text-sm hover:bg-gray-100 transition-colors uppercase tracking-widest">
-            {projectResults.showMoreText}
-          </button>
-        </div>
-
       </div>
     </section>
   );

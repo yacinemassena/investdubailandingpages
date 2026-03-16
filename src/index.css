@@ -154,5 +154,5 @@
 }
 
 .section-label {
-  @apply text-xs uppercase tracking-wide font-bold text-brand-accent mb-4 block;
+  @apply inline-block px-4 py-2 bg-brand-accent/10 text-brand-accent text-sm font-semibold rounded-full mb-6;
 }

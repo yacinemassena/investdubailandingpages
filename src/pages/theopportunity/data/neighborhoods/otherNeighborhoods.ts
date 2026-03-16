@@ -84,7 +84,7 @@ DIFC offers prestige positioning for investors targeting the financial sector. L
 
 **Investment Verdict**: Premium opportunity for prestige-focused investors.`,
     slug: 'is-difc-good-investment',
-    image: '/images/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5723.jpg',
   },
   // City Walk Articles
   {
@@ -156,7 +156,7 @@ City Walk offers unique urban lifestyle positioning with limited supply. Strong 
 
 **Investment Verdict**: Strong for lifestyle-focused rental and selective flip opportunities.`,
     slug: 'is-city-walk-good-investment',
-    image: '/images/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5728.jpg',
   },
   // Al Barari Articles
   {
@@ -226,7 +226,7 @@ Al Barari offers unique botanical luxury for UHNW investors. Not for yield seeke
 
 **Investment Verdict**: Ultra-premium opportunity for exclusivity-focused investors.`,
     slug: 'is-al-barari-good-investment',
-    image: '/images/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5754.jpg',
   },
   // Jumeirah Islands Articles
   {
@@ -299,7 +299,7 @@ Jumeirah Islands offers accessible waterfront villa investment with good flip po
 
 **Investment Verdict**: Good for waterfront villa flipping and family rental.`,
     slug: 'is-jumeirah-islands-good-investment',
-    image: '/images/0A6A5756.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5756.jpg',
   },
   // MBR City Articles
   {
@@ -372,7 +372,7 @@ MBR City offers diverse investment options in a developing mega-district. Best f
 
 **Investment Verdict**: Growing opportunity with long-term potential.`,
     slug: 'is-mbr-city-good-investment',
-    image: '/images/0A6A5758.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5758.jpg',
   },
   // Jumeirah Articles
   {
@@ -441,7 +441,7 @@ Jumeirah offers established beachside prestige with good flip potential in older
 
 **Investment Verdict**: Good for prestige-focused investors and villa flipping.`,
     slug: 'is-jumeirah-good-investment',
-    image: '/images/0K8A7227.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7227.jpg',
   },
   // Mirdif Articles
   {
@@ -511,7 +511,7 @@ Mirdif offers excellent yields and affordable entry for family-focused investmen
 
 **Investment Verdict**: Excellent for yield-focused and value investors.`,
     slug: 'is-mirdif-good-investment',
-    image: '/images/0K8A7233.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7233.jpg',
   },
   // Sports City Articles
   {
@@ -581,7 +581,7 @@ Sports City offers high yields and affordable entry with unique sports lifestyle
 
 **Investment Verdict**: Excellent for yield maximization and volume strategies.`,
     slug: 'is-sports-city-good-investment',
-    image: '/images/0K8A7239.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7239.jpg',
   },
   // General Dubai Investment Articles
   {
@@ -678,7 +678,7 @@ Capital required to invest.
 
 Dubai offers diverse investment opportunities across its neighborhoods. Match your investment goals, capital, and risk tolerance to the right area for optimal results.`,
     slug: 'best-areas-invest-dubai-real-estate-2026',
-    image: '/images/0K8A7245.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7245.jpg',
   },
   {
     id: 10010,
@@ -853,7 +853,7 @@ Continued development enhances livability and values.
 
 Dubai real estate offers excellent opportunities for investors who approach it systematically. Start with education, define clear goals, choose appropriate areas, and begin conservatively. Success comes from disciplined execution and continuous learning.`,
     slug: 'dubai-property-investment-beginners-guide',
-    image: '/images/0K8A7248.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7248.jpg',
   },
   {
     id: 10011,
@@ -1013,7 +1013,7 @@ For investors seeking maximum returns and willing to be actively involved, flipp
 
 The optimal approach often combines both: flip to build capital, then transition to rental for passive income as wealth accumulates.`,
     slug: 'flipping-vs-rental-dubai-strategy-comparison',
-    image: '/images/0K8A7257.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7257.jpg',
   },
   {
     id: 10012,
@@ -1156,6 +1156,6 @@ Yes, but the property cannot be mortgaged beyond 50% of value.
 
 Dubai's Golden Visa adds significant value to property investment, providing long-term residency benefits alongside investment returns. For investors considering Dubai real estate, the Golden Visa pathway makes the proposition even more compelling.`,
     slug: 'dubai-golden-visa-property-investment-guide',
-    image: '/images/0K8A7267.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7267.jpg',
   },
 ];

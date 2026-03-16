@@ -1,4 +1,4 @@
-import { ArrowRight, Check } from 'lucide-react';
+import { Check } from 'lucide-react';
 import { homepageConfig } from '../config';
 
 const lang = 'en';
@@ -8,21 +8,27 @@ export const Hero = () => {
   return (
     <section className="relative flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <img 
-          src="/images/0A6A5754.jpg" 
-          alt="Dubai luxury villa" 
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          preload="auto"
+          poster="https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5754.jpg"
           className="w-full h-full object-cover"
-        />
+        >
+          <source src="https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/videos/The%20opportunity%20banniere.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/95 via-brand-dark/85 to-brand-dark/70" />
       </div>
 
       <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10 pt-32 pb-20">
-        <div className="max-w-3xl">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 tracking-tight leading-[1.1]">
+        <div className="max-w-4xl">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 tracking-wide leading-[1.1]">
             {hero.headline}
           </h1>
 
-          <p className="text-lg md:text-xl text-white/70 leading-relaxed mb-4">
+          <p className="text-lg md:text-xl text-white/70 leading-relaxed mb-4 tracking-wide">
             {hero.subheadline}
           </p>
 
@@ -35,11 +41,10 @@ export const Hero = () => {
 
           <div className="flex flex-col sm:flex-row items-start gap-4 mb-8">
             <a 
-              href="#" 
-              className="bg-brand-accent text-white px-6 py-3 rounded-full font-semibold flex items-center gap-2 text-sm hover:bg-brand-accent/90 transition-colors shadow-xl"
+              href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" 
+              className="bg-brand-accent text-white px-6 py-3 rounded-full font-semibold text-sm hover:bg-brand-accent/90 transition-colors shadow-xl"
             >
               {hero.primaryCta}
-              <ArrowRight className="w-5 h-5" />
             </a>
             <a 
               href="#track-record" 

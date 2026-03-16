@@ -12,7 +12,7 @@ export const WhoIsItFor = () => {
           <span className="inline-block px-4 py-2 bg-brand-accent/10 text-brand-accent text-sm font-semibold rounded-full mb-6">
             {whoIsItFor.label}
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-brand-dark mb-6 tracking-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-brand-dark mb-6 tracking-wide">
             {whoIsItFor.title}
           </h2>
         </div>
@@ -29,7 +29,7 @@ export const WhoIsItFor = () => {
               {whoIsItFor.yesIf.map((item, i) => (
                 <li key={i} className="flex items-start gap-3 bg-white/60 rounded-xl p-4">
                   <Check className="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5" />
-                  <span className="text-brand-dark">{item}</span>
+                  <span className="text-brand-dark font-semibold">{item}</span>
                 </li>
               ))}
             </ul>
@@ -59,14 +59,14 @@ export const WhoIsItFor = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a 
-              href="#" 
+              href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" 
               className="bg-brand-accent text-white px-6 py-3 rounded-full font-semibold flex items-center gap-2 text-sm hover:bg-brand-accent/90 transition-colors shadow-xl"
             >
               Get Started
               <ArrowRight className="w-4 h-4" />
             </a>
             <a 
-              href="#" 
+              href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" 
               className="border-2 border-brand-dark text-brand-dark px-6 py-3 rounded-full font-semibold flex items-center gap-2 text-sm hover:bg-brand-dark hover:text-white transition-colors"
             >
               <Phone className="w-4 h-4" />

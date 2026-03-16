@@ -108,23 +108,23 @@ export const PriceDatabase = () => {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0A0A0A]/90 backdrop-blur-md border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
-          <a href="/newhomepage" className="flex items-center">
+          <a href="/" className="flex items-center">
             <img src={Logo} alt="InvestDubai" className="h-6 brightness-0 invert" />
           </a>
           
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-400">
-            <a href="/newhomepage#opportunity" className="hover:text-white transition-colors">The Opportunity</a>
-            <a href="/newhomepage/how-it-works" className="hover:text-white transition-colors">How It Works</a>
-            <a href="/newhomepage/investopedia" className="hover:text-white transition-colors">Investopedia</a>
-            <a href="/newhomepage/price-database" className="text-white border-b-2 border-white pb-1">Price Database</a>
-            <a href="/newhomepage/faq" className="hover:text-white transition-colors">FAQ</a>
+            <a href="/theopportunity" className="hover:text-white transition-colors">The Opportunity</a>
+            <a href="/how-it-works" className="hover:text-white transition-colors">How It Works</a>
+            <a href="/investopedia" className="hover:text-white transition-colors">Investopedia</a>
+            <a href="/price-database" className="text-white border-b-2 border-white pb-1">Price Database</a>
+            <a href="/faq" className="hover:text-white transition-colors">FAQ</a>
           </div>
 
           <div className="flex items-center gap-4">
-            <a href="#" className="text-sm font-medium text-gray-400 hover:text-white transition-colors">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-gray-400 hover:text-white transition-colors">
               Log In
             </a>
-            <a href="#" className="bg-brand-accent text-white px-5 py-2.5 rounded-full text-sm font-medium hover:opacity-90 transition-opacity">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="bg-brand-accent text-white px-5 py-2.5 rounded-full text-sm font-medium hover:opacity-90 transition-opacity">
               Get Started
             </a>
           </div>
@@ -432,10 +432,10 @@ export const PriceDatabase = () => {
               </span>
             </div>
             <div className="flex items-center gap-6 text-sm text-gray-500">
-              <a href="#" className="hover:text-white transition-colors">Terms</a>
-              <a href="#" className="hover:text-white transition-colors">Privacy</a>
-              <a href="#" className="hover:text-white transition-colors">Legal</a>
-              <a href="#" className="hover:text-white transition-colors">Contact</a>
+              <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Terms</a>
+              <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Privacy</a>
+              <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Legal</a>
+              <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Contact</a>
             </div>
           </div>
         </div>

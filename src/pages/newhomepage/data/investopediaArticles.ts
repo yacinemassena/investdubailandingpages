@@ -87,7 +87,7 @@ Before investing, evaluate:
 
 Real estate investment requires careful analysis but offers proven wealth-building potential for patient, informed investors.`,
     slug: 'real-estate-investment-introduction',
-    image: '/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-1.jpg',
   },
   {
     id: 2,
@@ -129,7 +129,7 @@ Unlike buy-and-hold investing focused on long-term appreciation and rental incom
 
 House flipping offers attractive returns but requires market knowledge, renovation expertise, and disciplined execution.`,
     slug: 'house-flipping-definition-principles',
-    image: '/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-2.jpg',
   },
   {
     id: 3,
@@ -202,7 +202,7 @@ Choose **flipping** if you want:
 
 Many successful investors combine both strategies for diversified real estate portfolios.`,
     slug: 'rental-investment-vs-property-flipping',
-    image: '/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-3.jpg',
   },
   {
     id: 4,
@@ -271,7 +271,7 @@ Professional real estate investors typically target:
 
 Always calculate ROI using conservative estimates and include all costs for accurate investment decisions.`,
     slug: 'understanding-investment-returns-roi',
-    image: '/0A6A5756.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-4.jpg',
   },
   {
     id: 5,
@@ -334,7 +334,7 @@ In flipping, the equivalent concept is gross vs net profit:
 
 Professional investors never make decisions based on gross yield alone.`,
     slug: 'gross-yield-vs-net-yield',
-    image: '/0A6A5758.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-5.jpg',
   },
   {
     id: 6,
@@ -413,7 +413,7 @@ The goal is ensuring the final profit exceeds all accumulated holding costs.
 
 Strong cash flow analysis separates successful investors from those who struggle.`,
     slug: 'cash-flow-real-estate-guide',
-    image: '/0K8A7227.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-6.jpg',
   },
   {
     id: 7,
@@ -496,7 +496,7 @@ Appreciation is never guaranteed:
 
 Sophisticated investors don't rely solely on appreciation—they ensure investments work even without value growth.`,
     slug: 'capital-appreciation-property-values',
-    image: '/0K8A7233.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-7.jpg',
   },
   {
     id: 8,
@@ -576,7 +576,7 @@ Some sophisticated investors, including certain institutional players, use zero 
 
 Leverage is a powerful tool that requires careful management and honest risk assessment.`,
     slug: 'leverage-real-estate-benefits-risks',
-    image: '/0K8A7239.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-8.jpg',
   },
   {
     id: 9,
@@ -677,7 +677,7 @@ Investors who skip or rush due diligence often discover:
 
 The cost of thorough due diligence is minimal compared to the cost of a bad investment.`,
     slug: 'due-diligence-essential-steps',
-    image: '/0K8A7245.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-9.jpg',
   },
   {
     id: 10,
@@ -763,7 +763,7 @@ Before investing, answer:
 
 Clear exit planning prevents investments from becoming trapped capital.`,
     slug: 'exit-strategies-planning-investment',
-    image: '/0K8A7248.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-10.jpg',
   },
   {
     id: 11,
@@ -873,7 +873,7 @@ Modern crowdfunding platforms offer a middle path:
 
 This hybrid model suits investors wanting involvement without full operational responsibility.`,
     slug: 'active-vs-passive-real-estate',
-    image: '/0K8A7257.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-11.jpg',
   },
   {
     id: 12,
@@ -971,7 +971,7 @@ When to hire an appraiser:
 
 Accurate valuation protects against the most common investment mistake: paying too much.`,
     slug: 'property-valuation-methods',
-    image: '/0K8A7267.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-12.jpg',
   },
   {
     id: 13,
@@ -1083,7 +1083,7 @@ Shorter timelines reduce:
 
 Your investment timeline should align with when you need the money and how actively you want to participate.`,
     slug: 'investment-timeline-strategies',
-    image: '/IMG_1116.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-13.jpg',
   },
   {
     id: 14,
@@ -1189,7 +1189,7 @@ Modern crowdfunding platforms enable diversification previously available only t
 
 Diversification doesn't guarantee profits, but it significantly reduces the risk of catastrophic loss.`,
     slug: 'diversification-real-estate-portfolios',
-    image: '/IMG_1358.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-14.jpg',
   },
   {
     id: 15,
@@ -1318,7 +1318,7 @@ Value-add strategies like renovation flipping are less cycle-dependent because:
 
 This approach works when markets rise, stay flat, or experience moderate declines.`,
     slug: 'market-cycles-real-estate',
-    image: '/IMG_1369.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-15.jpg',
   },
 
   // ============================================
@@ -1388,7 +1388,7 @@ This approach works when markets rise, stay flat, or experience moderate decline
 
 Dubai's market offers compelling opportunities for informed investors who understand its unique characteristics.`,
     slug: 'dubai-real-estate-market-overview',
-    image: '/IMG_2218.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-16.jpg',
   },
   {
     id: 17,
@@ -1481,7 +1481,7 @@ Before purchasing:
 
 For most investors, freehold property in established areas offers the clearest ownership structure and strongest investment profile.`,
     slug: 'freehold-vs-leasehold-dubai',
-    image: '/IMG_2219 2.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-17.jpg',
   },
   {
     id: 18,
@@ -1585,7 +1585,7 @@ Prime villas offer attractive flip potential because:
 
 Understanding community characteristics helps identify the best opportunities for value creation.`,
     slug: 'prime-villa-communities-dubai',
-    image: '/IMG_2230.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-18.jpg',
   },
   {
     id: 19,
@@ -1694,7 +1694,7 @@ When property is held through an SPV (Special Purpose Vehicle):
 
 Dubai's transparent registration system provides strong ownership protection for investors who follow proper procedures.`,
     slug: 'dubai-property-registration-title-deeds',
-    image: '/IMG_2443.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-19.jpg',
   },
   {
     id: 20,
@@ -1806,7 +1806,7 @@ Before purchasing:
 
 Accurate service charge analysis prevents unpleasant surprises and ensures realistic return projections.`,
     slug: 'dubai-service-charges',
-    image: '/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-20.jpg',
   },
   {
     id: 21,
@@ -1922,7 +1922,7 @@ Property transaction disputes:
 
 Dubai's regulatory framework provides strong investor protection when proper procedures are followed.`,
     slug: 'dubai-real-estate-regulations-rera',
-    image: '/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-21.jpg',
   },
   {
     id: 22,
@@ -2026,7 +2026,7 @@ Dubai's population growth is structural, not cyclical:
 
 This sustained growth underpins long-term real estate demand, particularly in supply-constrained prime segments.`,
     slug: 'population-growth-housing-demand-dubai',
-    image: '/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-22.jpg',
   },
   {
     id: 23,
@@ -2223,7 +2223,7 @@ For flip investors:
 
 The Golden Visa program has added a valuable dimension to Dubai real estate investment, particularly in the premium segment.`,
     slug: 'golden-visa-real-estate-investment',
-    image: '/0A6A5758.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-24.jpg',
   },
   {
     id: 25,
@@ -2334,7 +2334,7 @@ The Golden Visa program has added a valuable dimension to Dubai real estate inve
 
 Understanding rental dynamics helps investors evaluate both income potential and resale value to investor buyers.`,
     slug: 'rental-market-dynamics-dubai',
-    image: '/0K8A7227.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-25.jpg',
   },
   {
     id: 26,
@@ -2777,7 +2777,7 @@ Luxury villas suit investors seeking:
 
 The combination of supply constraints, wealthy demand, and renovation potential makes luxury villas attractive for value-add investment strategies.`,
     slug: 'why-luxury-villas-investment',
-    image: '/0K8A7248.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-29.jpg',
   },
   {
     id: 30,
@@ -2895,7 +2895,7 @@ Current Dubai market characteristics:
 
 Rather than timing the market, focus on identifying quality opportunities with built-in value creation potential.`,
     slug: 'timing-real-estate-market',
-    image: '/0K8A7257.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-30.jpg',
   },
   {
     id: 31,
@@ -3020,7 +3020,7 @@ Professional villa flipping requires:
 
 Buying right is the foundation of successful value-add investing.`,
     slug: 'buy-below-market-acquisition-strategy',
-    image: '/0K8A7267.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-31.jpg',
   },
   {
     id: 32,
@@ -3177,7 +3177,7 @@ Successful renovation requires:
 
 This is why many investors partner with experienced operators who have proven renovation capabilities.`,
     slug: 'renovation-strategy-maximizing-value',
-    image: '/IMG_1116.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-32.jpg',
   },
   {
     id: 33,
@@ -3330,7 +3330,7 @@ This is why many investors partner with experienced operators who have proven re
 
 A well-executed exit converts renovation investment into realized returns efficiently.`,
     slug: 'exit-strategy-selling-renovated-properties',
-    image: '/IMG_1358.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-33.jpg',
   },
   {
     id: 34,
@@ -3457,7 +3457,7 @@ Modern crowdfunding enables portfolio investing:
 
 A portfolio approach suits investors seeking real estate exposure with managed risk through diversification.`,
     slug: 'portfolio-approach-real-estate',
-    image: '/IMG_1369.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-34.jpg',
   },
   {
     id: 35,
@@ -3599,7 +3599,7 @@ Cash-only investing trades potential return amplification for:
 
 For investors prioritizing capital preservation alongside returns, cash-only strategies offer compelling advantages.`,
     slug: 'cash-only-investment-no-leverage',
-    image: '/IMG_2218.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-35.jpg',
   },
   {
     id: 36,
@@ -3734,7 +3734,7 @@ Short-cycle investment offers:
 
 For investors comfortable with active strategies, short-cycle approaches provide attractive risk-return profiles.`,
     slug: 'short-cycle-investment-quick-turnaround',
-    image: '/IMG_2219 2.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-36.jpg',
   },
   {
     id: 37,
@@ -3873,7 +3873,7 @@ Standardized properties offer:
 
 This is why professional villa flippers focus on standardized types in established communities.`,
     slug: 'standardized-properties-villa-types',
-    image: '/IMG_2230.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-37.jpg',
   },
   {
     id: 38,
@@ -4002,7 +4002,7 @@ Margin buffers:
 
 Never invest without adequate buffer protection.`,
     slug: 'margin-buffer-protecting-market-declines',
-    image: '/IMG_2443.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-38.jpg',
   },
   {
     id: 39,
@@ -4147,7 +4147,7 @@ When assessing investments, ask:
 
 Transparency is a key differentiator in crowdfunding investment selection.`,
     slug: 'transparency-real-estate-investment',
-    image: '/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-39.jpg',
   },
 
   // ============================================
@@ -4289,7 +4289,7 @@ SPVs provide:
 
 Understanding SPV structure helps investors evaluate crowdfunding opportunities confidently.`,
     slug: 'spv-special-purpose-vehicle-guide',
-    image: '/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-40.jpg',
   },
   {
     id: 41,
@@ -4430,7 +4430,7 @@ DIFC provides:
 
 Investments through DIFC-regulated platforms benefit from this professional infrastructure.`,
     slug: 'difc-dubai-international-financial-centre',
-    image: '/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-41.jpg',
   },
   {
     id: 42,
@@ -4570,7 +4570,7 @@ Understand before investing:
 
 Clear understanding of structure enables informed investment decisions.`,
     slug: 'equity-vs-debt-investment-structures',
-    image: '/0A6A5756.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-42.jpg',
   },
   {
     id: 43,
@@ -4726,7 +4726,7 @@ Shareholder agreements:
 
 Always review and understand shareholder agreement terms before investing.`,
     slug: 'shareholder-agreements-real-estate-spvs',
-    image: '/0A6A5758.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-43.jpg',
   },
   {
     id: 44,
@@ -4894,7 +4894,7 @@ KYC/AML processes:
 
 Prepare documentation in advance for smooth onboarding.`,
     slug: 'kyc-aml-requirements-investors',
-    image: '/0K8A7227.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-44.jpg',
   },
   {
     id: 45,
@@ -5041,7 +5041,7 @@ Escrow accounts:
 
 Always verify escrow arrangements in real estate transactions.`,
     slug: 'escrow-accounts-real-estate-transactions',
-    image: '/0K8A7233.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-45.jpg',
   },
   {
     id: 46,
@@ -5214,7 +5214,7 @@ Dubai property ownership offers:
 
 These comprehensive rights make Dubai attractive for international real estate investment.`,
     slug: 'property-ownership-rights-dubai',
-    image: '/0K8A7239.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-46.jpg',
   },
   {
     id: 47,
@@ -5371,7 +5371,7 @@ UAE crowdfunding regulation provides:
 
 Always verify platform licensing before investing.`,
     slug: 'regulatory-framework-crowdfunding-uae',
-    image: '/0K8A7245.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-47.jpg',
   },
   {
     id: 48,
@@ -5535,7 +5535,7 @@ Power of Attorney enables:
 
 Use specific POAs with trusted agents for real estate transactions.`,
     slug: 'power-of-attorney-dubai-real-estate',
-    image: '/0K8A7248.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-48.jpg',
   },
   {
     id: 49,
@@ -5704,7 +5704,7 @@ Estate planning for Dubai property:
 
 Don't leave inheritance to chance—plan proactively.`,
     slug: 'wills-inheritance-dubai-property',
-    image: '/0K8A7257.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-49.jpg',
   },
   {
     id: 50,
@@ -5877,7 +5877,7 @@ Contract law knowledge helps investors:
 
 Always read contracts carefully and seek professional advice for significant transactions.`,
     slug: 'contract-law-basics-real-estate',
-    image: '/0K8A7267.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-50.jpg',
   },
   {
     id: 51,
@@ -6087,7 +6087,7 @@ Effective dispute resolution requires:
 
 Prevention through clear contracts and documentation is always preferable to dispute resolution.`,
     slug: 'dispute-resolution-dubai-real-estate',
-    image: '/IMG_1116.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-51.jpg',
   },
 
   // ============================================
@@ -6211,7 +6211,7 @@ Risk management requires:
 
 No investment is risk-free, but informed investors can manage risk effectively.`,
     slug: 'understanding-investment-risk-real-estate',
-    image: '/IMG_1358.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-52.jpg',
   },
   {
     id: 53,
@@ -6336,7 +6336,7 @@ Capital protection requires:
 
 Protecting capital enables long-term wealth building through sustainable returns.`,
     slug: 'capital-protection-strategies',
-    image: '/IMG_1369.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-53.jpg',
   },
   {
     id: 54,
@@ -6452,7 +6452,7 @@ Market risk management requires:
 
 No strategy eliminates market risk, but smart approaches reduce exposure and impact.`,
     slug: 'market-risk-management',
-    image: '/IMG_2218.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-54.jpg',
   },
   {
     id: 55,
@@ -6600,7 +6600,7 @@ Operator evaluation requires:
 
 Quality operators are essential for successful crowdfunding investment.`,
     slug: 'operator-risk-evaluating-managers',
-    image: '/IMG_2219 2.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-55.jpg',
   },
   {
     id: 56,
@@ -6737,7 +6737,7 @@ Liquidity risk management requires:
 
 Accept real estate illiquidity as trade-off for potential returns.`,
     slug: 'liquidity-risk-real-estate',
-    image: '/IMG_2230.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-56.jpg',
   },
   {
     id: 57,
@@ -6861,7 +6861,7 @@ Currency risk management requires:
 
 For USD investors, Dubai's AED peg minimizes currency concerns.`,
     slug: 'currency-risk-international-investors',
-    image: '/IMG_2443.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-57.jpg',
   },
   {
     id: 58,
@@ -7007,7 +7007,7 @@ SPV structures provide:
 
 Understand the structure before investing to confirm protections exist.`,
     slug: 'what-happens-if-operator-fails',
-    image: '/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-58.jpg',
   },
   {
     id: 59,
@@ -7159,7 +7159,7 @@ Insurance provides:
 
 Verify appropriate coverage exists for all real estate investments.`,
     slug: 'insurance-real-estate-investment',
-    image: '/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-59.jpg',
   },
   {
     id: 60,
@@ -7320,7 +7320,7 @@ Thorough due diligence:
 
 Never skip due diligence regardless of opportunity attractiveness.`,
     slug: 'due-diligence-checklist-crowdfunding',
-    image: '/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-60.jpg',
   },
   {
     id: 61,
@@ -7478,7 +7478,7 @@ Renovation risk management requires:
 
 Experienced operators with proven renovation capabilities significantly reduce these risks.`,
     slug: 'renovation-risk-quality-control',
-    image: '/0A6A5756.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-61.jpg',
   },
   {
     id: 62,
@@ -7638,7 +7638,7 @@ Exit risk management requires:
 
 Plan for exit from the beginning and execute professionally.`,
     slug: 'exit-risk-successful-property-sales',
-    image: '/0A6A5758.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-62.jpg',
   },
   {
     id: 63,
@@ -7790,7 +7790,7 @@ Regulatory risk management requires:
 
 Dubai's established regulatory framework provides relative stability for real estate investors.`,
     slug: 'regulatory-risk-real-estate',
-    image: '/0K8A7227.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-63.jpg',
   },
 
   // ============================================
@@ -7934,7 +7934,7 @@ Real estate crowdfunding offers:
 
 Understand the model and risks before investing.`,
     slug: 'real-estate-crowdfunding-introduction',
-    image: '/0K8A7233.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-64.jpg',
   },
   {
     id: 65,
@@ -8065,7 +8065,7 @@ Fractional ownership enables:
 
 Understand the structure and your rights before investing.`,
     slug: 'fractional-ownership-explained',
-    image: '/0K8A7239.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-65.jpg',
   },
   {
     id: 66,
@@ -8198,7 +8198,7 @@ Minimum thresholds affect:
 
 Choose platforms with minimums that match your capital and diversification goals.`,
     slug: 'minimum-investment-thresholds',
-    image: '/0K8A7245.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-66.jpg',
   },
   {
     id: 67,
@@ -8351,7 +8351,7 @@ Platform selection requires:
 
 Quality platforms are essential for successful crowdfunding investment.`,
     slug: 'platform-selection-crowdfunding',
-    image: '/0K8A7248.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-67.jpg',
   },
   {
     id: 68,
@@ -8508,7 +8508,7 @@ Lock-up periods require:
 
 Only invest capital you can commit for the full timeline.`,
     slug: 'investment-timeline-lock-up-periods',
-    image: '/0K8A7257.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-68.jpg',
   },
   {
     id: 69,
@@ -8664,7 +8664,7 @@ Quality communication provides:
 
 Evaluate communication quality as key platform selection criterion.`,
     slug: 'investor-updates-communication',
-    image: '/0K8A7267.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-69.jpg',
   },
   {
     id: 70,
@@ -8805,7 +8805,7 @@ Secondary markets for crowdfunding:
 
 Plan investments assuming full timeline commitment.`,
     slug: 'secondary-markets-crowdfunding',
-    image: '/IMG_1116.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-70.jpg',
   },
   {
     id: 71,
@@ -8956,7 +8956,7 @@ REITs and crowdfunding serve different purposes:
 
 Choose based on your liquidity needs, return goals, and involvement preference.`,
     slug: 'crowdfunding-vs-reits',
-    image: '/IMG_1358.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-71.jpg',
   },
   {
     id: 72,
@@ -9103,7 +9103,7 @@ Portfolio construction requires:
 
 A well-constructed portfolio improves risk-adjusted returns.`,
     slug: 'building-crowdfunding-portfolio',
-    image: '/IMG_1369.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-72.jpg',
   },
   {
     id: 73,
@@ -9253,7 +9253,7 @@ Accreditation affects:
 
 Understand your status and invest appropriately.`,
     slug: 'accredited-vs-non-accredited-investors',
-    image: '/IMG_2218.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-73.jpg',
   },
   {
     id: 74,
@@ -9411,7 +9411,7 @@ Platform fees:
 
 Always calculate returns after all fees.`,
     slug: 'crowdfunding-platform-fees',
-    image: '/IMG_2219 2.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-74.jpg',
   },
   {
     id: 75,
@@ -9558,7 +9558,7 @@ Real estate crowdfunding future:
 
 Stay informed and adapt while maintaining investment discipline.`,
     slug: 'future-real-estate-crowdfunding',
-    image: '/IMG_2230.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-75.jpg',
   },
 
   // ============================================
@@ -9675,7 +9675,7 @@ ROI provides:
 
 Always consider ROI alongside risk and timeline factors.`,
     slug: 'understanding-roi-real-estate',
-    image: '/IMG_2443.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-76.jpg',
   },
   {
     id: 77,
@@ -9785,7 +9785,7 @@ Profit distribution understanding:
 
 Always review distribution terms before investing.`,
     slug: 'profit-distribution-crowdfunding',
-    image: '/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-77.jpg',
   },
   {
     id: 78,
@@ -9918,7 +9918,7 @@ Holding costs:
 
 Factor holding costs into all investment analyses.`,
     slug: 'holding-costs-explained',
-    image: '/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-78.jpg',
   },
   {
     id: 79,
@@ -10048,7 +10048,7 @@ Transaction costs:
 
 Always factor full transaction costs into investment analysis.`,
     slug: 'transaction-costs-dubai-real-estate',
-    image: '/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-79.jpg',
   },
   {
     id: 80,
@@ -10200,7 +10200,7 @@ Renovation budgeting requires:
 
 Quality budgeting is foundation of flip project success.`,
     slug: 'renovation-budgeting-flip-projects',
-    image: '/0A6A5756.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-80.jpg',
   },
   {
     id: 81,
@@ -10333,7 +10333,7 @@ Exit pricing requires:
 
 Price appropriately to balance returns and timeline.`,
     slug: 'exit-pricing-strategy',
-    image: '/0A6A5758.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-81.jpg',
   },
   {
     id: 82,
@@ -10458,7 +10458,7 @@ Both strategies have merit:
 
 Choose based on personal goals and circumstances.`,
     slug: 'cash-flow-vs-capital-appreciation',
-    image: '/0K8A7227.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-82.jpg',
   },
   {
     id: 83,
@@ -10572,7 +10572,7 @@ IRR provides:
 
 Use IRR alongside other metrics for complete analysis.`,
     slug: 'understanding-irr-internal-rate-return',
-    image: '/0K8A7233.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-83.jpg',
   },
 
   // ============================================
@@ -10678,7 +10678,7 @@ Dubai offers:
 
 Always consider home country tax obligations.`,
     slug: 'dubai-tax-environment-real-estate',
-    image: '/0K8A7239.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-84.jpg',
   },
   {
     id: 85,
@@ -10797,7 +10797,7 @@ Home country obligations:
 
 Don't assume Dubai tax benefits eliminate all tax obligations.`,
     slug: 'home-country-tax-obligations',
-    image: '/0K8A7245.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-85.jpg',
   },
   {
     id: 86,
@@ -10900,7 +10900,7 @@ DLD fees:
 
 Always include DLD fees in investment analysis.`,
     slug: 'dld-fees-government-charges',
-    image: '/0K8A7248.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-86.jpg',
   },
   {
     id: 87,
@@ -11013,7 +11013,7 @@ Service charges:
 
 Factor service charges into all investment analyses.`,
     slug: 'service-charges-dubai-communities',
-    image: '/0K8A7257.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-87.jpg',
   },
   {
     id: 88,
@@ -11119,7 +11119,7 @@ UAE VAT and residential real estate:
 
 Residential investors benefit from favorable VAT treatment.`,
     slug: 'vat-real-estate-uae',
-    image: '/0K8A7267.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-88.jpg',
   },
   {
     id: 89,
@@ -11237,7 +11237,7 @@ Tax-efficient structuring:
 
 Structure decisions should be made with professional advice.`,
     slug: 'tax-efficient-investment-structures',
-    image: '/IMG_1116.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-89.jpg',
   },
 
   // ============================================
@@ -11322,7 +11322,7 @@ Plan for how and when to sell or dispose of an investment.
 
 Understanding these terms helps investors communicate effectively and make informed decisions.`,
     slug: 'glossary-a-e',
-    image: '/IMG_1358.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-90.jpg',
   },
   {
     id: 91,
@@ -11398,7 +11398,7 @@ Ratio of loan amount to property value. Higher LTV means more leverage.
 
 Understanding these terms enables effective communication with professionals and informed decision-making.`,
     slug: 'glossary-f-l',
-    image: '/IMG_1369.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-91.jpg',
   },
   {
     id: 92,
@@ -11467,7 +11467,7 @@ Return evaluated relative to the risk taken to achieve it.
 
 Mastering this vocabulary helps investors navigate real estate discussions confidently.`,
     slug: 'glossary-m-r',
-    image: '/IMG_2218.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-92.jpg',
   },
   {
     id: 93,
@@ -11546,7 +11546,7 @@ Government regulations controlling property use in specific areas.
 
 This completes the essential vocabulary for real estate investment discussions.`,
     slug: 'glossary-s-z',
-    image: '/IMG_2219 2.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-93.jpg',
   },
   {
     id: 94,
@@ -11626,7 +11626,7 @@ Transfer of completed property from developer to buyer.
 
 Understanding Dubai-specific terminology is essential for successful investment in the emirate.`,
     slug: 'dubai-specific-real-estate-terms',
-    image: '/IMG_2230.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-94.jpg',
   },
   {
     id: 95,
@@ -11707,7 +11707,7 @@ Strategies to preserve invested principal.
 
 Understanding crowdfunding terminology enables confident participation in these investments.`,
     slug: 'crowdfunding-investment-terms',
-    image: '/IMG_2443.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-95.jpg',
   },
   {
     id: 96,
@@ -11790,7 +11790,7 @@ Formula: Net Profit / Sale Price
 
 Understanding these metrics enables accurate investment analysis and comparison.`,
     slug: 'financial-metrics-real-estate',
-    image: '/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-96.jpg',
   },
   {
     id: 97,
@@ -11879,7 +11879,7 @@ Resolving disputes through court proceedings.
 
 Understanding legal terminology helps investors protect their interests and navigate transactions confidently.`,
     slug: 'legal-terms-real-estate',
-    image: '/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-97.jpg',
   },
   {
     id: 98,
@@ -11971,7 +11971,7 @@ Single total price for entire project.
 
 Understanding renovation terminology helps investors manage projects effectively and communicate with contractors.`,
     slug: 'renovation-construction-terms',
-    image: '/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-98.jpg',
   },
   {
     id: 99,
@@ -12063,7 +12063,7 @@ Higher value due to desirable location characteristics.
 
 Understanding market analysis terminology enables informed investment decisions based on market conditions.`,
     slug: 'market-analysis-terms',
-    image: '/0A6A5756.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-99.jpg',
   },
   {
     id: 100,
@@ -12161,7 +12161,7 @@ Sale price relative to original investment.
 
 Understanding strategy terminology helps investors develop and communicate their investment approach.`,
     slug: 'investment-strategy-terms',
-    image: '/0A6A5758.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-100.jpg',
   },
   // ============================================
   // FINANCING & MORTGAGES (20 articles)
@@ -12240,7 +12240,7 @@ The final step involves visiting the Dubai Land Department (DLD) to complete the
 
 Understanding these fundamentals helps UAE nationals approach the mortgage process with confidence and secure the best possible terms for their property purchase.`,
     slug: 'dubai-mortgage-guide-uae-nationals',
-    image: '/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-101.jpg',
   },
   {
     id: 102,
@@ -12340,7 +12340,7 @@ Expats can only purchase property in designated freehold areas, which include mo
 
 The Dubai mortgage market is competitive and expat-friendly. With proper preparation and documentation, foreign residents can access attractive financing to purchase property in one of the world's most dynamic real estate markets.`,
     slug: 'expat-mortgage-dubai-home-loan-guide',
-    image: '/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-102.jpg',
   },
   {
     id: 103,
@@ -12436,7 +12436,7 @@ The property transfer and mortgage registration are completed at the Dubai Land 
 
 Non-resident mortgages in Dubai open the door to one of the world's most attractive property markets for international investors. While the requirements are more demanding, the potential for rental yield and capital appreciation makes the effort worthwhile for many global investors.`,
     slug: 'non-resident-property-financing-dubai-mortgage',
-    image: '/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-103.jpg',
   },
   {
     id: 104,
@@ -12541,7 +12541,7 @@ For ready (completed) properties, the standard Central Bank LTV ratios apply. Fo
 
 Understanding the full picture of down payment requirements helps you plan realistically and avoid surprises during the buying process. Start saving early, budget conservatively, and always account for the full range of transaction costs.`,
     slug: 'dubai-mortgage-down-payment-requirements',
-    image: '/0A6A5756.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-104.jpg',
   },
   {
     id: 105,
@@ -12669,7 +12669,7 @@ Consider these factors:
 
 Islamic mortgages in Dubai are mature, well-regulated products that provide genuine alternatives to conventional financing. Whether motivated by religious conviction or ethical preference, borrowers can access competitive Sharia-compliant financing across all property types and price points.`,
     slug: 'islamic-mortgages-dubai-ijara-murabaha-musharaka',
-    image: '/0A6A5758.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-105.jpg',
   },
   {
     id: 106,
@@ -12761,7 +12761,7 @@ An Islamic mortgage may be better if:
 
 The choice between conventional and Islamic mortgages in Dubai is a personal one. Both systems are well-regulated, competitively priced, and widely available. Focus on the total cost, the legal structure, and your personal preferences to make the decision that best serves your interests.`,
     slug: 'conventional-vs-islamic-mortgages-dubai',
-    image: '/0K8A7227.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-106.jpg',
   },
   {
     id: 107,
@@ -12876,7 +12876,7 @@ Banks may ask you to demonstrate where the down payment is coming from. Acceptab
 
 A well-prepared document package signals to the bank that you are organized, financially literate, and a low-risk borrower. Take the time to gather everything before submitting — it will save you weeks of back-and-forth and significantly improve your chances of a smooth approval.`,
     slug: 'dubai-mortgage-documents-required-checklist',
-    image: '/0K8A7233.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-107.jpg',
   },
   {
     id: 108,
@@ -12995,7 +12995,7 @@ Once pre-approved, use it as a tool:
 
 A mortgage pre-approval is the foundation of a successful property purchase in Dubai. It costs nothing, provides invaluable clarity, and positions you as a serious, qualified buyer in a competitive market.`,
     slug: 'dubai-mortgage-pre-approval-process-guide',
-    image: '/0K8A7239.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-108.jpg',
   },
   {
     id: 109,
@@ -13124,7 +13124,7 @@ If you know you want to apply for a mortgage:
 
 The DBR is not just a hurdle — it is a financial health indicator. A healthy DBR means you can comfortably afford the mortgage without overextending yourself. Use it as a guide to ensure your property purchase enhances your financial position rather than straining it.`,
     slug: 'debt-to-income-ratio-dubai-mortgage-eligibility',
-    image: '/0K8A7245.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-109.jpg',
   },
   {
     id: 110,
@@ -13270,7 +13270,7 @@ If you own or plan to own multiple investment properties:
 
 Buy-to-let investing in Dubai can be highly rewarding, with rental yields among the highest globally for a major city. Proper financing, thorough due diligence, and conservative cash flow projections are the foundations of a successful BTL portfolio.`,
     slug: 'buy-to-let-mortgages-dubai-investment-property',
-    image: '/0K8A7248.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-110.jpg',
   },
   {
     id: 111,
@@ -13380,7 +13380,7 @@ Refinancing is one of the most effective tools available to homeowners in Dubai 
 
 For regulatory guidelines on early settlement and refinancing, refer to the [UAE Central Bank](https://www.centralbank.ae/) consumer protection framework.`,
     slug: 'mortgage-refinancing-dubai-home-loan-switch',
-    image: '/0K8A7257.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-111.jpg',
   },
   {
     id: 112,
@@ -13498,7 +13498,7 @@ Many buyers use a combination:
 
 Off-plan property can offer excellent value, especially in early project phases. The right financing strategy depends on your cash flow, risk tolerance, and investment timeline.`,
     slug: 'off-plan-property-financing-dubai-payment-plans-vs-mortgages',
-    image: '/0K8A7267.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-112.jpg',
   },
   {
     id: 113,
@@ -13607,7 +13607,7 @@ This is one of the most common challenges buyers face. If the bank's valuation c
 
 Property valuation is a standard part of the mortgage process, but it can significantly affect your purchasing power. Understanding how it works helps you prepare effectively and avoid last-minute funding gaps.`,
     slug: 'property-valuation-mortgage-dubai-buyers-guide',
-    image: '/IMG_1116.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-113.jpg',
   },
   {
     id: 114,
@@ -13747,7 +13747,7 @@ Mortgage life insurance only covers the outstanding loan balance. Consider suppl
 
 Mortgage life insurance is a mandatory cost of borrowing, but smart comparison shopping and understanding your options can save you significant money over the life of your loan.`,
     slug: 'mortgage-life-insurance-uae-requirements-costs',
-    image: '/IMG_1358.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-114.jpg',
   },
   {
     id: 115,
@@ -13873,7 +13873,7 @@ If you are planning full early settlement:
 
 Early repayment is one of the most effective ways to reduce the total cost of your mortgage. By understanding the rules, planning your approach, and timing your payments strategically, you can save substantial amounts and achieve financial freedom sooner.`,
     slug: 'early-mortgage-settlement-prepayment-dubai',
-    image: '/IMG_1369.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-115.jpg',
   },
   {
     id: 116,
@@ -14006,7 +14006,7 @@ If circumstances change and you want to remove a co-borrower:
 
 Joint mortgages can open doors to properties that might be unaffordable individually. However, the shared financial commitment requires trust, communication, and careful legal planning to protect all parties involved.`,
     slug: 'joint-mortgages-dubai-co-borrower-co-owner',
-    image: '/IMG_2218.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.devhttps://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-116.jpg',
   },
   {
     id: 117,
@@ -14137,7 +14137,7 @@ If traditional mortgage lending proves difficult:
 
 Self-employed borrowers in Dubai can absolutely secure mortgage financing, but preparation is key. Start organizing your documentation well in advance, maintain clean financial records, and work with professionals who understand the self-employed lending landscape.`,
     slug: 'mortgage-self-employed-business-owners-dubai',
-    image: '/IMG_2219 2.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-117.jpg',
   },
   {
     id: 118,
@@ -14320,7 +14320,7 @@ Understanding and planning for closing costs is essential for a smooth property 
 
 For official fee schedules, visit the [Dubai Land Department](https://www.dubailand.gov.ae/) website.`,
     slug: 'mortgage-fees-closing-costs-dubai-real-estate',
-    image: '/IMG_2230.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-118.jpg',
   },
   {
     id: 119,
@@ -14472,7 +14472,7 @@ New residents to the UAE may have no local credit history. This presents its own
 
 Your credit history is one of the few factors entirely within your control when it comes to mortgage eligibility. Investing time in building and maintaining a strong credit profile pays dividends when you are ready to finance your Dubai property purchase.`,
     slug: 'credit-history-mortgage-application-dubai',
-    image: '/IMG_2443.JPG',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-119.jpg',
   },
   {
     id: 120,
@@ -14670,7 +14670,7 @@ Mortgage default is a serious matter with lasting financial and legal consequenc
 
 For legal guidance on mortgage obligations, consult a UAE-licensed legal practitioner or visit the [Dubai Courts](https://www.dc.gov.ae/) website for information on court procedures.`,
     slug: 'mortgage-default-foreclosure-process-dubai',
-    image: '/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-120.jpg',
   },
 ];
 

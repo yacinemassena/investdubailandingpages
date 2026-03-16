@@ -36,11 +36,11 @@ export const Opportunity = ({ label, title, body, pullQuote, chart, cta }: Oppor
               {pullQuote}
             </p>
             <div className="flex flex-col sm:flex-row items-center gap-4">
-              <a href="#" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 hover:opacity-90 transition-opacity">
+              <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 hover:opacity-90 transition-opacity">
                 {cta}
                 <ArrowRight className="w-4 h-4" />
               </a>
-              <a href="#" className="border border-brand-border bg-white text-brand-dark px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 hover:bg-brand-bg transition-colors">
+              <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="border border-brand-border bg-white text-brand-dark px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 hover:bg-brand-bg transition-colors">
                 <Phone className="w-4 h-4" />
                 Book a Call
               </a>

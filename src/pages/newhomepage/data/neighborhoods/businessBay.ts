@@ -115,7 +115,7 @@ For flip strategies specifically, Business Bay's combination of affordable acqui
 
 **Investment Verdict**: Strong opportunity for yield and flip investors; less compelling for prestige-focused buyers.`,
     slug: 'is-business-bay-good-investment-2026',
-    image: '/images/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-2001.jpg',
   },
   {
     id: 2002,
@@ -268,7 +268,7 @@ Business Bay offers diverse pricing across its extensive inventory. Understandin
 
 For flip investors, the value and mid-tier segments offer the most compelling spreads, while rental investors can find attractive yields across multiple price points.`,
     slug: 'business-bay-property-prices-2026',
-    image: '/images/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-2002.jpg',
   },
   {
     id: 2003,
@@ -468,7 +468,7 @@ Both districts offer compelling investment opportunities, but for different inve
 
 For flip investors specifically, Business Bay's combination of lower entry costs, renovation spread, and improving fundamentals often delivers superior returns. The key is matching your strategy to the district's strengths.`,
     slug: 'business-bay-vs-downtown-dubai-comparison',
-    image: '/images/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-2003.jpg',
   },
   {
     id: 2004,
@@ -680,7 +680,7 @@ The Dubai Canal transformed Business Bay from a commercial district into a desir
 
 The flip strategy works in both segments: canal-facing for premium renovations with strong buyer demand, non-canal for volume strategies with higher percentage returns. The key is matching your approach to the specific opportunity.`,
     slug: 'dubai-canal-business-bay-investment-impact',
-    image: '/images/0A6A5756.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-2004.jpg',
   },
   {
     id: 2005,
@@ -898,7 +898,7 @@ Business Bay offers investment opportunities across the price spectrum. For most
 
 Match your building selection to your strategy: premium for prestige, mid-tier for balance, value for maximum returns. The flip strategy works across all tiers, with volume approaches favoring mid and value buildings.`,
     slug: 'best-buildings-invest-business-bay',
-    image: '/images/0A6A5758.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-2005.jpg',
   },
   {
     id: 2006,
@@ -1110,7 +1110,7 @@ Business Bay delivers compelling rental yields for income-focused investors. The
 
 The optimal approach may combine both: use flip profits to build a rental portfolio over time, eventually transitioning to passive income as wealth accumulates.`,
     slug: 'business-bay-rental-yields-maximizing-income',
-    image: '/images/0K8A7227.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-2006.jpg',
   },
   {
     id: 2007,
@@ -1335,7 +1335,7 @@ Business Bay offers ideal conditions for property flipping: lower entry costs, s
 
 The district's value positioning means buyers are price-sensitive—renovations should be comprehensive but cost-conscious. Focus on delivering quality at competitive prices, and the market will reward you with quick sales and strong returns.`,
     slug: 'flipping-properties-business-bay-guide',
-    image: '/images/0K8A7233.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-2007.jpg',
   },
   {
     id: 2008,
@@ -1556,6 +1556,6 @@ Business Bay's expat appeal creates strong, consistent demand for quality rental
 
 For flip investors, targeting the expat buyer and renter market means focusing on clean, contemporary renovations that photograph well and offer move-in-ready convenience. The expat market values quality and efficiency, rewarding well-executed renovations with quick sales and premium pricing.`,
     slug: 'business-bay-expats-living-investment-guide',
-    image: '/images/0K8A7239.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7239.jpg',
   },
 ];

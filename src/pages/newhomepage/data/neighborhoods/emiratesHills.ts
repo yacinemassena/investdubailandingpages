@@ -159,7 +159,7 @@ Emirates Hills represents the ultimate in Dubai residential exclusivity. For inv
 
 **Investment Verdict**: Premium opportunity for well-connected, well-capitalized investors; exceptional flip potential with longer cycles.`,
     slug: 'is-emirates-hills-good-investment',
-    image: '/images/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-5001.jpg',
   },
   {
     id: 5002,
@@ -308,7 +308,7 @@ Emirates Hills has multiple sectors with varying prestige:
 
 Emirates Hills pricing reflects its position as Dubai's most exclusive residential community. Understanding the micro-markets—plot size, location, condition—helps investors identify opportunities. For flip investors, the substantial spread between unrenovated and renovated properties creates compelling economics for those with adequate capital and patience.`,
     slug: 'emirates-hills-property-prices-2026',
-    image: '/images/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5728.jpg',
   },
   {
     id: 5003,
@@ -574,7 +574,7 @@ Emirates Hills villa flipping offers exceptional returns for qualified investors
 
 For those who can access this market, Emirates Hills flipping represents some of the most profitable real estate investment available.`,
     slug: 'flipping-villas-emirates-hills-guide',
-    image: '/images/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5754.jpg',
   },
   {
     id: 5004,
@@ -754,7 +754,7 @@ For flip investors, the choice depends on your network and patience. Emirates Hi
 
 The optimal approach for well-capitalized investors may be exposure to both, capturing the unique advantages of each market.`,
     slug: 'emirates-hills-vs-palm-jumeirah-comparison',
-    image: '/images/0A6A5756.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5756.jpg',
   },
   {
     id: 5005,
@@ -964,7 +964,7 @@ Emirates Hills represents the pinnacle of Dubai residential living for those who
 
 Understanding Emirates Hills requires appreciating its unique positioning—not for everyone, but unmatched for those who seek what it offers.`,
     slug: 'emirates-hills-complete-neighborhood-guide',
-    image: '/images/0A6A5758.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5758.jpg',
   },
   {
     id: 5006,
@@ -1161,6 +1161,6 @@ Emirates Hills' rental market serves an ultra-premium tenant demographic with su
 
 For investors seeking maximum returns, the flip strategy significantly outperforms rental income. The optimal approach may be using flip profits to eventually build a rental portfolio for passive income in later years.`,
     slug: 'emirates-hills-rental-market-yields-demand',
-    image: '/images/0K8A7227.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7227.jpg',
   },
 ];

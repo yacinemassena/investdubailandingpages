@@ -28,7 +28,7 @@ export const FAQ = ({ label, title, subtitle, cta, questions }: FAQProps) => {
             <p className="text-base md:text-lg text-brand-muted leading-relaxed mb-8">
               {subtitle}
             </p>
-            <a href="#" className="border border-brand-border bg-brand-surface text-brand-dark px-6 py-3 rounded-full font-medium inline-flex items-center gap-2 hover:bg-brand-bg transition-colors">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="border border-brand-border bg-brand-surface text-brand-dark px-6 py-3 rounded-full font-medium inline-flex items-center gap-2 hover:bg-brand-bg transition-colors">
               <Phone className="w-4 h-4" />
               {cta}
             </a>

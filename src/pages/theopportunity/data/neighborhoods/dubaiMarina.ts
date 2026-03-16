@@ -144,7 +144,7 @@ Dubai Marina remains a compelling investment destination. Its combination of lif
 
 **Investment Verdict**: Strong opportunity for lifestyle-focused rental and flip strategies.`,
     slug: 'is-dubai-marina-good-investment-2026',
-    image: '/images/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5723.jpg',
   },
   {
     id: 3002,
@@ -299,7 +299,7 @@ The renovation spread in Dubai Marina creates compelling flip economics:
 
 Dubai Marina offers diverse pricing across its extensive inventory. Understanding the micro-markets—view premiums, tower quality, location within the marina—helps investors identify the best opportunities. For flip investors, the aging inventory in established towers provides compelling renovation spreads with strong buyer demand.`,
     slug: 'dubai-marina-property-prices-2026',
-    image: '/images/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5728.jpg',
   },
   {
     id: 3003,
@@ -512,7 +512,7 @@ Dubai Marina offers investment opportunities across the price spectrum. For most
 
 Match your tower selection to your strategy: premium for prestige, mid-tier for balance, value for maximum returns.`,
     slug: 'best-towers-invest-dubai-marina',
-    image: '/images/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5754.jpg',
   },
   {
     id: 3004,
@@ -698,7 +698,7 @@ Both Dubai Marina and JBR offer compelling waterfront investment opportunities. 
 
 The right choice depends on your capital, target tenant/buyer profile, and investment strategy.`,
     slug: 'dubai-marina-vs-jbr-investment-comparison',
-    image: '/images/0A6A5756.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5756.jpg',
   },
   {
     id: 3005,
@@ -910,7 +910,7 @@ Dubai Marina offers ideal conditions for property flipping: aging inventory, lif
 
 The district's waterfront positioning means buyers expect quality—renovations should be comprehensive and well-executed. Focus on maximizing the lifestyle appeal, and the market will reward you with strong returns.`,
     slug: 'flipping-properties-dubai-marina-guide',
-    image: '/images/0A6A5758.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5758.jpg',
   },
   {
     id: 3006,
@@ -1103,7 +1103,7 @@ Dubai Marina delivers attractive rental yields driven by lifestyle appeal and di
 
 However, for investors seeking maximum returns, the flip strategy typically outperforms rental income significantly. The optimal approach may combine both: use flip profits to build a rental portfolio over time.`,
     slug: 'dubai-marina-rental-yields-maximizing-returns',
-    image: '/images/0K8A7227.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7227.jpg',
   },
   {
     id: 3007,
@@ -1345,7 +1345,7 @@ Dubai Marina's young professional demographic creates strong, consistent demand 
 
 For flip investors, targeting young professional buyers and renters means focusing on contemporary renovations that photograph well and offer move-in-ready convenience. This demographic values quality and efficiency, rewarding well-executed renovations with quick sales and premium pricing.`,
     slug: 'dubai-marina-young-professionals-investment-guide',
-    image: '/images/0K8A7233.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7233.jpg',
   },
   {
     id: 3008,
@@ -1519,6 +1519,6 @@ Service charges are a significant but manageable cost in Dubai Marina investment
 
 For flip investors, shorter holding periods minimize service charge exposure. For rental investors, accurate net yield calculations ensure realistic return expectations. Always factor service charges into your investment analysis.`,
     slug: 'dubai-marina-service-charges-guide',
-    image: '/images/0K8A7239.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7239.jpg',
   },
 ];

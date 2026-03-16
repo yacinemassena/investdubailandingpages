@@ -1,20 +1,20 @@
 export const homepageConfig = {
   meta: {
     en: {
-      title: 'InvestDubai — Outperform Traditional Investments with Dubai Luxury Flips',
+      title: 'InvestDubai — outperform traditional investments with Dubai luxury flips',
       description: 'Target 20%+ annual returns with hands-free Dubai real estate flips. 40 villas acquired, $130M+ in profits, 70% average ROI. Start from AED 4,000.',
     },
     fr: {
-      title: 'InvestDubai — Surpassez les Placements Traditionnels avec l\'Immobilier de Luxe à Dubai',
+      title: 'InvestDubai — surpassez les placements traditionnels avec l\'Immobilier de Luxe à Dubai',
       description: 'Visez 20%+ de rendement annuel avec des flips immobiliers haut de gamme à Dubai. 40 villas acquises, $130M+ de profits, 70% de ROI moyen. À partir de 4 000 AED.',
     },
   },
 
   hero: {
     en: {
-      headline: 'Outperform Traditional Investments — With Dubai Luxury Flips',
-      subheadline: 'Target 20%+ annual returns on 12–18 month cycles. We source, renovate, and resell luxury villas — you invest and share the upside.',
-      proofLine: 'Track record: 70% average ROI across 36 completed projects. $130M+ in profits delivered.',
+      headline: 'Outperform Traditional Investments With Dubai Luxury Flips',
+      subheadline: 'Target 20%+ annual returns on 12–18 month cycles. We source, renovate, and resell luxury villas. You invest and share the upside.',
+      proofLine: 'Track record: 70% average ROI across 36 completed projects.',
       primaryCta: 'Get Started',
       secondaryCta: 'See Track Record ↓',
       trustBadges: [
@@ -42,8 +42,9 @@ export const homepageConfig = {
   problem: {
     en: {
       label: 'The Problem',
-      title: 'Your Money Could Be Working Harder',
-      subtitle: 'Most investors settle for slow, predictable returns — or take on unnecessary risk. Here\'s how the usual options compare:',
+      title: 'Outperform Traditional Investments with Dubai Luxury Flips',
+      subtitle: 'Most investors settle for slow, predictable returns, or take on unnecessary risk.',
+      subtitleLine2: 'Here\'s how the usual options compare :',
       comparison: [
         { investment: 'ETFs / Index Funds', returns: '8–10% / year', timeline: '10+ years', catch: 'Slow. Fully exposed to market swings.' },
         { investment: 'Stock Picking', returns: 'Varies wildly', timeline: 'Varies', catch: 'Requires expertise. High volatility.' },
@@ -51,11 +52,11 @@ export const homepageConfig = {
         { investment: 'Off-Plan Dubai', returns: 'Unknown', timeline: '3–5 years', catch: 'Long wait. No value creation.' },
         { investment: 'Dubai Luxury Flips', returns: 'Target 20%+', timeline: '12–18 months', catch: 'Hands-free. Capital returned at resale.', highlight: true },
       ],
-      transition: 'There\'s a better way to grow your wealth — without waiting a decade or managing tenants.',
+      transition: 'There\'s a better way to grow your wealth, without waiting a decade or managing tenants.',
     },
     fr: {
       label: 'Le Problème',
-      title: 'Votre Argent Pourrait Travailler Plus Dur',
+      title: 'Votre argent pourrait travailler plus dur',
       subtitle: 'La plupart des investisseurs se contentent de rendements lents et prévisibles — ou prennent des risques inutiles. Voici comment les options classiques se comparent :',
       comparison: [
         { investment: 'ETFs / Fonds indiciels', returns: '8–10% / an', timeline: '10+ ans', catch: 'Lent. Exposé aux marchés.' },
@@ -71,13 +72,13 @@ export const homepageConfig = {
   solution: {
     en: {
       label: 'How It Works',
-      title: 'How We Generate Higher Returns, Faster',
+      title: 'How we generate higher returns, faster',
       subtitle: 'Luxury flipping is a value-add strategy: buy undervalued properties, transform them, sell at a premium, and share the upside. It\'s not passive income — it\'s active wealth creation with a defined exit.',
       steps: [
-        { number: '01', title: 'You Invest', description: 'Choose a project and invest from AED 4,000. You own a share of the property via a secure SPV structure.' },
-        { number: '02', title: 'We Source', description: 'We identify high-potential luxury villas in prime Dubai locations — backed by data, experience, and timing.' },
-        { number: '03', title: 'We Execute', description: 'Our team handles everything: design, approvals, renovation, luxury finishes, and resale marketing. You don\'t lift a finger.' },
-        { number: '04', title: 'You Earn', description: 'When the property sells, we split the upside. The more value we create, the more you earn.' },
+        { number: '01', title: 'You invest', description: 'Choose a project and invest from AED 4,000. You own a share of the property via a secure SPV structure.' },
+        { number: '02', title: 'We source', description: 'We identify high-potential luxury villas in prime Dubai locations, backed by data, experience, and timing.' },
+        { number: '03', title: 'We execute', description: 'Our team handles everything: design, approvals, renovation, luxury finishes, and resale marketing. You don\'t lift a finger.' },
+        { number: '04', title: 'You earn', description: 'When the property sells, we split the upside. The more value we create, the more you earn.' },
       ],
       whyHigher: [
         { title: 'Value creation', description: 'We don\'t wait for the market. We force returns through renovation and repositioning.' },
@@ -88,13 +89,13 @@ export const homepageConfig = {
     },
     fr: {
       label: 'Comment Ça Marche',
-      title: 'Comment On Génère des Rendements Supérieurs, Plus Vite',
+      title: 'Comment on génère des rendements supérieurs, plus vite',
       subtitle: 'Le flip de luxe est une stratégie à valeur ajoutée : acheter sous-évalué, transformer, revendre avec une prime, et partager la plus-value. Ce n\'est pas du revenu passif — c\'est de la création de richesse active avec une sortie définie.',
       steps: [
-        { number: '01', title: 'Vous Investissez', description: 'Choisissez un projet et investissez à partir de 4 000 AED. Vous détenez une part de la propriété via une structure SPV sécurisée.' },
-        { number: '02', title: 'On Source', description: 'On identifie des villas de luxe à fort potentiel dans les meilleurs quartiers de Dubai — basé sur les données, l\'expérience et le timing.' },
-        { number: '03', title: 'On Exécute', description: 'Notre équipe gère tout : design, autorisations, rénovation, finitions haut de gamme et commercialisation. Vous ne faites rien.' },
-        { number: '04', title: 'Vous Gagnez', description: 'À la revente, on partage la plus-value. Plus on crée de valeur, plus vous gagnez.' },
+        { number: '01', title: 'Vous investissez', description: 'Choisissez un projet et investissez à partir de 4 000 AED. Vous détenez une part de la propriété via une structure SPV sécurisée.' },
+        { number: '02', title: 'On source', description: 'On identifie des villas de luxe à fort potentiel dans les meilleurs quartiers de Dubai — basé sur les données, l\'expérience et le timing.' },
+        { number: '03', title: 'On exécute', description: 'Notre équipe gère tout : design, autorisations, rénovation, finitions haut de gamme et commercialisation. Vous ne faites rien.' },
+        { number: '04', title: 'Vous gagnez', description: 'À la revente, on partage la plus-value. Plus on crée de valeur, plus vous gagnez.' },
       ],
       whyHigher: [
         { title: 'Création de valeur', description: 'On n\'attend pas le marché. On force le rendement via la rénovation et le repositionnement.' },
@@ -108,8 +109,8 @@ export const homepageConfig = {
   trackRecord: {
     en: {
       label: 'Track Record',
-      title: 'Real Numbers. Real Projects. Real Profits.',
-      subtitle: 'We don\'t make promises — we show results. Every project is tracked, every number is real. Our track record speaks for itself.',
+      title: 'Real numbers. Real projects. Real profits.',
+      subtitle: 'We don\'t make promises, we show results. Every project is tracked, every number is real. Our track record speaks for itself.',
       stats: [
         { value: '40', label: 'Villas Acquired' },
         { value: '36', label: 'Flips Completed' },
@@ -118,18 +119,18 @@ export const homepageConfig = {
         { value: '0', label: 'Negative Returns' },
       ],
       projects: [
-        { name: 'Flip 1', investment: 'AED 6.85M', salePrice: 'AED 14.2M', roi: '107%' },
-        { name: 'Flip 12', investment: 'AED 11.1M', salePrice: 'AED 24.0M', roi: '116%' },
-        { name: 'Flip 13', investment: 'AED 11.1M', salePrice: 'AED 24.5M', roi: '120%' },
-        { name: 'Flip 9', investment: 'AED 12.4M', salePrice: 'AED 23.0M', roi: '85%' },
-        { name: 'Flip 36', investment: 'AED 30.5M', salePrice: 'AED 45.0M', roi: '64%' },
+        { name: 'Flip 1', investment: 'AED 6.85M', salePrice: 'AED 14.2M', roi: '107%', image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/flip-1.jpg' },
+        { name: 'Flip 12', investment: 'AED 11.1M', salePrice: 'AED 24.0M', roi: '116%', image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/flip-12.jpg' },
+        { name: 'Flip 13', investment: 'AED 11.1M', salePrice: 'AED 24.5M', roi: '120%', image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/flip-13.jpg' },
+        { name: 'Flip 9', investment: 'AED 12.4M', salePrice: 'AED 23.0M', roi: '85%', image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/flip-9.jpg' },
+        { name: 'Flip 36', investment: 'AED 30.5M', salePrice: 'AED 45.0M', roi: '64%', image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/flip-36.jpg' },
       ],
-      disclaimer: 'Past performance is not indicative of future results. All investments carry risk, including potential loss of capital.',
+      disclaimer: '',
       cta: 'See Full Track Record →',
     },
     fr: {
       label: 'Track Record',
-      title: 'Des Chiffres Réels. Des Projets Réels. Des Profits Réels.',
+      title: 'Des chiffres réels. des projets réels. des profits réels.',
       subtitle: 'On ne fait pas de promesses — on montre des résultats. Chaque projet est tracké, chaque chiffre est réel. Notre track record parle de lui-même.',
       stats: [
         { value: '40', label: 'Villas Acquises' },
@@ -143,7 +144,7 @@ export const homepageConfig = {
         { name: 'Flip 12', investment: '11,1M AED', salePrice: '24,0M AED', roi: '116%' },
         { name: 'Flip 13', investment: '11,1M AED', salePrice: '24,5M AED', roi: '120%' },
         { name: 'Flip 9', investment: '12,4M AED', salePrice: '23,0M AED', roi: '85%' },
-        { name: 'Flip 36', investment: '30,5M AED', salePrice: '45,0M AED', roi: '64%' },
+        { name: 'Flip 36', investment: '30,5M AED', salePrice: '45,0M AED', roi: '47%' },
       ],
       disclaimer: 'Les performances passées ne préjugent pas des performances futures. Tout investissement comporte des risques, y compris la perte en capital.',
       cta: 'Voir Tout le Track Record →',
@@ -153,49 +154,49 @@ export const homepageConfig = {
   guarantees: {
     en: {
       label: 'Your Protection',
-      title: 'How We Protect Your Investment',
-      subtitle: 'We don\'t just promise returns — we structure the deal to protect you first. Here\'s how our interests are aligned with yours:',
+      title: 'How we protect your investment',
+      subtitle: 'We don\'t just promise returns, we structure the deal to protect you first. Here\'s how our interests are aligned with yours:',
       pillars: [
         {
           icon: 'lock',
-          title: 'Real Ownership, Real Security',
-          headline: 'You own the asset — not a share in a fund.',
+          title: 'Real ownership, real security',
+          headline: 'You own the asset, not a share in a fund.',
           description: 'Your investment is held via a DIFC-regulated SPV (Special Purpose Vehicle). Your name is on the title deed. You have a real security interest in the property itself.',
           subtext: 'This isn\'t a paper investment. It\'s brick-and-mortar ownership with full legal protection under one of the world\'s most respected financial jurisdictions.',
           badges: ['DIFC-regulated', 'Title deed in your name', 'Real asset collateral'],
         },
         {
           icon: 'shield',
-          title: 'Guaranteed Budget — No Capital Calls. Ever.',
-          headline: 'If costs overrun, we absorb it — not you.',
+          title: 'Guaranteed budget. No capital calls. Ever.',
+          headline: 'If costs overrun, we absorb it. Not you.',
           description: 'When you invest, you invest once. We guarantee the renovation budget. If construction costs exceed projections, that\'s on us.',
           subtext: 'We will never ask you for additional funds. Your exposure is capped at your initial investment.',
           badges: ['Fixed commitment', 'No surprises', 'We take the execution risk'],
         },
         {
           icon: 'dollar',
-          title: '15% Preferred Return — You Get Paid First',
+          title: '15% preferred return. You get paid first',
           headline: 'If we don\'t outperform, we don\'t get paid.',
           description: 'You receive a 15% preferred annual return before we take any profit share. Only after you\'ve been paid your priority return do we participate in the upside.',
-          subtext: 'This isn\'t "we win together." This is you win first — and we only win if we deliver exceptional results.',
+          subtext: 'This isn\'t "we win together." This is you win first. And we only win if we deliver exceptional results.',
           badges: ['15% preferred return', 'Investor priority', 'Aligned incentives'],
         },
       ],
       summary: [
         { protection: 'DIFC-regulated SPV', meaning: 'Real ownership, real collateral' },
-        { protection: 'Guaranteed budget', meaning: 'No capital calls — ever' },
+        { protection: 'Guaranteed budget', meaning: 'No capital calls — EVER' },
         { protection: '15% preferred return', meaning: 'You\'re paid first' },
       ],
-      cta: 'Get Started — Your Capital Is Protected →',
+      cta: 'Get Started. Your Capital Is Protected →',
     },
     fr: {
       label: 'Votre Protection',
-      title: 'Comment On Protège Votre Investissement',
+      title: 'Comment on protège votre investissement',
       subtitle: 'On ne se contente pas de promettre des rendements — on structure chaque deal pour vous protéger en priorité. Voici comment nos intérêts sont alignés avec les vôtres :',
       pillars: [
         {
           icon: 'lock',
-          title: 'Propriété Réelle, Sécurité Réelle',
+          title: 'Propriété réelle, sécurité réelle',
           headline: 'Vous possédez l\'actif — pas une part dans un fonds.',
           description: 'Votre investissement est détenu via une SPV régulée par le DIFC (Dubai International Financial Centre). Votre nom est sur le titre de propriété. Vous avez une garantie réelle sur le bien lui-même.',
           subtext: 'Ce n\'est pas un investissement papier. C\'est de la propriété physique avec une protection juridique complète sous l\'une des juridictions financières les plus respectées au monde.',
@@ -203,7 +204,7 @@ export const homepageConfig = {
         },
         {
           icon: 'shield',
-          title: 'Budget Garanti — Jamais d\'Appel de Fonds',
+          title: 'Budget garanti — jamais d\'Appel de Fonds',
           headline: 'Si les coûts dépassent, on absorbe — pas vous.',
           description: 'Quand vous investissez, vous investissez une fois. On garantit le budget de rénovation. Si les coûts de construction dépassent les prévisions, c\'est pour nous.',
           subtext: 'On ne vous demandera jamais de fonds supplémentaires. Votre exposition est plafonnée à votre investissement initial.',
@@ -211,7 +212,7 @@ export const homepageConfig = {
         },
         {
           icon: 'dollar',
-          title: '15% de Rendement Prioritaire — Vous Êtes Payé en Premier',
+          title: '15% de rendement prioritaire — vous êtes payé en premier',
           headline: 'Si on ne surperforme pas, on ne se paie pas.',
           description: 'Vous recevez un rendement prioritaire de 15% annuel avant qu\'on ne prenne notre part. Ce n\'est qu\'après que vous ayez été payé votre retour prioritaire qu\'on participe à la plus-value.',
           subtext: 'Ce n\'est pas "on gagne ensemble." C\'est vous gagnez d\'abord — et on ne gagne que si on délivre des résultats exceptionnels.',
@@ -230,26 +231,26 @@ export const homepageConfig = {
   whyUs: {
     en: {
       label: 'Why InvestDubai',
-      title: 'Why Thousands of Investors Trust Us',
+      title: 'Why thousands of investors trust us',
       pillars: [
-        { title: 'Proven Performance', description: '70% average ROI. $130M+ in profits shared. 36 successful exits.' },
-        { title: 'Hands-Free Investing', description: 'We handle sourcing, renovation, and resale. You invest and wait for returns.' },
+        { title: 'Proven performance', description: '70% average ROI. $130M+ in profits shared. 36 successful exits.' },
+        { title: 'Hands-Free investing', description: 'We handle sourcing, renovation, and resale. You invest and wait for returns.' },
         { title: 'Backed by Greenbull', description: '#1 redevelopment company in Jumeirah Islands. World-class execution.' },
-        { title: 'Accessible Entry', description: 'Start from AED 4,000. Build your portfolio progressively with each project.' },
+        { title: 'Accessible entry', description: 'Start from AED 4,000. Build your portfolio progressively with each project.' },
       ],
       extras: [
-        '100% remote — invest from anywhere, manage nothing',
-        'Global investor base — Europe, Asia, Middle East, and beyond',
+        '100% remote, invest from anywhere, manage nothing',
+        'Global investor base: Europe, Asia, Middle East, and beyond',
       ],
     },
     fr: {
       label: 'Pourquoi InvestDubai',
-      title: 'Pourquoi des Milliers d\'Investisseurs Nous Font Confiance',
+      title: 'Pourquoi des milliers d\'Investisseurs Nous Font Confiance',
       pillars: [
-        { title: 'Performance Prouvée', description: '70% de ROI moyen. Plus de $130M de profits partagés. 36 sorties réussies.' },
-        { title: 'Investissement Clé en Main', description: 'On gère le sourcing, la rénovation et la revente. Vous investissez et attendez les retours.' },
+        { title: 'Performance prouvée', description: '70% de ROI moyen. Plus de $130M de profits partagés. 36 sorties réussies.' },
+        { title: 'Investissement clé en main', description: 'On gère le sourcing, la rénovation et la revente. Vous investissez et attendez les retours.' },
         { title: 'Adossé à Greenbull', description: '#1 de la rénovation haut de gamme à Jumeirah Islands. Exécution world-class.' },
-        { title: 'Accès Accessible', description: 'À partir de 4 000 AED. Construisez votre portefeuille progressivement.' },
+        { title: 'Accès accessible', description: 'À partir de 4 000 AED. Construisez votre portefeuille progressivement.' },
       ],
       extras: [
         '100% à distance — investissez de n\'importe où, ne gérez rien',
@@ -261,7 +262,7 @@ export const homepageConfig = {
   whoIsItFor: {
     en: {
       label: 'Is This For You?',
-      title: 'Is This Right for You?',
+      title: 'Is this right for you?',
       yesIf: [
         'You want higher returns than ETFs or savings accounts',
         'You prefer shorter cycles over 10-year holds',
@@ -272,13 +273,12 @@ export const homepageConfig = {
       noIf: [
         'You need guaranteed returns (they don\'t exist)',
         'You require immediate liquidity',
-        'You\'re not comfortable with real estate market risk',
       ],
       transition: 'If you\'re ready to put your money to work smarter, we\'re ready to help.',
     },
     fr: {
       label: 'Pour Qui ?',
-      title: 'Est-ce Fait Pour Vous ?',
+      title: 'Est-ce fait pour vous ?',
       yesIf: [
         'Vous voulez des rendements supérieurs aux ETFs ou aux livrets',
         'Vous préférez des cycles courts plutôt que des placements sur 10 ans',
@@ -289,7 +289,6 @@ export const homepageConfig = {
       noIf: [
         'Vous cherchez du garanti (ça n\'existe pas)',
         'Vous avez besoin de liquidité immédiate',
-        'Vous n\'êtes pas à l\'aise avec le risque immobilier',
       ],
       transition: 'Si vous êtes prêt à faire travailler votre argent plus intelligemment, on est prêt à vous accompagner.',
     },
@@ -298,23 +297,23 @@ export const homepageConfig = {
   faq: {
     en: {
       label: 'FAQ',
-      title: 'Common Questions',
+      title: 'Common questions',
       items: [
         { 
           question: 'What exactly am I investing in?', 
-          answer: 'You\'re investing in a specific luxury villa in Dubai — a real, physical property you could visit. Each villa is held in a dedicated SPV (Special Purpose Vehicle), which is a legal entity created solely to own that property. You purchase shares in the SPV, making you a co-owner of the villa alongside other investors. Your name appears on the legal ownership documents. This is real equity ownership — not a loan, not a token, not a fund share. You own a piece of actual Dubai real estate.' 
+          answer: 'You\'re investing in a specific luxury villa in Dubai, a real, physical property you could visit. Each villa is held in a dedicated SPV (Special Purpose Vehicle), which is a legal entity created solely to own that property. You purchase shares in the SPV, making you a co-owner of the villa alongside other investors. Your name appears on the legal ownership documents. This is real equity ownership, not a loan, not a token, not a fund share. You own a piece of actual Dubai real estate.' 
         },
         { 
           question: 'How are returns generated?', 
-          answer: 'We follow a value-add strategy called "flipping." Here\'s how it works: First, we identify undervalued luxury villas in prime Dubai locations — typically properties that are outdated or poorly maintained but in excellent neighborhoods. We purchase these at 30-40% below what comparable renovated properties sell for. Then, our in-house team executes a full luxury renovation: new interiors, premium finishes, modern layouts. Finally, we sell the transformed villa at the market rate for renovated properties. The difference between our total cost (purchase + renovation) and the sale price is the profit — and you receive 60% of that profit, proportional to your investment.' 
+          answer: 'We follow a value-add strategy called "flipping." Here\'s how it works: First, we identify undervalued luxury villas in prime Dubai locations, typically properties that are outdated or poorly maintained but in excellent neighborhoods. We purchase these at 30–40% below what comparable renovated properties sell for. Then, our in-house team executes a full luxury renovation: new interiors, premium finishes, modern layouts. Finally, we sell the transformed villa at the market rate for renovated properties. The difference between our total cost (purchase + renovation) and the sale price is the profit, and you receive 60% of that profit, proportional to your investment.' 
         },
         { 
           question: 'What returns can I expect?', 
-          answer: 'We target 20%+ annual returns on each project. Our historical track record shows an average of 70% total ROI per project over 12-18 month cycles. Individual projects have ranged from 15% to over 100% depending on the specific opportunity. Important: past performance does not guarantee future results. Real estate markets fluctuate, and each project carries its own risks. We show you the full range of outcomes — not just the winners — so you can make an informed decision.' 
+          answer: 'We target 20%+ annual returns on each project. Our historical track record shows an average of 70% total ROI per project over 12–18 month cycles. Individual projects have ranged from 15% to over 100% depending on the specific opportunity. Important: past performance does not guarantee future results. Real estate markets fluctuate, and each project carries its own risks. We show you the full range of outcomes, not just the winners, so you can make an informed decision.' 
         },
         { 
           question: 'How is my investment protected?', 
-          answer: 'Three layers of protection: (1) SPV Ownership — Your investment is held in a separate legal entity that owns the property directly. Even if something happened to Greenbull, the SPV still owns the villa and your equity remains intact. (2) DIFC Regulation — We operate under Dubai International Financial Centre jurisdiction, which follows English common law — one of the world\'s strongest frameworks for investor protection. (3) No Debt — We use 100% cash for acquisitions. No bank loans means no foreclosure risk, no interest rate exposure, and no forced liquidation scenarios.' 
+          answer: 'Three layers of protection:\n\n**1. SPV Ownership :** Your investment is held in a separate legal entity that owns the property directly. Even if something happened to Greenbull, the SPV still owns the villa and your equity remains intact.\n\n**2. DIFC Regulation :** We operate under Dubai International Financial Centre jurisdiction, which follows English common law, one of the world\'s strongest frameworks for investor protection.\n\n**3. No Debt :** We use 100% cash for acquisitions. No bank loans means no foreclosure risk, no interest rate exposure, and no forced liquidation scenarios.' 
         },
         { 
           question: 'What is the 15% preferred return?', 
@@ -322,29 +321,29 @@ export const homepageConfig = {
         },
         { 
           question: 'What happens if renovation costs exceed the budget?', 
-          answer: 'We guarantee the renovation budget. When you invest, the renovation cost is fixed upfront. If our team encounters unexpected expenses — material price increases, unforeseen structural work, labor cost overruns — we absorb those costs, not you. Your capital exposure is capped at your initial investment. We will never ask you for additional funds. This is possible because we control the entire renovation process in-house, giving us accurate cost estimates and execution control.' 
+          answer: 'We guarantee the renovation budget. When you invest, the renovation cost is fixed upfront. If our team encounters unexpected expenses, such as material price increases, unforeseen structural work, or labor cost overruns, we absorb those costs, not you. Your capital exposure is capped at your initial investment. We will never ask you for additional funds. This is possible because we control the entire renovation process in house, giving us accurate cost estimates and execution control.' 
         },
         { 
           question: 'Can I invest remotely from another country?', 
-          answer: 'Absolutely — 100% of the process is digital. You can invest from anywhere in the world. Our investors span 20+ countries across Europe, Asia, Middle East, and beyond. The process: create your account online, complete digital KYC verification (24-48 hours), fund your wallet via bank transfer or card, select a project, and invest. You\'ll receive weekly updates via your dashboard, Instagram stories, and YouTube documentation. Most of our 2,500+ investors have never set foot in Dubai.' 
+          answer: 'Absolutely, 100% of the process is digital. You can invest from anywhere in the world. Our investors span 20+ countries across Europe, Asia, Middle East, and beyond. The process: create your account online, complete digital KYC verification (24–48 hours), fund your wallet via bank transfer or card, select a project, and invest. You\'ll receive weekly updates via your dashboard, Instagram stories, and YouTube documentation. Most of our 2,500+ investors have never set foot in Dubai.' 
         },
         { 
           question: 'What\'s the minimum investment and how do I scale up?', 
-          answer: 'The minimum investment is AED 4,000 (approximately $1,100 USD or €1,000). This low entry point lets you test the model with limited risk. Many investors start with one small position, watch the project progress through weekly updates, and then scale up on subsequent projects once they\'ve seen the process firsthand. Some investors who started at the minimum are now deploying €50,000+ per project. You can diversify across multiple projects or concentrate — it\'s your choice.' 
+          answer: 'The minimum investment is AED 4,000 (approximately $1,100 USD or €1,000). This low entry point lets you test the model with limited risk. Many investors start with one small position, watch the project progress through weekly updates, and then scale up on subsequent projects once they\'ve seen the process firsthand. Some investors who started at the minimum are now deploying €50,000+ per project. You can diversify across multiple projects or concentrate, it\'s your choice.' 
         },
         { 
           question: 'How long is my money locked and can I exit early?', 
-          answer: 'Typical project duration is 12-18 months, covering acquisition, renovation, marketing, and sale. Currently, there is no early exit mechanism — once invested, your capital is committed until the property sells. This is illiquid capital, so only invest money you won\'t need during the project timeline. When the villa sells, funds are distributed to your wallet within 2-4 weeks. You can then withdraw to your bank or reinvest in new projects.' 
+          answer: 'Typical project duration is 12–18 months, covering acquisition, renovation, marketing, and sale. Currently, there is no early exit mechanism, once invested, your capital is committed until the property sells. This is illiquid capital, so only invest money you won\'t need during the project timeline. When the villa sells, funds are distributed to your wallet within 2–4 weeks. You can then withdraw to your bank or reinvest in new projects.' 
         },
         { 
           question: 'What are the risks and how do you mitigate them?', 
-          answer: 'Real estate investing carries real risks: (1) Market Risk — Dubai property values could decline, reducing sale prices. We mitigate this by buying 30-40% below renovated value, creating a buffer. (2) Execution Risk — Renovations could face delays or complications. We mitigate this with our in-house team and 50+ completed projects of experience. (3) Liquidity Risk — Your capital is locked for 12-18 months with no early exit. (4) Currency Risk — Investments are in AED (pegged to USD); EUR investors face exchange rate fluctuation. We cannot eliminate these risks — we can only engineer margins to absorb them. Invest accordingly.' 
+          answer: 'Real estate investing carries real risks:\n\n**1. Market Risk :** Dubai property values could decline, reducing sale prices. We mitigate this by buying 30–40% below renovated value, creating a buffer.\n\n**2. Execution Risk :** Renovations could face delays or complications. We mitigate this with our in house team and 50+ completed projects of experience.\n\n**3. Liquidity Risk :** Your capital is locked for 12–18 months with no early exit.\n\n**4. Currency Risk :** Investments are in AED (pegged to USD); EUR investors face exchange rate fluctuation.\n\nWe cannot eliminate these risks, we can only engineer margins to absorb them. Invest accordingly.' 
         },
       ],
     },
     fr: {
       label: 'FAQ',
-      title: 'Questions Fréquentes',
+      title: 'Questions fréquentes',
       items: [
         { 
           question: 'Dans quoi j\'investis exactement ?', 
@@ -392,14 +391,14 @@ export const homepageConfig = {
 
   finalCta: {
     en: {
-      title: 'Ready to Outperform?',
-      subtitle: 'Join thousands of investors already building wealth with Dubai luxury flips. Start from AED 4,000 — no paperwork, no meetings, just results.',
-      primaryCta: 'Get Started — Create Your Account',
-      secondaryCta: 'Book a Call — Talk to Our Team',
+      title: 'Ready to outperform?',
+      subtitle: 'Join thousands of investors already building wealth with Dubai luxury flips. Start from AED 4,000, no paperwork, no meetings, just results.',
+      primaryCta: 'Get Started : Create Your Account →',
+      secondaryCta: 'Book a Call : Talk to Our Team',
       reassurance: 'Questions? Our team is here to help. Book a free call anytime.',
     },
     fr: {
-      title: 'Prêt à Surperformer ?',
+      title: 'Prêt à surperformer ?',
       subtitle: 'Rejoignez des milliers d\'investisseurs qui construisent leur patrimoine avec les flips de luxe à Dubai. À partir de 4 000 AED — pas de paperasse, pas de rendez-vous, juste des résultats.',
       primaryCta: 'Commencer — Créer Mon Compte',
       secondaryCta: 'Réserver un Appel — Parler à l\'Équipe',

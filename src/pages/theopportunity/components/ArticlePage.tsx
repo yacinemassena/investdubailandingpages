@@ -103,7 +103,7 @@ export default function ArticlePage() {
             <h1 className="text-4xl font-serif mb-6">Article Not Found</h1>
             <p className="text-white/40 mb-12 text-lg">The article you're looking for doesn't exist.</p>
             <Link
-              to="/newhomepage/investopedia"
+              to="/investopedia"
               className="inline-flex items-center gap-2 px-8 py-4 bg-white text-brand-dark rounded-full font-bold hover:bg-brand-accent hover:text-white transition-all"
             >
               <ArrowLeft size={20} />
@@ -130,9 +130,9 @@ export default function ArticlePage() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Breadcrumb */}
             <nav className="flex items-center gap-2 text-xs uppercase tracking-widest text-white/40 mb-12">
-              <Link to="/newhomepage" className="hover:text-brand-accent transition-colors">Home</Link>
+              <Link to="/" className="hover:text-brand-accent transition-colors">Home</Link>
               <span className="opacity-20">/</span>
-              <Link to="/newhomepage/investopedia" className="hover:text-brand-accent transition-colors">Investopedia</Link>
+              <Link to="/investopedia" className="hover:text-brand-accent transition-colors">Investopedia</Link>
               <span className="opacity-20">/</span>
               <span className="text-white/80 truncate">{article.title}</span>
             </nav>
@@ -202,7 +202,7 @@ export default function ArticlePage() {
               <div className="flex items-center justify-between mb-16">
                 <h2 className="text-3xl md:text-4xl font-serif">More insights</h2>
                 <Link
-                  to="/newhomepage/investopedia"
+                  to="/investopedia"
                   className="text-white/40 hover:text-brand-accent transition-colors flex items-center gap-2 text-sm uppercase tracking-widest font-bold"
                 >
                   View all <ArrowRight size={14} />
@@ -213,7 +213,7 @@ export default function ArticlePage() {
                 {relatedArticles.map((related) => (
                   <Link
                     key={related.id}
-                    to={`/newhomepage/investopedia/${related.slug}`}
+                    to={`/investopedia/${related.slug}`}
                     className="group block"
                   >
                     <div className="aspect-[16/10] rounded-2xl overflow-hidden mb-6 bg-brand-dark-surface border border-white/5">
@@ -244,7 +244,7 @@ export default function ArticlePage() {
         {/* Back CTA */}
         <section className="py-24 text-center">
           <Link
-            to="/newhomepage/investopedia"
+            to="/investopedia"
             className="inline-flex items-center gap-3 px-8 py-4 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm font-bold uppercase tracking-widest transition-all"
           >
             <ArrowLeft size={16} />

@@ -20,7 +20,7 @@ export const HowItWorks = () => {
             const Icon = icons[i];
             return (
               <div key={i} className="relative">
-                <div className="bg-brand-bg rounded-2xl p-6 border border-brand-border h-full">
+                <div className="bg-brand-bg rounded-2xl p-6 border border-brand-border h-full transition-transform duration-300 hover:scale-105">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-10 h-10 bg-brand-accent-light rounded-xl flex items-center justify-center">
                       <Icon className="w-5 h-5 text-brand-accent" />
@@ -30,24 +30,17 @@ export const HowItWorks = () => {
                   <h3 className="text-lg font-bold text-brand-dark mb-2">{step.title}</h3>
                   <p className="text-brand-muted leading-relaxed">{step.description}</p>
                 </div>
-                {i < howItWorks.steps.length - 1 && (
-                <div className="hidden md:block absolute top-1/2 -right-3 transform -translate-y-1/2 z-10">
-                    <div className="w-6 h-6 bg-brand-bg rounded-full border border-brand-border flex items-center justify-center">
-                      <ArrowRight className="w-3 h-3 text-brand-muted" />
-                    </div>
-                  </div>
-                )}
               </div>
             );
           })}
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="#" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 hover:opacity-90 transition-opacity">
+          <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 hover:opacity-90 transition-opacity">
             {howItWorks.cta}
             <ArrowRight className="w-4 h-4" />
           </a>
-          <a href="/newhomepage/how-it-works" className="border border-brand-border bg-brand-surface text-brand-dark px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 hover:bg-brand-bg transition-colors">
+          <a href="/how-it-works" className="border border-brand-border bg-brand-surface text-brand-dark px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 hover:bg-brand-bg transition-colors">
             See Full Process
             <ArrowRight className="w-4 h-4" />
           </a>

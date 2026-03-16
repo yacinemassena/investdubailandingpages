@@ -11,19 +11,20 @@ export const Problem = () => {
           <span className="inline-block px-4 py-2 bg-brand-accent/10 text-brand-accent text-sm font-semibold rounded-full mb-6">
             {problem.label}
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-brand-dark mb-6 tracking-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-brand-dark mb-6 tracking-wide">
             {problem.title}
           </h2>
-          <p className="text-lg text-brand-muted max-w-3xl mx-auto leading-relaxed">
-            {problem.subtitle}
+          <p className="text-lg text-brand-muted max-w-3xl mx-auto leading-relaxed tracking-wide">
+            {problem.subtitle}<br />
+            {problem.subtitleLine2}
           </p>
         </div>
 
-        <div className="bg-white rounded-3xl border border-brand-border shadow-sm overflow-hidden mb-12">
+        <div className="bg-white rounded-3xl border border-brand-border shadow-xl overflow-hidden mb-12">
           <div className="overflow-x-auto">
             <table className="w-full min-w-[700px]">
               <thead>
-                <tr className="bg-brand-surface/50">
+                <tr className="bg-brand-accent/10">
                   <th className="text-left py-5 px-6 text-xs font-bold uppercase tracking-wider text-brand-muted">Investment</th>
                   <th className="text-left py-5 px-6 text-xs font-bold uppercase tracking-wider text-brand-muted">Typical Return</th>
                   <th className="text-left py-5 px-6 text-xs font-bold uppercase tracking-wider text-brand-muted">Timeline</th>
@@ -40,16 +41,16 @@ export const Problem = () => {
                         : 'hover:bg-brand-surface/30'
                     }`}
                   >
-                    <td className={`py-5 px-6 font-semibold ${row.highlight ? 'text-white' : 'text-brand-dark'}`}>
+                    <td className={`py-5 px-6 ${row.highlight ? 'text-white font-bold' : 'text-brand-dark font-semibold'}`}>
                       {row.investment}
                     </td>
-                    <td className={`py-5 px-6 font-bold text-lg ${row.highlight ? 'text-white' : 'text-brand-dark'}`}>
+                    <td className={`py-5 px-6 ${row.highlight ? 'text-white font-bold' : 'text-brand-dark font-bold'} text-lg`}>
                       {row.returns}
                     </td>
-                    <td className={`py-5 px-6 ${row.highlight ? 'text-white/90' : 'text-brand-muted'}`}>
+                    <td className={`py-5 px-6 ${row.highlight ? 'text-white font-bold' : 'text-brand-muted'}`}>
                       {row.timeline}
                     </td>
-                    <td className={`py-5 px-6 ${row.highlight ? 'text-white/90' : 'text-brand-muted'}`}>
+                    <td className={`py-5 px-6 ${row.highlight ? 'text-white font-bold' : 'text-brand-muted'}`}>
                       {row.catch}
                     </td>
                   </tr>

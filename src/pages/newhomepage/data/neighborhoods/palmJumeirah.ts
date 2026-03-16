@@ -156,7 +156,7 @@ Palm Jumeirah represents the ultimate Dubai real estate investment. Its combinat
 
 **Investment Verdict**: Premium opportunity for well-capitalized investors; exceptional flip potential in villa segment.`,
     slug: 'is-investing-palm-jumeirah-good-idea',
-    image: '/images/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-4001.jpg',
   },
   {
     id: 4002,
@@ -312,7 +312,7 @@ Buildings along the main trunk road:
 
 Palm Jumeirah pricing reflects its premium positioning and scarcity value. Understanding the micro-markets—villa types, frond positions, view premiums—helps investors identify opportunities. For flip investors, the substantial spread between unrenovated and renovated properties creates compelling economics.`,
     slug: 'palm-jumeirah-property-prices-2026',
-    image: '/images/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-4002.jpg',
   },
   {
     id: 4003,
@@ -574,7 +574,7 @@ Palm Jumeirah villas offer exceptional flip opportunities for well-capitalized i
 
 For investors able to access this market, villa flipping on Palm Jumeirah delivers some of the highest absolute returns in Dubai real estate.`,
     slug: 'palm-jumeirah-villa-investment-guide',
-    image: '/images/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-4003.jpg',
   },
   {
     id: 4004,
@@ -761,7 +761,7 @@ For investors with sufficient capital, holding positions in both provides:
 
 Both Palm Jumeirah and Emirates Hills represent exceptional luxury investments. Palm offers iconic waterfront appeal and better liquidity; Emirates Hills provides privacy, space, and exclusivity. For flip investors, Palm typically offers better risk-adjusted returns due to stronger liquidity, while Emirates Hills suits those with established UHNW networks and patience for longer cycles.`,
     slug: 'palm-jumeirah-vs-emirates-hills-comparison',
-    image: '/images/0A6A5756.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-4004.jpg',
   },
   {
     id: 4005,
@@ -1020,7 +1020,7 @@ Palm Jumeirah villa flipping offers exceptional returns for qualified investors.
 
 For those who can access this market, Palm villa flipping represents some of the most profitable real estate investment in Dubai.`,
     slug: 'flipping-villas-palm-jumeirah-guide',
-    image: '/images/0A6A5758.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5758.jpg',
   },
   {
     id: 4006,
@@ -1240,7 +1240,7 @@ Palm Jumeirah apartments offer accessible entry to Dubai's most iconic address. 
 
 The key is matching your capital and capabilities to the right segment—apartments for accessibility and simplicity, villas for maximum returns and prestige.`,
     slug: 'palm-jumeirah-apartments-investment-analysis',
-    image: '/images/0K8A7227.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7227.jpg',
   },
   {
     id: 4007,
@@ -1433,7 +1433,7 @@ Palm Jumeirah's rental market serves premium tenants willing to pay for the icon
 
 However, for investors seeking maximum returns, the flip strategy significantly outperforms rental income. The optimal approach may combine both: flip to build capital, then transition to rental for passive income.`,
     slug: 'palm-jumeirah-rental-market-yields-demand',
-    image: '/images/0K8A7233.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-4007.jpg',
   },
   {
     id: 4008,
@@ -1638,6 +1638,6 @@ Palm Jumeirah ownership comes with premium costs reflecting the exclusive locati
 
 Factor all costs—service charges, maintenance, waterfront-specific expenses—into your investment calculations to avoid surprises.`,
     slug: 'palm-jumeirah-service-charges-maintenance-costs',
-    image: '/images/0K8A7239.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-4008.jpg',
   },
 ];

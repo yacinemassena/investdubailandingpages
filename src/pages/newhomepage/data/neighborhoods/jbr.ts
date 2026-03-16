@@ -137,7 +137,7 @@ JBR remains a compelling investment for those who value beach access and lifesty
 
 **Investment Verdict**: Strong opportunity for lifestyle-focused rental and flip strategies.`,
     slug: 'is-jbr-good-investment-2026',
-    image: '/images/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-7001.jpg',
   },
   {
     id: 7002,
@@ -284,7 +284,7 @@ JBR comprises 6 clusters, each with different characteristics:
 
 JBR pricing reflects its premium beachfront positioning. Understanding the cluster dynamics, view premiums, and condition variations helps investors identify opportunities. For flip investors, the aging inventory across all clusters provides renovation spreads with strong buyer demand.`,
     slug: 'jbr-property-prices-2026',
-    image: '/images/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-7002.jpg',
   },
   {
     id: 7003,
@@ -544,7 +544,7 @@ JBR offers strong short-term rental potential driven by beach access and tourist
 
 For flip investors, renovating with short-term rental appeal can attract investor buyers seeking turnkey holiday homes, potentially commanding premiums.`,
     slug: 'jbr-short-term-rental-investment-guide',
-    image: '/images/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-7003.jpg',
   },
   {
     id: 7004,
@@ -784,7 +784,7 @@ JBR offers excellent flip opportunities driven by aging inventory and strong bea
 
 The beachfront positioning means buyers expect quality that matches the lifestyle—renovations should be comprehensive and well-executed. Focus on maximizing the beach appeal, and the market will reward you with strong returns.`,
     slug: 'flipping-properties-jbr-guide',
-    image: '/images/0A6A5756.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-7004.jpg',
   },
   {
     id: 7005,
@@ -960,7 +960,7 @@ For flip investors, both present excellent opportunities with aging inventory an
 
 The optimal choice depends on your capital, target buyer profile, and investment strategy.`,
     slug: 'jbr-vs-dubai-marina-investment-comparison',
-    image: '/images/0A6A5758.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-7005.jpg',
   },
   {
     id: 7006,
@@ -1152,6 +1152,6 @@ JBR delivers attractive rental yields driven by beach access and lifestyle appea
 
 However, for investors seeking maximum returns, the flip strategy significantly outperforms rental income. The optimal approach may combine both: flip to build capital, then transition to rental for passive income.`,
     slug: 'jbr-rental-yields-maximizing-returns',
-    image: '/images/0K8A7227.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-7006.jpg',
   },
 ];

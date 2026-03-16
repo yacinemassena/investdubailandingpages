@@ -72,7 +72,7 @@ Downtown Dubai remains one of the most compelling investment destinations in the
 
 **Investment Tip**: Consider targeting older units in prime buildings for renovation. The gap between unrenovated and fully upgraded properties can be substantial, creating opportunity for informed investors.`,
     slug: 'is-investing-downtown-dubai-good-idea',
-    image: '/images/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5723.jpg',
   },
   {
     id: 1002,
@@ -170,7 +170,7 @@ The renovation spread and strong resale liquidity make Downtown compelling for f
 
 Downtown Dubai pricing reflects its premium positioning. While entry costs are substantial, the district offers liquidity, brand recognition, and value-add potential that justify the premium for many investors. Understanding the micro-market dynamics within Downtown helps identify the best opportunities.`,
     slug: 'downtown-dubai-property-prices-2026',
-    image: '/images/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5728.jpg',
   },
   {
     id: 1003,
@@ -314,7 +314,7 @@ For flip strategies specifically, both areas offer opportunity:
 
 Neither district is universally "better"—the right choice depends on your capital, risk tolerance, and strategy. Downtown offers stability and prestige; Business Bay offers value and growth potential. Many sophisticated investors hold positions in both, diversifying across the risk-return spectrum.`,
     slug: 'downtown-dubai-vs-business-bay-investment',
-    image: '/images/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5754.jpg',
   },
   {
     id: 1004,
@@ -476,7 +476,7 @@ This aging inventory creates the value-add opportunities that flip strategies ex
 
 Downtown Dubai's transformation from desert to global landmark demonstrates Dubai's capacity for ambitious development. For investors, this history provides confidence in the area's permanence while the aging building stock creates ongoing opportunity for value-add strategies.`,
     slug: 'downtown-dubai-complete-guide-history',
-    image: '/images/0A6A5756.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5756.jpg',
   },
   {
     id: 1005,
@@ -635,7 +635,7 @@ Downtown Dubai rental yields are competitive with global gateway cities but mode
 
 The optimal approach often combines both: using flip profits to build a rental portfolio over time, eventually transitioning to passive income as wealth accumulates.`,
     slug: 'downtown-dubai-rental-yields-analysis',
-    image: '/images/0A6A5758.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5758.jpg',
   },
   {
     id: 1006,
@@ -811,7 +811,7 @@ Always conduct due diligence on specific buildings before investing.
 
 Downtown Dubai offers investment opportunities across the price spectrum. Premium buildings provide prestige and liquidity; value-tier buildings offer higher yields and flip potential. Match your building selection to your strategy: rental income favors mid-tier buildings with balanced yields, while flip strategies thrive in older value-tier buildings with renovation spread.`,
     slug: 'best-buildings-invest-downtown-dubai',
-    image: '/images/0K8A7227.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7227.jpg',
   },
   {
     id: 1007,
@@ -983,7 +983,7 @@ For investors new to Downtown flipping:
 
 Downtown Dubai offers ideal conditions for property flipping: aging inventory, strong demand, and deep liquidity. Success requires disciplined acquisition, efficient renovation, and competitive pricing. For investors willing to engage actively, flip returns significantly outpace passive rental strategies.`,
     slug: 'flipping-properties-downtown-dubai-guide',
-    image: '/images/0K8A7233.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7233.jpg',
   },
   {
     id: 1008,
@@ -1162,7 +1162,7 @@ This demand supports:
 
 Downtown Dubai serves family investors well, particularly for 2-3 bedroom units in established buildings. The combination of urban convenience, quality amenities, and strong demand from relocating families creates solid investment fundamentals. For flip investors, targeting family-appropriate renovations can access this premium buyer segment.`,
     slug: 'downtown-dubai-families-investment-guide',
-    image: '/images/0K8A7239.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7239.jpg',
   },
   {
     id: 1009,
@@ -1330,7 +1330,7 @@ Service charges typically increase 3-5% annually. Budget for gradual increases i
 
 Service charges are a significant but manageable cost in Downtown Dubai investment. Understanding the range by building type helps investors choose properties aligned with their strategy. For flip investors, shorter holding periods minimize service charge exposure. For rental investors, accurate net yield calculations ensure realistic return expectations.`,
     slug: 'downtown-dubai-service-charges-breakdown',
-    image: '/images/0K8A7245.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7245.jpg',
   },
   {
     id: 1010,
@@ -1481,7 +1481,7 @@ The flip strategy's short cycles and value-creation focus make it particularly s
 
 **Key Takeaway**: Rather than asking "Is now the right time?", ask "Can I execute a profitable strategy?" If you can identify undervalued properties, renovate efficiently, and sell competitively, the market timing becomes less critical.`,
     slug: 'should-buy-property-downtown-dubai-2026',
-    image: '/images/0K8A7248.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7248.jpg',
   },
   {
     id: 1011,
@@ -1673,7 +1673,7 @@ For dedicated flip strategies, **2-bedroom apartments** typically offer the best
 
 Unit type selection should align with your investment strategy and capital. Studios offer yields, 1-beds provide balance, 2-beds excel for flipping, and 3-beds+ suit specialized investors. For most flip-focused investors, 2-bedroom apartments in established buildings represent the optimal target.`,
     slug: 'downtown-dubai-apartment-types-investment',
-    image: '/images/0K8A7257.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7257.jpg',
   },
   {
     id: 1012,
@@ -1844,7 +1844,7 @@ For investors prioritizing returns over prestige, other Downtown buildings offer
 
 **Investment Verdict**: Hold for prestige and appreciation, not for income or flipping.`,
     slug: 'burj-khalifa-residences-investment-analysis',
-    image: '/images/0K8A7267.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7267.jpg',
   },
   {
     id: 1013,
@@ -2040,7 +2040,7 @@ This balanced approach captures the strengths of each market while managing conc
 
 Neither area is universally superior—the right choice depends on your investment goals, capital, and strategy. Downtown offers prestige and stability; Marina offers yields and lifestyle appeal. For flip investors, both present opportunities, with Downtown favoring premium strategies and Marina favoring volume approaches.`,
     slug: 'downtown-dubai-vs-dubai-marina-investment',
-    image: '/images/IMG_1116.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/IMG_1116.jpg',
   },
   {
     id: 1014,
@@ -2237,7 +2237,7 @@ For most investors, particularly those interested in value-add strategies, ready
 
 Off-plan can work for patient investors with limited capital, but the flip strategy's advantages—manufactured returns, short cycles, and capital efficiency—require ready property ownership.`,
     slug: 'downtown-dubai-off-plan-vs-ready-properties',
-    image: '/images/IMG_1358.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/IMG_1358.jpg',
   },
   {
     id: 1015,
@@ -2483,6 +2483,6 @@ Buying property in Downtown Dubai is straightforward with proper preparation. Th
 
 For flip investors, the purchase process is just the beginning—efficient acquisition sets the stage for successful renovation and profitable exit.`,
     slug: 'how-to-buy-property-downtown-dubai-guide',
-    image: '/images/IMG_1369.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/IMG_1369.jpg',
   },
 ];

@@ -114,7 +114,7 @@ export function Investopedia() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-24">
             {/* Main Featured */}
             <div className="lg:col-span-2 group">
-              <Link to={`/newhomepage/investopedia/${mainFeatured.slug}`} className="block">
+              <Link to={`/investopedia/${mainFeatured.slug}`} className="block">
                 <div className="relative aspect-[16/9] rounded-3xl overflow-hidden mb-6 bg-brand-dark-surface border border-white/5">
                   <img 
                     src={mainFeatured.image} 
@@ -142,7 +142,7 @@ export function Investopedia() {
               {sideFeatured.map((article) => (
                 <Link 
                   key={article.id} 
-                  to={`/newhomepage/investopedia/${article.slug}`}
+                  to={`/investopedia/${article.slug}`}
                   className="group flex gap-6 items-start"
                 >
                   <div className="w-24 h-24 flex-shrink-0 rounded-2xl overflow-hidden bg-brand-dark-surface border border-white/5">
@@ -196,7 +196,7 @@ export function Investopedia() {
                   {section.articles.map((article) => (
                     <Link 
                       key={article.id} 
-                      to={`/newhomepage/investopedia/${article.slug}`}
+                      to={`/investopedia/${article.slug}`}
                       className="group flex gap-6 items-center"
                     >
                       <div className="w-24 h-24 md:w-32 md:h-32 flex-shrink-0 rounded-2xl overflow-hidden bg-brand-dark-surface border border-white/5">
@@ -240,7 +240,7 @@ export function Investopedia() {
               {filteredArticles.map((article) => (
                 <Link 
                   key={article.id} 
-                  to={`/newhomepage/investopedia/${article.slug}`}
+                  to={`/investopedia/${article.slug}`}
                   className="group block"
                 >
                   <div className="relative aspect-[16/10] rounded-2xl overflow-hidden mb-6 bg-brand-dark-surface border border-white/5">
@@ -289,7 +289,7 @@ export function Investopedia() {
             <span className="italic text-white/40 text-4xl md:text-6xl">journey in 10 minutes today</span>
           </h2>
           <Link 
-            to="/newhomepage" 
+            to="/" 
             className="inline-flex items-center gap-4 px-10 py-5 bg-white text-brand-dark rounded-full font-bold text-lg hover:bg-brand-accent hover:text-white transition-all transform hover:scale-105 shadow-xl hover:shadow-brand-accent/20"
           >
             START NOW

@@ -72,7 +72,7 @@ const PageNavigation = ({ currentPage }: { currentPage: number }) => {
 };
 
 const Logo = () => (
-  <a href="#" className="flex items-center">
+  <a href="/" className="flex items-center">
     <img src={logo} alt="InvestDubai" className="h-6" />
   </a>
 );
@@ -113,9 +113,9 @@ const Navbar = ({
           {content.nav.faq}
         </a>
         <LanguageToggle language={language} onToggle={onLanguageToggle} />
-        <button className="bg-black text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-800 transition-colors">
+        <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="bg-black text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-800 transition-colors">
           {language === 'en' ? 'Get Started' : "S'inscrire"}
-        </button>
+        </a>
       </div>
     </div>
   </nav>
@@ -143,9 +143,9 @@ const Hero = ({ content, language }: { content: LanguageContent; language: 'en' 
         <button className="w-full sm:w-auto px-8 py-3 bg-gray-100 text-black font-semibold rounded-md hover:bg-gray-200 transition-colors">
           {content.secondaryCta}
         </button>
-        <button className="w-full sm:w-auto px-8 py-3 bg-black text-white font-semibold rounded-md hover:bg-gray-800 transition-colors flex items-center justify-center gap-2">
+        <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-3 bg-black text-white font-semibold rounded-md hover:bg-gray-800 transition-colors flex items-center justify-center gap-2">
           {language === 'en' ? 'Get Started' : "S'inscrire"} <ArrowRight size={16} />
-        </button>
+        </a>
       </div>
       
       {/* Stats Row */}
@@ -570,11 +570,11 @@ const Footer = ({ content, language }: { content: LanguageContent; language: 'en
             {language === 'en' ? 'Ready to Invest?' : 'Prêt à Investir?'}
           </h4>
           <p className="text-[10px] mb-6 leading-relaxed">
-            {language === 'en' ? 'Start from just 5,000 AED and become a co-owner of luxury Dubai villas.' : 'Commencez dès 5 000 AED et devenez co-propriétaire de villas de luxe à Dubai.'}
+            {language === 'en' ? 'Start from just 4,000 AED and become a co-owner of luxury Dubai villas.' : 'Commencez dès 4 000 AED et devenez co-propriétaire de villas de luxe à Dubai.'}
           </p>
-          <button className="w-full py-2 px-3 bg-[#28de91] hover:bg-[#20c47f] transition-colors rounded text-[10px] font-bold text-black flex items-center justify-center gap-2">
+          <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="w-full py-2 px-3 bg-[#28de91] hover:bg-[#20c47f] transition-colors rounded text-[10px] font-bold text-black flex items-center justify-center gap-2">
             {language === 'en' ? 'GET STARTED' : 'COMMENCER'} <ArrowRight size={12} />
-          </button>
+          </a>
         </div>
       </div>
     </div>

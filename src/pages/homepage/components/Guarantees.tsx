@@ -21,10 +21,10 @@ export const Guarantees = () => {
           <span className="inline-block px-4 py-2 bg-brand-accent/10 text-brand-accent text-sm font-semibold rounded-full mb-6">
             {guarantees.label}
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-brand-dark mb-6 tracking-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-brand-dark mb-6 tracking-wide">
             {guarantees.title}
           </h2>
-          <p className="text-lg text-brand-muted max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg text-brand-muted max-w-3xl mx-auto leading-relaxed tracking-wide">
             {guarantees.subtitle}
           </p>
         </div>
@@ -41,16 +41,16 @@ export const Guarantees = () => {
                   <Icon className="w-7 h-7 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-brand-dark mb-3">{pillar.title}</h3>
-                <p className="text-lg font-semibold text-brand-dark mb-4">{pillar.headline}</p>
-                <p className="text-brand-muted leading-relaxed mb-4">{pillar.description}</p>
-                <p className="text-brand-muted leading-relaxed text-sm mb-6">{pillar.subtext}</p>
-                <div className="flex flex-wrap gap-2">
+                <p className="text-base text-brand-muted leading-relaxed text-justify mb-3">{pillar.headline}</p>
+                <p className="text-base text-brand-muted leading-relaxed text-justify mb-3">{pillar.description}</p>
+                <p className="text-base text-brand-muted leading-relaxed text-justify mb-6">{pillar.subtext}</p>
+                <div className="flex flex-col gap-2">
                   {pillar.badges.map((badge, j) => (
                     <span 
                       key={j}
-                      className="inline-flex items-center gap-1 px-3 py-1.5 bg-white/80 text-brand-dark text-xs font-medium rounded-full"
+                      className="inline-flex items-center gap-2 text-brand-dark text-sm font-medium"
                     >
-                      <Check className="w-3 h-3 text-brand-accent" />
+                      <Check className="w-4 h-4 text-brand-accent flex-shrink-0" />
                       {badge}
                     </span>
                   ))}
@@ -77,7 +77,7 @@ export const Guarantees = () => {
 
         <div className="text-center">
           <a 
-            href="#" 
+            href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" 
             className="inline-flex items-center gap-2 bg-brand-accent text-white px-8 py-4 rounded-full font-semibold hover:bg-brand-accent/90 transition-colors shadow-xl"
           >
             {guarantees.cta}

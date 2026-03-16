@@ -10,11 +10,11 @@ export const GlobalFooter = () => {
           <div>
             <h4 className="text-white font-semibold mb-4">Homepage</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="/newhomepage" className="text-gray-400 hover:text-white transition-colors">New Homepage</a></li>
-              <li><a href="/newhomepage#opportunity" className="text-gray-400 hover:text-white transition-colors">The Opportunity</a></li>
-              <li><a href="/newhomepage/how-it-works" className="text-gray-400 hover:text-white transition-colors">How It Works</a></li>
-              <li><a href="/newhomepage/faq" className="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
-              <li><a href="/newhomepage/price-database" className="text-gray-400 hover:text-white transition-colors">Price Database</a></li>
+              <li><a href="/" className="text-gray-400 hover:text-white transition-colors">Home</a></li>
+              <li><a href="/theopportunity" className="text-gray-400 hover:text-white transition-colors">The Opportunity</a></li>
+              <li><a href="/how-it-works" className="text-gray-400 hover:text-white transition-colors">How It Works</a></li>
+              <li><a href="/faq" className="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
+              <li><a href="/price-database" className="text-gray-400 hover:text-white transition-colors">Price Database</a></li>
             </ul>
           </div>
 
@@ -35,11 +35,11 @@ export const GlobalFooter = () => {
           <div>
             <h4 className="text-white font-semibold mb-4">Investopedia</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="/newhomepage/investopedia" className="text-gray-400 hover:text-white transition-colors">All Articles</a></li>
-              <li><a href="/newhomepage/investopedia?cat=getting-started" className="text-gray-400 hover:text-white transition-colors">Getting Started</a></li>
-              <li><a href="/newhomepage/investopedia?cat=dubai-market" className="text-gray-400 hover:text-white transition-colors">Dubai Market</a></li>
-              <li><a href="/newhomepage/investopedia?cat=legal-tax" className="text-gray-400 hover:text-white transition-colors">Legal & Tax</a></li>
-              <li><a href="/newhomepage/investopedia?cat=strategy" className="text-gray-400 hover:text-white transition-colors">Strategy</a></li>
+              <li><a href="/investopedia" className="text-gray-400 hover:text-white transition-colors">All Articles</a></li>
+              <li><a href="/investopedia?cat=getting-started" className="text-gray-400 hover:text-white transition-colors">Getting Started</a></li>
+              <li><a href="/investopedia?cat=dubai-market" className="text-gray-400 hover:text-white transition-colors">Dubai Market</a></li>
+              <li><a href="/investopedia?cat=legal-tax" className="text-gray-400 hover:text-white transition-colors">Legal & Tax</a></li>
+              <li><a href="/investopedia?cat=strategy" className="text-gray-400 hover:text-white transition-colors">Strategy</a></li>
             </ul>
           </div>
 
@@ -47,11 +47,10 @@ export const GlobalFooter = () => {
           <div>
             <h4 className="text-white font-semibold mb-4">Legal</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Risk Disclosure</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">SPV Structure</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Contact Us</a></li>
+              <li><a href="https://www.investdubai.com/legal/terms-of-use" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Terms of Use</a></li>
+              <li><a href="https://www.investdubai.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
+              <li><a href="https://www.investdubai.com/legal/cookie-policy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Cookie Policy</a></li>
+              <li><a href="https://www.investdubai.com/legal/legal-information" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Legal Information</a></li>
             </ul>
           </div>
         </div>
@@ -64,8 +63,21 @@ export const GlobalFooter = () => {
               © 2026 InvestDubai. All rights reserved.
             </span>
           </div>
-          <p className="text-xs text-gray-600 max-w-xl text-center md:text-right">
-            Capital at risk. Returns not guaranteed. Past performance is not indicative of future results. InvestDubai operates through a regulated crowdfunding partner in the UAE.
+        </div>
+
+        {/* Risk Disclosure */}
+        <div className="pt-8 mt-8 border-t border-white/10">
+          <p className="text-[11px] text-gray-500 leading-relaxed mb-4">
+            <span className="font-semibold text-gray-400">RISK WARNING:</span> Investments in real estate, including through crowdfunding platforms, involve risks, including the risk of partial or total loss of the invested capital and the risk of illiquidity. Past performance is not indicative of future results, and no return is guaranteed.
+          </p>
+          <p className="text-[11px] text-gray-500 leading-relaxed mb-4">
+            The information presented on this website is provided for strictly informational purposes only and does not constitute investment advice, a personal recommendation, or an offer or solicitation to invest. Before making any investment decision, you should conduct your own due diligence and, where appropriate, seek advice from an independent professional advisor.
+          </p>
+          <p className="text-[11px] text-gray-500 leading-relaxed mb-4">
+            For investments made through a crowdfunding platform, please refer to the relevant risk disclosure documentation available here: <a href="https://www.investdubai.com/legal/legal-information" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white underline">key risk disclosure</a>.
+          </p>
+          <p className="text-[11px] text-gray-500 leading-relaxed">
+            This website is for informational purposes only. Any projects presented (including past projects) are shown for illustrative purposes only. To create an account and access available investment opportunities, you must visit the platform operated by our partner SmartCrowd.
           </p>
         </div>
       </div>

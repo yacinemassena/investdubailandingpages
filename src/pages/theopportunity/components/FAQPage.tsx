@@ -181,7 +181,7 @@ const faqItems = [
   { 
     category: 'getting-started', 
     question: 'What is the minimum investment?', 
-    answer: "We have structured our platform to heavily democratize access to ultra-luxury real estate.\n\nThe minimum investment is approximately 5,000 AED (roughly €1,250 or $1,360). This intentionally low threshold allows new investors to start small, thoroughly understand our model, experience the transparency of a full renovation cycle, and scale their portfolio upward as they build trust in our execution." 
+    answer: "We have structured our platform to heavily democratize access to ultra-luxury real estate.\n\nThe minimum investment is approximately 4,000 AED (roughly €1,000 or $1,100). This intentionally low threshold allows new investors to start small, thoroughly understand our model, experience the transparency of a full renovation cycle, and scale their portfolio upward as they build trust in our execution." 
   },
   { 
     category: 'getting-started', 
@@ -218,23 +218,23 @@ export const FAQPage = () => {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-brand-bg/80 backdrop-blur-md border-b border-brand-border">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
-          <a href="/newhomepage" className="flex items-center">
+          <a href="/" className="flex items-center">
             <img src={Logo} alt="InvestDubai" className="h-6" />
           </a>
           
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-brand-muted">
-            <a href="/newhomepage#opportunity" className="hover:text-brand-dark transition-colors">The Opportunity</a>
-            <a href="/newhomepage/how-it-works" className="hover:text-brand-dark transition-colors">How It Works</a>
-            <a href="/newhomepage/investopedia" className="hover:text-brand-dark transition-colors">Investopedia</a>
-            <a href="/newhomepage/price-database" className="hover:text-brand-dark transition-colors">Price Database</a>
-            <a href="/newhomepage/faq" className="text-brand-dark font-semibold">FAQ</a>
+            <a href="/theopportunity" className="hover:text-brand-dark transition-colors">The Opportunity</a>
+            <a href="/how-it-works" className="hover:text-brand-dark transition-colors">How It Works</a>
+            <a href="/investopedia" className="hover:text-brand-dark transition-colors">Investopedia</a>
+            <a href="/price-database" className="hover:text-brand-dark transition-colors">Price Database</a>
+            <a href="/faq" className="text-brand-dark font-semibold">FAQ</a>
           </div>
 
           <div className="flex items-center gap-4">
-            <a href="#" className="text-sm font-medium text-brand-muted hover:text-brand-dark transition-colors">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-brand-muted hover:text-brand-dark transition-colors">
               Log In
             </a>
-            <a href="#" className="bg-brand-accent text-white px-5 py-2.5 rounded-full text-sm font-medium shadow-md shadow-brand-accent/25 hover:shadow-lg hover:-translate-y-0.5 transition-all">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="bg-brand-accent text-white px-5 py-2.5 rounded-full text-sm font-medium shadow-md shadow-brand-accent/25 hover:shadow-lg hover:-translate-y-0.5 transition-all">
               Create Your Account
             </a>
           </div>
@@ -351,10 +351,10 @@ export const FAQPage = () => {
             Book a call with our team for personalized answers, or create your account to explore available projects.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium shadow-md shadow-brand-accent/25 hover:shadow-lg hover:-translate-y-0.5 transition-all">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium shadow-md shadow-brand-accent/25 hover:shadow-lg hover:-translate-y-0.5 transition-all">
               Create Your Free Account
             </a>
-            <a href="#" className="border border-brand-border bg-white text-brand-dark px-8 py-4 rounded-full font-medium shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="border border-brand-border bg-white text-brand-dark px-8 py-4 rounded-full font-medium shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all">
               Book a Call
             </a>
           </div>
@@ -370,11 +370,11 @@ export const FAQPage = () => {
             <div>
               <h4 className="text-white font-semibold mb-4">Homepage</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="/newhomepage" className="text-gray-400 hover:text-white transition-colors">New Homepage</a></li>
-                <li><a href="/newhomepage#opportunity" className="text-gray-400 hover:text-white transition-colors">The Opportunity</a></li>
-                <li><a href="/newhomepage/how-it-works" className="text-gray-400 hover:text-white transition-colors">How It Works</a></li>
-                <li><a href="/newhomepage/faq" className="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
-                <li><a href="/newhomepage/price-database" className="text-gray-400 hover:text-white transition-colors">Price Database</a></li>
+                <li><a href="/" className="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                <li><a href="/theopportunity" className="text-gray-400 hover:text-white transition-colors">The Opportunity</a></li>
+                <li><a href="/how-it-works" className="text-gray-400 hover:text-white transition-colors">How It Works</a></li>
+                <li><a href="/faq" className="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
+                <li><a href="/price-database" className="text-gray-400 hover:text-white transition-colors">Price Database</a></li>
               </ul>
             </div>
 
@@ -395,11 +395,11 @@ export const FAQPage = () => {
             <div>
               <h4 className="text-white font-semibold mb-4">Investopedia</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="/newhomepage/investopedia" className="text-gray-400 hover:text-white transition-colors">All Articles</a></li>
-                <li><a href="/newhomepage/investopedia?cat=getting-started" className="text-gray-400 hover:text-white transition-colors">Getting Started</a></li>
-                <li><a href="/newhomepage/investopedia?cat=dubai-market" className="text-gray-400 hover:text-white transition-colors">Dubai Market</a></li>
-                <li><a href="/newhomepage/investopedia?cat=legal-tax" className="text-gray-400 hover:text-white transition-colors">Legal & Tax</a></li>
-                <li><a href="/newhomepage/investopedia?cat=strategy" className="text-gray-400 hover:text-white transition-colors">Strategy</a></li>
+                <li><a href="/investopedia" className="text-gray-400 hover:text-white transition-colors">All Articles</a></li>
+                <li><a href="/investopedia?cat=getting-started" className="text-gray-400 hover:text-white transition-colors">Getting Started</a></li>
+                <li><a href="/investopedia?cat=dubai-market" className="text-gray-400 hover:text-white transition-colors">Dubai Market</a></li>
+                <li><a href="/investopedia?cat=legal-tax" className="text-gray-400 hover:text-white transition-colors">Legal & Tax</a></li>
+                <li><a href="/investopedia?cat=strategy" className="text-gray-400 hover:text-white transition-colors">Strategy</a></li>
               </ul>
             </div>
 
@@ -407,11 +407,10 @@ export const FAQPage = () => {
             <div>
               <h4 className="text-white font-semibold mb-4">Legal</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Risk Disclosure</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">SPV Structure</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Contact Us</a></li>
+                <li><a href="https://www.investdubai.com/legal/terms-of-use" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Terms of Use</a></li>
+                <li><a href="https://www.investdubai.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
+                <li><a href="https://www.investdubai.com/legal/cookie-policy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Cookie Policy</a></li>
+                <li><a href="https://www.investdubai.com/legal/legal-information" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Legal Information</a></li>
               </ul>
             </div>
           </div>
@@ -424,8 +423,21 @@ export const FAQPage = () => {
                 © 2026 InvestDubai. All rights reserved.
               </span>
             </div>
-            <p className="text-xs text-gray-600 max-w-xl text-center md:text-right">
-              Capital at risk. Returns not guaranteed. Past performance is not indicative of future results. InvestDubai operates through a regulated crowdfunding partner in the UAE.
+          </div>
+
+          {/* Risk Disclosure */}
+          <div className="pt-8 mt-8 border-t border-white/10">
+            <p className="text-[11px] text-gray-500 leading-relaxed mb-4">
+              <span className="font-semibold text-gray-400">RISK WARNING:</span> Investments in real estate, including through crowdfunding platforms, involve risks, including the risk of partial or total loss of the invested capital and the risk of illiquidity. Past performance is not indicative of future results, and no return is guaranteed.
+            </p>
+            <p className="text-[11px] text-gray-500 leading-relaxed mb-4">
+              The information presented on this website is provided for strictly informational purposes only and does not constitute investment advice, a personal recommendation, or an offer or solicitation to invest. Before making any investment decision, you should conduct your own due diligence and, where appropriate, seek advice from an independent professional advisor.
+            </p>
+            <p className="text-[11px] text-gray-500 leading-relaxed mb-4">
+              For investments made through a crowdfunding platform, please refer to the relevant risk disclosure documentation available here: <a href="https://www.investdubai.com/legal/legal-information" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white underline">key risk disclosure</a>.
+            </p>
+            <p className="text-[11px] text-gray-500 leading-relaxed">
+              This website is for informational purposes only. Any projects presented (including past projects) are shown for illustrative purposes only. To create an account and access available investment opportunities, you must visit the platform operated by our partner SmartCrowd.
             </p>
           </div>
         </div>

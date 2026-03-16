@@ -162,7 +162,7 @@ Arabian Ranches offers proven investment potential in Dubai's most established v
 
 **Investment Verdict**: Strong opportunity for family-focused rental and excellent flip potential in AR1.`,
     slug: 'is-arabian-ranches-good-investment',
-    image: '/images/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-8001.jpg',
   },
   {
     id: 8002,
@@ -306,7 +306,7 @@ Arabian Ranches offers proven investment potential in Dubai's most established v
 
 Arabian Ranches pricing varies significantly by phase, community, and condition. AR1 offers the best flip opportunities with aging inventory and established demand. AR2 provides newer options at moderate premiums. Understanding these dynamics helps investors identify the best opportunities for their strategy.`,
     slug: 'arabian-ranches-property-prices-2026',
-    image: '/images/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5728.jpg',
   },
   {
     id: 8003,
@@ -556,7 +556,7 @@ Arabian Ranches offers excellent flip opportunities in Dubai's most established 
 
 The community's proven track record and strong family demand create favorable conditions for value-add investors. Focus on creating family-ready homes that meet practical needs, and the market will reward you with solid returns.`,
     slug: 'flipping-villas-arabian-ranches-guide',
-    image: '/images/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-8003.jpg',
   },
   {
     id: 8004,
@@ -770,7 +770,7 @@ Arabian Ranches' family appeal creates strong, consistent demand for quality pro
 
 For flip investors, targeting family-appropriate renovations in established communities like Saheel and Palmera can access premium buyer demand. The key is creating homes that meet family needs and offer move-in-ready convenience.`,
     slug: 'arabian-ranches-families-complete-guide',
-    image: '/images/0A6A5756.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5756.jpg',
   },
   {
     id: 8005,
@@ -956,7 +956,7 @@ Arabian Ranches delivers solid rental yields driven by strong family demand. The
 
 However, for investors seeking maximum returns, the flip strategy significantly outperforms rental income. The optimal approach may combine both: flip to build capital, then transition to rental for passive income.`,
     slug: 'arabian-ranches-rental-yields-analysis',
-    image: '/images/0A6A5758.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5758.jpg',
   },
   {
     id: 8006,
@@ -1072,6 +1072,6 @@ Both communities offer compelling family-focused investment opportunities. Arabi
 
 For flip investors, Arabian Ranches' older inventory offers larger renovation spreads, while Dubai Hills' central location and growing demand provide strong buyer interest.`,
     slug: 'arabian-ranches-vs-dubai-hills-comparison',
-    image: '/images/0K8A7227.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0K8A7227.jpg',
   },
 ];

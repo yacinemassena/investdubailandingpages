@@ -160,7 +160,7 @@ const faqItems = [
   { 
     category: 'process', 
     question: 'How do I fund my account?', 
-    answer: "You can seamlessly fund your investor wallet via standard bank wire transfer or select card payment options.\n\nThe funds are held in a secure, segregated client account until you choose to allocate them into a specific property SPV. When you are ready to withdraw—either uninvested funds or profits from a successful sale—you can instantly request a transfer directly back to your linked personal bank account." 
+    answer: "You can seamlessly fund your investor wallet via standard bank wire transfer or select card payment options.\n\nThe funds are held in a secure, segregated client account until you choose to allocate them into a specific property SPV. When you are ready to withdraw, either uninvested funds or profits from a successful sale, you can instantly request a transfer directly back to your linked personal bank account." 
   },
   { 
     category: 'process', 
@@ -182,7 +182,7 @@ const faqItems = [
   { 
     category: 'getting-started', 
     question: 'What is the minimum investment?', 
-    answer: "We have structured our platform to heavily democratize access to ultra-luxury real estate.\n\nThe minimum investment is approximately 5,000 AED (roughly €1,250 or $1,360). This intentionally low threshold allows new investors to start small, thoroughly understand our model, experience the transparency of a full renovation cycle, and scale their portfolio upward as they build trust in our execution." 
+    answer: "We have structured our platform to heavily democratize access to ultra-luxury real estate.\n\nThe minimum investment is approximately 4,000 AED (roughly €1,000 or $1,100). This intentionally low threshold allows new investors to start small, thoroughly understand our model, experience the transparency of a full renovation cycle, and scale their portfolio upward as they build trust in our execution." 
   },
   { 
     category: 'getting-started', 
@@ -192,7 +192,7 @@ const faqItems = [
   { 
     category: 'getting-started', 
     question: 'Should I start small or go big?', 
-    answer: "For first-time users of our platform, we highly recommend starting with a smaller allocation.\n\nThis allows you to witness the entire operational lifecycle—from the initial investment, through the weekly construction updates, to the final sale and profit distribution—without over-committing. Once you have directly experienced a successful exit and understand the mechanics of the platform, you can confidently scale your investments based on your financial goals." 
+    answer: "For first-time users of our platform, we highly recommend starting with a smaller allocation.\n\nThis allows you to witness the entire operational lifecycle, from the initial investment, through the weekly construction updates, to the final sale and profit distribution, without over-committing. Once you have directly experienced a successful exit and understand the mechanics of the platform, you can confidently scale your investments based on your financial goals." 
   },
   { 
     category: 'getting-started', 
@@ -328,10 +328,10 @@ export const FAQPage = () => {
             Book a call with our team for personalized answers, or create your account to explore available projects.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium shadow-md shadow-brand-accent/25 hover:shadow-lg hover:-translate-y-0.5 transition-all">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium shadow-md shadow-brand-accent/25 hover:shadow-lg hover:-translate-y-0.5 transition-all">
               Create Your Free Account
             </a>
-            <a href="#" className="border border-brand-border bg-white text-brand-dark px-8 py-4 rounded-full font-medium shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="border border-brand-border bg-white text-brand-dark px-8 py-4 rounded-full font-medium shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all">
               Book a Call
             </a>
           </div>

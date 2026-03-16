@@ -137,7 +137,7 @@ JVC offers compelling yields and accessible entry points. For investors prioriti
 
 **Investment Verdict**: Excellent for yield-focused rental and volume flip strategies.`,
     slug: 'is-jvc-good-investment-2026',
-    image: '/images/0A6A5723.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-9001.jpg',
   },
   {
     id: 9002,
@@ -265,7 +265,7 @@ Both strategies work in JVC. Choice depends on involvement preference.
 
 JVC delivers Dubai's highest rental yields, making it ideal for income-focused investors. The combination of low prices and strong rental demand creates compelling economics. For those prioritizing yield over prestige, JVC is hard to beat.`,
     slug: 'jvc-rental-yields-maximizing-returns',
-    image: '/images/0A6A5728.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-9002.jpg',
   },
   {
     id: 9003,
@@ -445,6 +445,6 @@ JVC's low entry costs enable volume flip strategies that can significantly outpe
 
 For investors willing to manage complexity, volume flipping in JVC delivers exceptional returns through capital efficiency and quick cycles.`,
     slug: 'flipping-properties-jvc-volume-strategy',
-    image: '/images/0A6A5754.jpg',
+    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5754.jpg',
   },
 ];

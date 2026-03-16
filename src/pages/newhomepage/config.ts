@@ -15,13 +15,13 @@ export const homepageContent = {
     eyebrow: 'Regulated Real Estate Crowdfunding',
     headline: 'The most logical investment',
     headlineSecondLine: 'in real estate',
-    subheadline: "Buy undervalued luxury villas in Dubai, renovate them, sell at market price. The gap between non-renovated and renovated is your return — and it's been there for years.",
+    subheadline: "Buy undervalued luxury villas in Dubai, renovate them, sell at market price. The gap between non-renovated and renovated is your return, and it's been there for years.",
     primaryCta: 'Create an Account',
     secondaryCta: 'See the opportunity',
     stats: [
-      { value: '50+', label: 'Luxury villas flipped' },
+      { value: '40', label: 'Luxury villas flipped' },
       { value: '29%', label: 'Average historical payout' },
-      { value: '6–18 mo', label: 'Typical project cycle' },
+      { value: '12–18 mo', label: 'Typical project cycle' },
       { value: '0%', label: 'Debt used' },
     ],
   },
@@ -29,8 +29,8 @@ export const homepageContent = {
   opportunity: {
     label: 'The Opportunity',
     title: 'Non-renovated villas sell for 50% less than renovated ones',
-    body: "In Dubai, villas in the same community with the same layout have consistent pricing. **Non-renovated properties trade at 35-60% less** than renovated ones. We buy non-renovated villas, renovate them, and sell at the renovated market price. **The price difference is your profit**.",
-    pullQuote: 'We create value through redevelopment — not by betting on market growth. ',
+    body: "In Dubai, villas in the same community with the same layout have consistent pricing. Non-renovated properties trade at 35-60% less than renovated ones. We buy non-renovated villas, renovate them, and sell at the renovated market price. The price difference is your profit.",
+    pullQuote: 'We create value through redevelopment, not by betting on market growth.',
     chart: {
       leftBarLabel: 'Non-renovated purchase price',
       rightBarLabel: 'Renovated sale price',
@@ -38,7 +38,7 @@ export const homepageContent = {
       gapValue: '+50%',
       gapSubtext: 'price differential',
       bottomText: 'Same villa type. Same community. Same size.',
-      disclaimer: 'Illustrative. Based on comparable transactions in Palm Jumeirah, Jumeirah Islands, and Al Barari. Past performance is not indicative of future results.',
+      disclaimer: 'Illustrative. Based on comparable transactions in Palm Jumeirah, Jumeirah Islands, and Al Barari.',
     },
     cta: 'Create an Account',
   },
@@ -48,7 +48,7 @@ export const homepageContent = {
     subheadline: '40 villas acquired, with over $130M in profits distributed already achieved and an average return of 74.17% on completed projects.',
     latestProjectsLabel: 'Latest Completed Projects',
     showMoreText: 'Show More',
-    disclaimer: 'The annualized net returns are net of all fees and costs. Past performance is not indicative of future results. Investments involve risk and may result in partial or total loss of capital.',
+    disclaimer: 'The annualized net returns are net of all fees and costs.',
     projects: [
       { id: 'Flip 32', investment: 'AED 24,670,000', selling: 'AED 34,680,000', roi: '41%', image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80' },
       { id: 'Flip 31', investment: 'AED 23,580,000', selling: 'AED 33,800,000', roi: '43%', image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80' },
@@ -92,43 +92,43 @@ export const homepageContent = {
       { value: '15%', label: 'Priority return for investors', description: 'Paid first, before any profit split' },
       { value: '~20%', label: 'Target return per project', description: 'Based on acquisition analysis' },
       { value: '29%', label: 'Average historical payout', description: 'Across completed projects' },
-      { value: '€1,000', label: 'Minimum investment', description: 'Accessible to retail investors' },
+      { value: '4,000 AED', label: 'Minimum investment', description: 'Accessible to retail investors' },
     ],
     primaryCta: 'Create an Account',
     secondaryCta: 'Book a Call',
-    disclaimer: 'Capital at risk. Returns are not guaranteed and depend on property performance. Past results do not guarantee future performance. Invest Dubai operates through a regulated crowdfunding partner in the UAE.',
+    disclaimer: 'Invest Dubai operates through a regulated crowdfunding partner in the UAE.',
   },
 
   howItWorks: {
     label: 'Your Journey',
     title: 'How it works',
     steps: [
-      { number: '01', title: 'Create Account', description: 'Sign up online and complete identity verification (KYC). Takes under 5 minutes.' },
-      { number: '02', title: 'Choose a Project', description: 'Browse available villa projects. Review location, target return, timeline, and full details.' },
-      { number: '03', title: 'Invest', description: 'Fund your wallet and invest from €1,000. A dedicated SPV is created — you become a co-owner.' },
-      { number: '04', title: 'Watch It Happen', description: "Track the renovation with weekly updates. You can see exactly what's happening." },
-      { number: '05', title: 'Get Paid', description: 'When the villa sells, your capital + profits are credited. Withdraw or reinvest in the next project.' },
+      { number: '01', title: 'Create account', description: 'Sign up online and complete identity verification (KYC). Takes under 5 minutes.' },
+      { number: '02', title: 'Choose a project', description: 'Browse available villa projects. Review location, target return, timeline, and full details.' },
+      { number: '03', title: 'Invest', description: 'Fund your wallet and invest from 4,000 AED. A dedicated SPV is created, you become a co-owner.' },
+      { number: '04', title: 'Watch it happen', description: "Track the renovation with weekly updates. You can see exactly what's happening." },
+      { number: '05', title: 'Get paid', description: 'When the villa sells, your capital + profits are credited. Withdraw or reinvest in the next project.' },
     ],
     cta: 'Create an Account',
   },
 
   whyInvestDubai: {
     label: 'Why Invest Dubai',
-    title: 'What makes Invest Dubai different',
+    title: 'What makes invest Dubai different',
     subtitle: 'We operate differently than other crowdfunding platforms.',
     trustPoints: [
-      { title: 'We do the work ourselves', description: '**In-house architects, daily on-site supervision, controlled materials.** Greenbull has completed **50+ luxury villas** across Palm Jumeirah, Jumeirah Islands, and Al Barari.' },
+      { title: 'We do the work ourselves', description: '**In-house architects, daily on-site supervision, controlled materials.** Greenbull has completed **40 luxury villas** across Palm Jumeirah, Jumeirah Islands, Emirates Hills, and Al Barari.' },
       { title: 'You own the asset', description: "Each project sits in a **dedicated SPV**. You hold shares, the SPV holds the title deed. If anything happens to us, **the property is still yours**." },
       { title: 'Zero debt, zero leverage', description: '**100% cash acquisitions.** No bank loans, no interest exposure, no risk of forced liquidation. **Naturally Sharia-compliant.**' },
-      { title: 'Fixed-cost renovation guarantee', description: '**Renovation budgets are locked upfront.** If we overspend on materials or labor, we absorb the cost — never the investors. Your capital is protected from construction overruns.' },
-      { title: 'Full transparency', description: "Weekly Instagram story updates, YouTube documentation, visible properties. You see exactly what's happening at every stage — **nothing hidden behind closed doors**." },
+      { title: 'Fixed-cost renovation guarantee', description: '**Renovation budgets are locked upfront.** If we overspend on materials or labor, we absorb the cost, never the investors. Your capital is protected from construction overruns.' },
+      { title: 'Full transparency', description: "Weekly Instagram story updates, YouTube documentation, visible properties. You see exactly what's happening at every stage, **nothing hidden behind closed doors**." },
       { title: 'Regulated structure', description: 'Invest Dubai operates through a **regulated crowdfunding partner under UAE law**, ensuring investor protections and compliance at every level.' },
     ],
     highlightCard: {
-      stat: '50+',
+      stat: '40',
       statLabel: 'Luxury villas flipped by our in-house team',
       features: [
-        'Palm Jumeirah, Jumeirah Islands, Al Barari',
+        'Palm Jumeirah, Jumeirah Islands, Emirates Hills, Al Barari',
         'In-house architects & project managers',
         'Daily on-site supervision',
         'Full materials control',
@@ -138,7 +138,7 @@ export const homepageContent = {
     },
     alignedIncentives: {
       title: 'We only profit when you profit',
-      description: "The team profits only when the villa sells at a gain — same as you. There's no management fee on your capital. We succeed when you succeed.",
+      description: "The team profits only when the villa sells at a gain, same as you. There's no management fee on your capital. We succeed when you succeed.",
     },
   },
 
@@ -150,7 +150,7 @@ export const homepageContent = {
     questions: [
       {
         question: 'Is Invest Dubai legal and regulated?',
-        answer: "Yes, we operate with full legal compliance and transparency. Invest Dubai functions through a regulated crowdfunding partner that is fully licensed under UAE law. This ensures that our operations meet strict regulatory standards for investor protection.\n\nFurthermore, every single property project is held within its own dedicated Special Purpose Vehicle (SPV)—a separate legal entity that holds the official title deed.\n\nWhen you invest, you become a documented shareholder in that specific SPV, providing you with true equity ownership in the real estate asset rather than just a contractual promise.",
+        answer: "Yes, we operate with full legal compliance and transparency. Invest Dubai functions through SmartCrowd, a regulated crowdfunding platform fully licensed under UAE law and operating within the DIFC (Dubai International Financial Centre). The DIFC follows English common law — one of the world's most robust legal frameworks for investor protection.\n\nFurthermore, every single property project is held within its own dedicated Special Purpose Vehicle (SPV)—a separate legal entity that holds the official title deed.\n\nWhen you invest, you become a documented shareholder in that specific SPV, providing you with true equity ownership in the real estate asset rather than just a contractual promise.",
       },
       {
         question: 'What happens if Greenbull disappears?',
@@ -174,7 +174,7 @@ export const homepageContent = {
       },
       {
         question: "What's the minimum investment?",
-        answer: "We have structured Invest Dubai to heavily democratize access to ultra-luxury real estate that was previously reserved for institutional investors.\n\nYou can begin investing with approximately €1,000 (around 4,000 AED).\n\nAll investments on our platform are denominated in UAE Dirhams (AED), which is strictly pegged to the US Dollar (USD). This eliminates currency risk for USD investors, though European investors may experience minor, normal exchange rate fluctuations between the EUR and the USD/AED peg over the lifecycle of the project.",
+        answer: "We have structured Invest Dubai to heavily democratize access to ultra-luxury real estate that was previously reserved for institutional investors.\n\nYou can begin investing with 4,000 AED (approximately €1,000).\n\nAll investments on our platform are denominated in UAE Dirhams (AED), which is strictly pegged to the US Dollar (USD). This eliminates currency risk for USD investors, though European investors may experience minor, normal exchange rate fluctuations between the EUR and the USD/AED peg over the lifecycle of the project.",
       },
       {
         question: "What about taxes for French residents?",
@@ -189,7 +189,7 @@ export const homepageContent = {
     subtitle: "Create your account in 5 minutes. Browse projects and invest when you're ready.",
     primaryCta: 'Create an Account',
     secondaryCta: 'Book a Call',
-    disclaimer: 'Capital at risk. Returns not guaranteed. Past performance is not indicative of future results.',
+    disclaimer: '',
   },
 
   footer: {

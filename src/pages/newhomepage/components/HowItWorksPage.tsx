@@ -7,7 +7,7 @@ const processSteps = [
   {
     number: '01',
     title: 'Create Your Account',
-    description: 'Sign up online in under 2 minutes. Complete identity verification (KYC) — we verify your documents within 24-48 hours. No payment required until you invest.',
+    description: 'Sign up online in under 5 minutes. Complete identity verification (KYC) — we verify your documents within 24-48 hours. No payment required until you invest.',
     icon: UserPlus,
     details: [
       'Simple online registration',
@@ -85,7 +85,7 @@ const experienceFeatures = [
     icon: Users,
     title: 'Meet Our In-House Architects',
     description: 'Our renovations are executed by our own in-house architecture and construction teams. Daily on-site supervision ensures quality control. You\'ll see our architects in the updates — real people, real accountability.',
-    highlight: '50+ villas completed',
+    highlight: '40 villas completed',
     image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80'
   },
   {
@@ -112,21 +112,30 @@ export const HowItWorksPage = () => {
       <GlobalNavbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16">
-        <div className="max-w-4xl mx-auto px-6 lg:px-12 text-center">
-          <span className="section-label">The Complete Process</span>
-          <h1 className="text-4xl md:text-5xl font-bold text-brand-dark mb-6 leading-tight">
+      <section className="relative pt-32 pb-24 overflow-hidden min-h-[70vh] flex items-center">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5754.jpg" 
+            alt="Dubai luxury villa" 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/95 via-brand-dark/85 to-brand-dark/70" />
+        </div>
+        <div className="max-w-4xl mx-auto px-6 lg:px-12 text-center relative z-10">
+          <span className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm text-white/80 text-sm font-semibold rounded-full mb-6 border border-white/20">The Complete Process</span>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
             How Hands-Free Villa Flipping Works
           </h1>
-          <p className="text-base md:text-lg text-brand-muted max-w-2xl mx-auto mb-8 leading-relaxed">
+          <p className="text-base md:text-lg text-white/70 max-w-2xl mx-auto mb-8 leading-relaxed">
             From creating your account to collecting your profits — here's exactly what happens at every stage. Full transparency, no surprises.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 shadow-md shadow-brand-accent/25 hover:shadow-lg hover:-translate-y-0.5 transition-all">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 shadow-md shadow-brand-accent/25 hover:shadow-lg hover:-translate-y-0.5 transition-all">
               Create Your Free Account
               <ArrowRight className="w-4 h-4" />
             </a>
-            <a href="#experience" className="border border-brand-border bg-white text-brand-dark px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all">
+            <a href="#experience" className="border border-white/20 bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 hover:bg-white/20 transition-all">
               <Play className="w-4 h-4" />
               See What You Experience
             </a>
@@ -297,48 +306,52 @@ export const HowItWorksPage = () => {
             ))}
           </div>
 
-          {/* Reassurance Block */}
-          <div className="bg-gradient-to-br from-white/5 to-white/10 rounded-3xl p-8 md:p-12 border border-white/10">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                  No Black-Box Investing
-                </h3>
-                <p className="text-gray-400 leading-relaxed mb-6 text-lg">
-                  Traditional real estate investments leave you in the dark. You send money and hope for the best. We do the opposite — radical transparency at every stage.
-                </p>
-                <ul className="space-y-3">
-                  <li className="flex items-center gap-3">
-                    <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0" />
-                    <span className="text-gray-300">See exactly where your money goes</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0" />
-                    <span className="text-gray-300">Watch the renovation happen in real-time</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0" />
-                    <span className="text-gray-300">Direct access to the team on the ground</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0" />
-                    <span className="text-gray-300">Full documentation at every milestone</span>
-                  </li>
-                </ul>
-              </div>
-              <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm border border-white/10">
-                <div className="text-center">
-                  <div className="text-5xl font-bold text-white mb-2">2,500+</div>
-                  <div className="text-gray-500 mb-6">Active investors trust our process</div>
-                  <div className="grid grid-cols-2 gap-4 text-sm">
-                    <div className="bg-white/5 rounded-xl p-4 border border-white/10">
-                      <div className="text-2xl font-bold text-white">50+</div>
-                      <div className="text-gray-500">Villas completed</div>
-                    </div>
-                    <div className="bg-white/5 rounded-xl p-4 border border-white/10">
-                      <div className="text-2xl font-bold text-white">$327M</div>
-                      <div className="text-gray-500">Capital deployed</div>
-                    </div>
+          </div>
+      </section>
+
+      {/* No Black-Box Section - Separate white background */}
+      <section className="py-16 bg-white border-y border-brand-border">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <span className="section-label">Radical Transparency</span>
+              <h3 className="text-3xl md:text-4xl font-bold text-brand-dark mb-6">
+                No Black-Box Investing
+              </h3>
+              <p className="text-brand-muted leading-relaxed mb-8 text-lg">
+                Traditional real estate investments leave you in the dark. You send money and hope for the best. We do the opposite — radical transparency at every stage.
+              </p>
+              <ul className="space-y-4">
+                <li className="flex items-center gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-accent flex-shrink-0" />
+                  <span className="text-brand-dark">See exactly where your money goes</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-accent flex-shrink-0" />
+                  <span className="text-brand-dark">Watch the renovation happen in real-time</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-accent flex-shrink-0" />
+                  <span className="text-brand-dark">Direct access to the team on the ground</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-accent flex-shrink-0" />
+                  <span className="text-brand-dark">Full documentation at every milestone</span>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-brand-surface rounded-3xl p-8 border border-brand-border">
+              <div className="text-center">
+                <div className="text-5xl font-bold text-brand-dark mb-2">2,500+</div>
+                <div className="text-brand-muted mb-8">Active investors trust our process</div>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="bg-white rounded-2xl p-6 border border-brand-border shadow-sm">
+                    <div className="text-3xl font-bold text-brand-dark">40</div>
+                    <div className="text-sm text-brand-muted">Villas completed</div>
+                  </div>
+                  <div className="bg-white rounded-2xl p-6 border border-brand-border shadow-sm">
+                    <div className="text-3xl font-bold text-brand-dark">$327M</div>
+                    <div className="text-sm text-brand-muted">Capital deployed</div>
                   </div>
                 </div>
               </div>
@@ -358,11 +371,11 @@ export const HowItWorksPage = () => {
             Join 2,500+ investors. Browse available projects, see full financials, and invest when you're ready. No payment required until you find a project you love.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 shadow-md shadow-brand-accent/25 hover:shadow-lg hover:-translate-y-0.5 transition-all">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="bg-brand-accent text-white px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 shadow-md shadow-brand-accent/25 hover:shadow-lg hover:-translate-y-0.5 transition-all">
               Create Your Free Account
               <ArrowRight className="w-4 h-4" />
             </a>
-            <a href="#" className="border border-brand-border bg-brand-bg text-brand-dark px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all">
+            <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="border border-brand-border bg-brand-bg text-brand-dark px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all">
               <Phone className="w-4 h-4" />
               Book a Call
             </a>
