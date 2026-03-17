@@ -20,7 +20,7 @@ export const ProjectResults = () => {
             {projectResults.latestProjectsLabel}
           </h3>
           <p className="text-sm text-gray-400 text-center">
-            Realized performance on our most recent villa flips
+            {projectResults.latestProjectsSubcopy}
           </p>
         </div>
 

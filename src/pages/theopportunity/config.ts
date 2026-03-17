@@ -1,3 +1,5 @@
+import { numbersDictionary as d } from '../../content/numbersDictionary';
+
 export const homepageContent = {
   nav: {
     links: [
@@ -11,41 +13,45 @@ export const homepageContent = {
   },
 
   hero: {
-    eyebrow: 'Regulated Real Estate Crowdfunding',
-    headline: 'The most logical investment',
-    headlineSecondLine: 'in real estate',
-    subheadline: "Buy undervalued luxury villas in Dubai, renovate them, sell at market price. The gap between non-renovated and renovated is your return. It's been there for years.",
+    eyebrow: 'Regulated access to Dubai luxury villa flips',
+    headline: 'Capture the value gap in Dubai’s luxury villa market',
+    headlineSecondLine: '',
+    subheadline:
+      'We acquire undervalued villas in prime communities, renovate them to premium standards, and sell at full market value. The difference between outdated and move-in-ready is where returns are created.',
     primaryCta: 'Create an Account',
-    secondaryCta: 'See the opportunity',
+    secondaryCta: 'See the Opportunity',
     stats: [
-      { value: '50+', label: 'Luxury villas flipped' },
-      { value: '29%', label: 'Average historical payout' },
-      { value: '6–18 mo', label: 'Typical project cycle' },
-      { value: '0%', label: 'Debt used' },
+      { value: d.villasAcquired.value, label: d.villasAcquired.label },
+      { value: d.historicalInvestorPayout.value, label: d.historicalInvestorPayout.label },
+      { value: d.typicalHoldPeriod.value, label: d.typicalHoldPeriod.label },
+      { value: d.leverageUsed.value, label: d.leverageUsed.label },
     ],
   },
 
   opportunity: {
     label: 'The Opportunity',
-    title: 'Non-renovated villas sell for 50% less than renovated ones',
-    body: "In Dubai, villas in the same community with the same layout have consistent pricing. **Non-renovated properties trade at 35-60% less** than renovated ones. We buy non-renovated villas, renovate them, and sell at the renovated market price. **The price difference is your profit**.",
+    title: 'In Dubai’s prime villa communities, renovation can unlock 35–60% of hidden value',
+    body: 'In the same community, villas with the same layout can trade at materially different prices depending on condition. We acquire outdated properties, renovate them to premium standards, and sell at the renovated market price.',
     pullQuote: 'We create value through redevelopment, not by betting on market growth.',
     chart: {
-      leftBarLabel: 'Non-renovated purchase price',
-      rightBarLabel: 'Renovated sale price',
-      gapLabel: 'The Gap = Your Return',
+      leftLabel: 'Acquisition',
+      rightLabel: 'Exit',
+      leftBarLabel: 'Below renovated market value',
+      rightBarLabel: 'Sold at full market value',
+      gapLabel: 'The value gap creates the upside',
       gapValue: '+50%',
-      gapSubtext: 'price differential',
-      bottomText: 'Same villa type. Same community. Same size.',
+      gapSubtext: 'typical price gap',
+      bottomText: 'Same villa type. Same community. Same footprint.',
       disclaimer: 'Illustrative. Based on comparable transactions in Palm Jumeirah, Jumeirah Islands, and Al Barari.',
     },
     cta: 'Create an Account',
   },
 
   projectResults: {
-    headline: '$130M+ In Profits Distributed',
-    subheadline: '40 villas acquired, with over $130M in profits distributed already achieved and an average return of 74.17% on completed projects.',
-    latestProjectsLabel: 'Latest Completed Projects',
+    headline: 'A track record built on realized exits',
+    subheadline: `Our performance is based on completed villa flips, not paper projections. Completed exits have delivered an average project ROI of ${d.averageProjectROI.value}. Explore recent exits and realized returns across finished projects.`,
+    latestProjectsLabel: 'Latest completed projects',
+    latestProjectsSubcopy: 'Realized performance from recent luxury villa flips',
     showMoreText: 'Show More',
     disclaimer: 'The annualized net returns are net of all fees and costs.',
     projects: [
@@ -62,72 +68,88 @@ export const homepageContent = {
 
   whyGapExists: {
     label: 'Why The Gap Exists',
-    title: 'Why luxury villas in Dubai work differently',
-    subtitle: 'Dubai has unique characteristics that make this model possible:',
+    title: 'Why this opportunity exists in Dubai',
+    subtitle: 'Dubai’s prime villa market has structural characteristics that make this strategy measurable and repeatable.',
     cards: [
       {
         title: 'Standardized villa typologies',
-        description: 'Dubai developers use identical floor plans within each community. A Garden Home in Jumeirah Islands is the same as every other Garden Home. This makes pricing transparent and predictable.',
-        tag: 'Same layout = clean comparisons',
+        description: 'In many prime communities, developers built identical villa layouts at scale. That makes pricing easier to benchmark and allows cleaner comparisons between outdated and renovated homes.',
+        tag: 'Comparable layouts make pricing more predictable',
       },
       {
-        title: 'Prime locations with aging stock',
-        description: 'Palm Jumeirah, Jumeirah Islands, and Al Barari villas are 10-20 years old. Wealthy buyers want these addresses but prefer move-in-ready homes over renovation projects.',
-        tag: 'High demand, limited renovated supply',
+        title: 'Prime addresses with aging inventory',
+        description: 'Communities like Palm Jumeirah, Jumeirah Islands, and Al Barari contain older villa stock in highly desirable locations. Buyers want the address, but increasingly prefer fully upgraded, move-in-ready homes.',
+        tag: 'Demand is strongest for premium renovated inventory',
       },
       {
-        title: 'Measurable renovation value',
-        description: 'Because villa types are standardized, we can calculate exactly how much value a full renovation adds by comparing identical properties in the same community.',
-        tag: 'Data-driven, not speculative',
+        title: 'Measurable renovation uplift',
+        description: 'Because layouts and locations are easier to compare, renovation value can be assessed before acquisition using real comparable sales within the same community.',
+        tag: 'Value creation is measurable before acquisition',
       },
     ],
   },
 
   takeAction: {
-    label: 'Investment Conditions',
-    title: 'Investment structure',
-    subtitle: 'Every project follows the same structure:',
+    label: 'Investment Structure',
+    title: 'Built to align incentives',
+    subtitle: 'Each project follows an investor-first structure designed to align returns with real performance.',
     metrics: [
-      { value: '15%', label: 'Priority return for investors', description: 'Paid first, before any profit split' },
-      { value: '~20%', label: 'Target return per project', description: 'Based on acquisition analysis' },
-      { value: '29%', label: 'Average historical payout', description: 'Across completed projects' },
-      { value: '€1,000', label: 'Minimum investment', description: 'Accessible to retail investors' },
+      {
+        value: d.priorityReturn.value,
+        label: 'Priority return for investors',
+        description: 'Investors receive the first 15% of profit before profit sharing applies.',
+      },
+      {
+        value: d.targetInvestorReturn.value,
+        label: d.targetInvestorReturn.label,
+        description: 'Targeted returns are based on acquisition discipline, renovation budgets, and local comparable sales.',
+      },
+      {
+        value: d.historicalInvestorPayout.value,
+        label: d.historicalInvestorPayout.label,
+        description: 'Historical average received by investors across completed projects.',
+      },
+      {
+        value: d.minimumInvestment.value,
+        label: d.minimumInvestment.label,
+        description: `Access the strategy from ${d.minimumInvestment.value} through a regulated structure.`,
+      },
     ],
     primaryCta: 'Create an Account',
     secondaryCta: 'Book a Call',
-    disclaimer: 'Invest Dubai operates through a regulated crowdfunding partner in the UAE.',
+    disclaimer: 'InvestDubai operates through a regulated, asset-backed structure in the UAE.',
   },
 
   howItWorks: {
-    label: 'Your Journey',
-    title: 'How it works',
+    label: 'How It Works',
+    title: 'A simple way to invest in Dubai villa flips',
     steps: [
-      { number: '01', title: 'Create account', description: 'Sign up and verify your identity in minutes.' },
-      { number: '02', title: 'Choose a project', description: 'Browse curated villa investment opportunities.' },
-      { number: '03', title: 'Invest', description: 'Start investing from €1,000 securely and become a co-owner.' },
-      { number: '04', title: 'Track progress', description: 'Follow the project with weekly updates.' },
-      { number: '05', title: 'Earn returns', description: 'Receive your capital and profits.' },
+      { number: '01', title: 'Create your account', description: 'Register and complete identity verification in minutes.' },
+      { number: '02', title: 'Review curated villa opportunities', description: 'Access selected projects backed by real properties in prime Dubai communities.' },
+      { number: '03', title: `Invest from ${d.minimumInvestment.value}`, description: 'Participate in a specific asset-backed project through a regulated structure.' },
+      { number: '04', title: 'Follow the transformation', description: 'Track renovation progress and milestone updates throughout the project.' },
+      { number: '05', title: 'Receive proceeds on exit', description: 'Once the villa is sold, receive your capital and share of profits.' },
     ],
     cta: 'Create an Account',
   },
 
   whyInvestDubai: {
-    label: 'Why Invest Dubai',
-    title: 'What makes invest Dubai different',
-    subtitle: 'We operate differently than other crowdfunding platforms.',
+    label: 'Why InvestDubai',
+    title: 'Active value creation, not passive exposure',
+    subtitle: 'InvestDubai is not a generic real estate crowdfunding platform. We create value through acquisition discipline, renovation execution, and aligned incentives.',
     trustPoints: [
-      { title: 'We do the work ourselves', description: '**In-house architects, daily on-site supervision, controlled materials.** Greenbull has completed **50+ luxury villas** across Palm Jumeirah, Jumeirah Islands, and Al Barari.' },
-      { title: 'You own the asset', description: "Each project sits in a **dedicated SPV**. You hold shares, the SPV holds the title deed. If anything happens to us, **the property is still yours**." },
-      { title: 'Zero debt, zero leverage', description: '**100% cash acquisitions.** No bank loans, no interest exposure, no risk of forced liquidation. **Naturally Sharia-compliant.**' },
-      { title: 'Fixed-cost renovation guarantee', description: '**Renovation budgets are locked upfront.** If we overspend on materials or labor, we absorb the cost — never the investors. Your capital is protected from construction overruns.' },
-      { title: 'Full transparency', description: "Weekly Instagram story updates, YouTube documentation, and visible properties. You see exactly what's happening at every stage, with **nothing hidden behind closed doors**." },
-      { title: 'Regulated structure', description: 'Invest Dubai operates through a **regulated crowdfunding partner under UAE law**, ensuring investor protections and compliance at every level.' },
+      { title: 'In-house execution', description: 'We source, design, renovate, and manage projects internally instead of outsourcing the core value-creation process.' },
+      { title: 'Asset-backed ownership', description: 'Each investment is tied to a specific property structure, giving investors exposure to a real underlying asset.' },
+      { title: 'Zero leverage', description: 'Projects are executed without financial leverage, reducing forced-sale risk and improving resilience in weaker markets.' },
+      { title: 'Controlled renovation budgets', description: 'Renovation economics are planned upfront to keep execution disciplined and outcomes measurable.' },
+      { title: 'Transparent project tracking', description: 'Investors can follow project progress through clear updates across the acquisition, renovation, and exit process.' },
+      { title: 'Regulated structure', description: 'Investments are accessed through a regulated structure designed to provide clarity, compliance, and investor protection.' },
     ],
     highlightCard: {
-      stat: '50+',
-      statLabel: 'Luxury villas flipped by our in-house team',
+      stat: d.villasAcquired.value,
+      statLabel: 'Luxury villas acquired by the in-house team',
       features: [
-        'Palm Jumeirah, Jumeirah Islands, Al Barari',
+        'Only super-prime Dubai locations',
         'In-house architects & project managers',
         'Daily on-site supervision',
         'Full materials control',
@@ -137,55 +159,63 @@ export const homepageContent = {
     },
     alignedIncentives: {
       title: 'We only profit when you profit',
-      description: "The team profits only when the villa sells at a gain, same as you. There's no management fee on your capital. We succeed when you succeed.",
+      description: 'Our model is built on profit sharing, which means our upside depends on the project performing well for investors first. The better the exit, the more aligned everyone remains.',
     },
   },
 
   faq: {
     label: 'Frequently Asked',
-    title: 'Common questions',
-    subtitle: 'Have other questions? Book a call with our team.',
+    title: 'Common questions, clearly answered',
+    subtitle: 'Everything investors usually want to understand before getting started.',
     cta: 'Book a Call',
     questions: [
       {
         question: 'Is Invest Dubai legal and regulated?',
+        shortAnswer: 'Yes. Investments are accessed through a regulated partner structure, and each property is held through a dedicated SPV tied to the underlying asset.',
         answer: "Yes, we operate with full legal compliance and transparency. Invest Dubai functions through a regulated crowdfunding partner that is fully licensed under UAE law. This ensures that our operations meet strict regulatory standards for investor protection.\n\nFurthermore, every single property project is held within its own dedicated Special Purpose Vehicle (SPV), which is a separate legal entity that holds the official title deed.\n\nWhen you invest, you become a documented shareholder in that specific SPV, providing you with true equity ownership in the real estate asset rather than just a contractual promise.",
       },
       {
         question: 'What happens if Greenbull disappears?',
+        shortAnswer: 'The asset remains protected through the project structure itself, not through the operating company alone.',
         answer: "Your investment is structurally insulated from our corporate health. Because each project sits in its own dedicated SPV (Special Purpose Vehicle), that independent legal entity holds the title deed to the villa.\n\nEven in the highly unlikely event that Greenbull Group or any of our operational partners became unavailable, the SPV and your equity ownership stake within it continue to exist legally and independently.\n\nThe property itself remains fully protected, and the shareholders would simply appoint a new management entity to complete the project and distribute the funds.",
       },
       {
         question: 'What if the Dubai market crashes?',
+        shortAnswer: 'This strategy is designed to create value through transformation, not rely only on market appreciation.',
         answer: "Unlike traditional real estate investing, our model is not a speculative bet on market appreciation. We manufacture our own upside.\n\n• We acquire unrenovated properties at a steep discount (often 30-40% below market value).\n• We add immediate, tangible value through comprehensive high-end renovations.\n• We then sell at the new market price.\n\nThis intrinsic value-add creates a significant margin of safety. Even if the broader market experienced a 20-30% downturn, this buffer is designed to protect your initial capital. Additionally, because we use absolutely zero debt to fund our projects, there is no risk of forced liquidation by banks during a market dip.",
       },
       {
         question: 'How long is my money locked?',
+        shortAnswer: `Typically, a project runs for around ${d.typicalHoldPeriod.value}.`,
         answer: "Real estate is inherently an illiquid asset class, and you should anticipate a typical project cycle of 6 to 18 months.\n\nThis timeline covers the entire process:\n• The initial legal acquisition of the property.\n• The intensive architectural renovation phase.\n• Marketing, staging, and the final sale and transfer to a new buyer.\n\nOnce the villa is sold and the funds clear escrow, your initial capital plus your share of the profits are credited directly to your digital wallet. From there, you have the full freedom to withdraw the funds to your bank account or reinvest them into the next available project.",
       },
       {
         question: 'Are the returns realistic?',
-        answer: "Our returns are rooted in data, not speculation. The historical average payout across our completed projects has been 29%.\n\nFor every project, investors receive a 15% priority return, meaning you get paid your first 15% of profit before we take any performance fee. We typically target an overall return of ~20% per project.\n\nThese projections are calculated using hard data: strict acquisition prices, fixed renovation budgets, and recent comparable sales of identical renovated villas in the same community. However, please note that all investments carry risk, and past performance does not guarantee future results.",
+        shortAnswer: 'Returns are based on acquisition discipline, renovation planning, and comparable sales data, not on arbitrary projections.',
+        answer: `Our returns are rooted in data, not speculation. The historical average payout across our completed projects has been ${d.historicalInvestorPayout.value}.\n\nFor every project, investors receive a ${d.priorityReturn.value} priority return, meaning you get paid your first 15% of profit before we take any performance fee. We typically target an overall return of ${d.targetInvestorReturn.value} per project.\n\nThese projections are calculated using hard data: strict acquisition prices, fixed renovation budgets, and recent comparable sales of identical renovated villas in the same community. However, please note that all investments carry risk, and past performance does not guarantee future results.`,
       },
       {
         question: 'How does Invest Dubai make money?',
+        shortAnswer: 'Our model is based on profit sharing, which keeps our incentives aligned with investors.',
         answer: "We fundamentally believe in aligning our incentives with yours. We do not charge hidden management fees that drag down your capital while the property sits in renovation.\n\nInstead, we operate on a performance basis. We only profit when the villa successfully sells at a gain, and only after you have received your 15% priority return.\n\nOur share of the upside is calculated purely on the performance above that threshold. Simply put: if we don't deliver exceptional results for you, we don't earn a profit.",
       },
       {
         question: "What's the minimum investment?",
-        answer: "We have structured Invest Dubai to heavily democratize access to ultra-luxury real estate that was previously reserved for institutional investors.\n\nYou can begin investing with approximately €1,000 (around 4,000 AED).\n\nAll investments on our platform are denominated in UAE Dirhams (AED), which is strictly pegged to the US Dollar (USD). This eliminates currency risk for USD investors, though European investors may experience minor, normal exchange rate fluctuations between the EUR and the USD/AED peg over the lifecycle of the project.",
+        shortAnswer: `You can start from ${d.minimumInvestment.value}.`,
+        answer: `We have structured Invest Dubai to heavily democratize access to ultra-luxury real estate that was previously reserved for institutional investors.\n\nYou can begin investing with approximately ${d.minimumInvestment.value} (${d.minimumInvestment.secondary}).\n\nAll investments on our platform are denominated in UAE Dirhams (AED), which is strictly pegged to the US Dollar (USD). This eliminates currency risk for USD investors, though European investors may experience minor, normal exchange rate fluctuations between the EUR and the USD/AED peg over the lifecycle of the project.`,
       },
       {
-        question: "What about taxes for French residents?",
+        question: 'What about taxes for French residents?',
+        shortAnswer: 'Tax treatment depends on your country of tax residence and personal or corporate situation.',
         answer: "Under the France–UAE bilateral tax treaty, investment income (including dividends) from InvestDubai is taxable in your country of fiscal residence. Here's what applies to French investors:\n\n**Individual Investors:**\nReturns are classified as capital income and subject to the flat tax (PFU) of 30% by default. You may opt into the progressive income tax scale instead, so consult your tax advisor.\n\n**Corporate Investors (SCI, SARL, SAS):**\nReturns fall under standard corporate tax rules. They are added to your company's overall taxable income and subject to standard IS rates (15% reduced / 25% standard).\n\n**Non-French Residents:**\nIf you're not a French tax resident, French tax law does not apply. You'll need to declare under the rules of your country of residence and any applicable treaty with the UAE.\n\nWe always recommend consulting a qualified tax advisor for your personal situation.",
       },
     ],
   },
 
   finalCta: {
-    label: 'Ready ?',
-    title: 'Start investing',
-    subtitle: "Create your account in 5 minutes. Browse projects and invest when you're ready.",
+    label: 'Get Started',
+    title: 'Get access to Dubai’s luxury villa value gap',
+    subtitle: 'Open your account in minutes, explore current projects, and invest through a regulated, asset-backed structure.',
     primaryCta: 'Create an Account',
     secondaryCta: 'Book a Call',
     disclaimer: '',

@@ -46,12 +46,19 @@ export const FAQ = () => {
                 </button>
                 <div 
                   className={`overflow-hidden transition-all duration-300 ${
-                    openIndex === i ? 'max-h-[1000px]' : 'max-h-0'
+                    openIndex === i ? 'max-h-[1200px]' : 'max-h-0'
                   }`}
                 >
-                  <p className="px-6 pb-5 text-brand-muted leading-relaxed whitespace-pre-line">
-                    {item.answer}
-                  </p>
+                  <div className="px-6 pb-5">
+                    {item.shortAnswer ? (
+                      <p className="text-brand-dark font-medium leading-relaxed mb-3 whitespace-pre-line">
+                        {item.shortAnswer}
+                      </p>
+                    ) : null}
+                    <p className="text-brand-muted leading-relaxed whitespace-pre-line">
+                      {item.answer}
+                    </p>
+                  </div>
                 </div>
               </div>
             ))}
