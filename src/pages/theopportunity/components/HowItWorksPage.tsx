@@ -121,7 +121,6 @@ export const HowItWorksPage = () => {
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-brand-muted">
             <a href="/theopportunity" className="hover:text-brand-dark transition-colors">The Opportunity</a>
             <a href="/how-it-works" className="text-brand-dark font-semibold">How It Works</a>
-            <a href="/investopedia" className="hover:text-brand-dark transition-colors">Investopedia</a>
             <a href="/price-database" className="hover:text-brand-dark transition-colors">Price Database</a>
             <a href="/faq" className="hover:text-brand-dark transition-colors">FAQ</a>
           </div>
@@ -310,11 +309,11 @@ export const HowItWorksPage = () => {
                   {feature.title === 'Dedicated WhatsApp Group' ? (
                     <div className="relative">
                       <WhatsAppMockup />
-                      <div className="absolute bottom-4 left-4 flex items-center gap-3 z-20">
+                      <div className="absolute -bottom-6 left-4 flex items-center gap-3 z-[40]">
                         <div className="w-10 h-10 bg-brand-accent rounded-xl flex items-center justify-center shadow-lg">
                           <feature.icon className="w-5 h-5 text-white" />
                         </div>
-                        <span className="text-xs font-bold text-white uppercase tracking-wider bg-black/50 backdrop-blur-md px-3 py-1.5 rounded-full shadow-lg">
+                        <span className="text-xs font-bold text-white uppercase tracking-wider bg-black/50 backdrop-blur-md px-3 py-1.5 rounded-full shadow-lg border border-white/10">
                           {feature.highlight}
                         </span>
                       </div>

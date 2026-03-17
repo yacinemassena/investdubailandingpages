@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const apiKey = process.env.GEMINI_API_KEY || 'AIzaSyDDKRpGR0RIcdapY1I5BA2FOU8psE2p-x8';
+const apiKey = process.env.GEMINI_API_KEY || 'AIzaSyDdEr2h7LGPHO41WGJYjMSvrFmPKIx4lNI';
 const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-pro-image-preview:generateContent?key=${apiKey}`;
 const outputDir = path.join(__dirname, 'public', 'images', 'investopedia-ai');
 
@@ -150,25 +150,112 @@ function selectReferenceImages(referenceImages, article) {
   return selected;
 }
 
+const VISUAL_CONCEPTS = [
+  // Architectural exteriors
+  {
+    subject: 'a stunning modern Dubai villa exterior at golden hour',
+    composition: 'wide angle shot showing the full facade with infinity pool reflecting the sky',
+    mood: 'warm sunset light casting long shadows, palm trees silhouetted'
+  },
+  {
+    subject: 'aerial view of Palm Jumeirah villas and waterfront',
+    composition: 'drone perspective showing the iconic palm fronds with luxury properties',
+    mood: 'crystal clear turquoise water, pristine white architecture'
+  },
+  {
+    subject: 'Dubai Marina skyline from a penthouse terrace',
+    composition: 'foreground terrace with elegant outdoor furniture, towers in background',
+    mood: 'blue hour twilight, city lights beginning to glow'
+  },
+  // Luxury interiors
+  {
+    subject: 'minimalist luxury villa living room with floor-to-ceiling windows',
+    composition: 'interior shot showing Dubai skyline through glass walls',
+    mood: 'soft natural daylight, neutral tones with subtle gold accents'
+  },
+  {
+    subject: 'modern open-plan kitchen in a renovated Dubai villa',
+    composition: 'clean lines, marble island, designer fixtures',
+    mood: 'bright and airy, morning light streaming in'
+  },
+  {
+    subject: 'master bedroom with panoramic city views',
+    composition: 'elegant bed facing large windows, tasteful decor',
+    mood: 'serene and luxurious, soft ambient lighting'
+  },
+  // Construction & Development
+  {
+    subject: 'villa renovation in progress showing transformation',
+    composition: 'split view or angle showing renovation work and quality materials',
+    mood: 'professional, progress-focused, clean construction site'
+  },
+  {
+    subject: 'architectural blueprints on a desk with Dubai property view behind',
+    composition: 'close-up of plans with out-of-focus luxury view through window',
+    mood: 'professional, planning phase, aspirational'
+  },
+  // Lifestyle & Investment
+  {
+    subject: 'pristine swimming pool of a Dubai villa',
+    composition: 'water-level shot with villa architecture reflected in pool',
+    mood: 'tranquil, inviting, resort-like atmosphere'
+  },
+  {
+    subject: 'landscaped garden of an Emirates Hills mansion',
+    composition: 'manicured lawns, mature trees, glimpse of grand entrance',
+    mood: 'lush greenery contrasting with modern architecture'
+  },
+  {
+    subject: 'Burj Khalifa and Downtown Dubai at dusk',
+    composition: 'iconic skyline shot from elevated vantage point',
+    mood: 'dramatic sky colors, city coming alive with lights'
+  },
+  {
+    subject: 'luxury villa entrance with statement door and lighting',
+    composition: 'symmetrical front-on view, dramatic architectural entrance',
+    mood: 'welcoming yet impressive, evening ambient lighting'
+  },
+  // Detail shots
+  {
+    subject: 'high-end finishes in a Dubai property - marble and brass details',
+    composition: 'close-up of premium materials and craftsmanship',
+    mood: 'tactile luxury, attention to detail'
+  },
+  {
+    subject: 'rooftop terrace with lounge area overlooking Dubai',
+    composition: 'outdoor living space with city panorama',
+    mood: 'exclusive lifestyle, evening entertaining atmosphere'
+  },
+  {
+    subject: 'beachfront villa with private beach access',
+    composition: 'property meeting pristine sand and sea',
+    mood: 'coastal luxury, vacation-like serenity'
+  },
+];
+
 function buildPrompt(article) {
   const summary = summarizeContent(article.content);
+  const conceptIndex = article.id % VISUAL_CONCEPTS.length;
+  const concept = VISUAL_CONCEPTS[conceptIndex];
 
   return [
     `Create one photorealistic premium editorial real-estate image for the InvestDubai article titled "${article.title}".`,
     `Category: ${article.category}.`,
     `Article excerpt: ${article.excerpt}`,
-    `Article content summary: ${summary}`,
-    `The image must be directly related to the article topic and must also feel connected to InvestDubai's real brand universe in Dubai.`,
-    `Use the attached company archive photos only as visual references for realism, tone, architecture quality, composition style, materials, locations, and authenticity.`,
-    `Do not copy them literally, but keep the result natural, credible, and consistent with our real estate portfolio and visual identity.`,
-    `Strict requirements: no humans, no people, no faces, no silhouettes, no workers, no crowds.`,
-    `Avoid futuristic, sci-fi, cyberpunk, concept-art, CGI-heavy, or overly digital aesthetics.`,
-    `Prioritize clean realistic architecture, villas, luxury interiors, facades, skyline views, urban environments, landscaped exteriors, construction details, or built environments relevant to the article.`,
-    `Reuse the visual language of our archive imagery as much as possible so the image looks authentic rather than synthetic.`,
-    `Add only a very subtle InvestDubai branding cue, such as a refined minimal accent using color #28de91.`,
-    `Style: luxury real-estate photography, high-end corporate editorial, cinematic but realistic lighting, ultra-detailed, elegant, credible, 8K.`,
-    `Do not include any text, typography, watermark, logo placement, infographic, dashboard UI, or interface overlay.`,
-    `The final image must feel like a believable hero image for a premium Dubai real estate investment article.`,
+    ``,
+    `SPECIFIC VISUAL DIRECTION:`,
+    `Subject: ${concept.subject}`,
+    `Composition: ${concept.composition}`,
+    `Mood: ${concept.mood}`,
+    ``,
+    `Article content context: ${summary}`,
+    ``,
+    `The image must feel connected to InvestDubai's premium Dubai real estate brand.`,
+    `Use the attached company archive photos as visual references for realism, tone, and quality standards.`,
+    `Strict requirements: no humans, no people, no faces, no silhouettes, no text, no logos.`,
+    `Avoid futuristic, sci-fi, CGI-heavy, or synthetic aesthetics.`,
+    `Style: luxury real-estate photography, high-end editorial, cinematic realistic lighting, 8K quality.`,
+    `Add a very subtle accent of brand color #28de91 if naturally fitting (optional).`,
   ].join('\n');
 }
 

@@ -287,15 +287,14 @@ export const HowItWorksPage = () => {
                       alt={feature.title}
                       className="w-full h-full object-cover"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                    <div className="absolute bottom-4 left-4 flex items-center gap-3">
-                      <div className="w-10 h-10 bg-brand-accent rounded-xl flex items-center justify-center">
-                        <feature.icon className="w-5 h-5 text-white" />
-                      </div>
-                      <span className="text-xs font-bold text-white uppercase tracking-wider bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full">
-                        {feature.highlight}
-                      </span>
+                  </div>
+                  <div className="flex items-center gap-3 mt-3">
+                    <div className="w-10 h-10 bg-brand-accent rounded-xl flex items-center justify-center">
+                      <feature.icon className="w-5 h-5 text-white" />
                     </div>
+                    <span className="text-xs font-bold text-white uppercase tracking-wider bg-white/10 px-3 py-1.5 rounded-full">
+                      {feature.highlight}
+                    </span>
                   </div>
                 </div>
                 <div className={`${i % 2 === 1 ? 'md:order-1' : ''}`}>

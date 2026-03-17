@@ -225,7 +225,6 @@ export const FAQPage = () => {
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-brand-muted">
             <a href="/theopportunity" className="hover:text-brand-dark transition-colors">The Opportunity</a>
             <a href="/how-it-works" className="hover:text-brand-dark transition-colors">How It Works</a>
-            <a href="/investopedia" className="hover:text-brand-dark transition-colors">Investopedia</a>
             <a href="/price-database" className="hover:text-brand-dark transition-colors">Price Database</a>
             <a href="/faq" className="text-brand-dark font-semibold">FAQ</a>
           </div>

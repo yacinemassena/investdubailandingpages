@@ -390,7 +390,7 @@ FX risk for EUR investors exists
 
 Minimum:
 
-~2,000 AED
+~4,000 AED
 
 Corporate threshold:
 

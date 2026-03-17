@@ -2,10 +2,9 @@ export const homepageContent = {
   nav: {
     links: [
       { label: 'The Opportunity', href: '#opportunity' },
-      { label: 'How It Works', href: '/newhomepage/how-it-works' },
-      { label: 'Investopedia', href: '/newhomepage/investopedia' },
-      { label: 'Price Database', href: '/newhomepage/price-database' },
-      { label: 'FAQ', href: '/newhomepage/faq' },
+      { label: 'How It Works', href: '/how-it-works' },
+      { label: 'Price Database', href: '/price-database' },
+      { label: 'FAQ', href: '/faq' },
     ],
     loginText: 'Log In',
     ctaText: 'Create Your Account',

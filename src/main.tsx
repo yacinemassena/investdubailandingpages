@@ -18,9 +18,9 @@ import Homepage from './pages/homepage/Page';
 import TheOpportunity from './pages/theopportunity/Page';
 import OpportunityPriceDatabase from './pages/theopportunity/components/PriceDatabase';
 import OpportunityFAQPage from './pages/theopportunity/components/FAQPage';
-import OpportunityInvestopediaPage from './pages/theopportunity/components/InvestopediaPage';
-import OpportunityArticlePage from './pages/theopportunity/components/ArticlePage';
 import OpportunityHowItWorksPage from './pages/theopportunity/components/HowItWorksPage';
+import NewHomepageInvestopediaPage from './pages/newhomepage/components/InvestopediaPage';
+import NewHomepageArticlePage from './pages/newhomepage/components/ArticlePage';
 
 const App = () => {
   return (
@@ -41,8 +41,8 @@ const App = () => {
         {/* Standalone pages */}
         <Route path="/theopportunity" element={<Homepage />} />
         <Route path="/faq" element={<OpportunityFAQPage />} />
-        <Route path="/investopedia" element={<OpportunityInvestopediaPage />} />
-        <Route path="/investopedia/:slug" element={<OpportunityArticlePage />} />
+        <Route path="/investopedia" element={<NewHomepageInvestopediaPage />} />
+        <Route path="/investopedia/:slug" element={<NewHomepageArticlePage />} />
         <Route path="/price-database" element={<OpportunityPriceDatabase />} />
         <Route path="/how-it-works" element={<OpportunityHowItWorksPage />} />
       </Routes>

@@ -129,7 +129,7 @@ Unlike buy-and-hold investing focused on long-term appreciation and rental incom
 
 House flipping offers attractive returns but requires market knowledge, renovation expertise, and disciplined execution.`,
     slug: 'house-flipping-definition-principles',
-    image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investopedia-ai/article-2.jpg',
+    image: '/images/investopedia-ai/article-2.jpg',
   },
   {
     id: 3,
@@ -14674,8 +14674,20 @@ For legal guidance on mortgage obligations, consult a UAE-licensed legal practit
   },
 ];
 
-// Merge all neighborhood articles with the base articles
-export const ALL_ARTICLES: Article[] = [
+const deduplicateArticles = (articles: Article[]): Article[] => {
+  const uniqueArticles = new Map<string, Article>();
+
+  for (const article of articles) {
+    const key = article.slug || `${article.id}-${article.title}`;
+    if (!uniqueArticles.has(key)) {
+      uniqueArticles.set(key, article);
+    }
+  }
+
+  return Array.from(uniqueArticles.values()).sort((a, b) => a.id - b.id);
+};
+
+export const ALL_ARTICLES: Article[] = deduplicateArticles([
   ...ARTICLES,
   ...DOWNTOWN_DUBAI_ARTICLES,
   ...BUSINESS_BAY_ARTICLES,
@@ -14687,4 +14699,4 @@ export const ALL_ARTICLES: Article[] = [
   ...ARABIAN_RANCHES_ARTICLES,
   ...JVC_ARTICLES,
   ...OTHER_NEIGHBORHOODS_ARTICLES,
-];
+]);

@@ -17,7 +17,7 @@ export const Hero = () => {
           poster="https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/0A6A5754.jpg"
           className="w-full h-full object-cover"
         >
-          <source src="https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/videos/The%20opportunity%20banniere.mp4" type="video/mp4" />
+          <source src="/videos/banniere-how-it-works.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/95 via-brand-dark/85 to-brand-dark/70" />
       </div>

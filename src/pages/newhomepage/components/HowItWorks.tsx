@@ -47,7 +47,7 @@ export const HowItWorks = () => {
             {howItWorks.cta}
             <ArrowRight className="w-4 h-4" />
           </a>
-          <a href="/newhomepage/how-it-works" className="border border-brand-border bg-brand-surface text-brand-dark px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 hover:bg-brand-bg transition-colors">
+          <a href="/how-it-works" className="border border-brand-border bg-brand-surface text-brand-dark px-8 py-4 rounded-full font-medium inline-flex items-center gap-2 hover:bg-brand-bg transition-colors">
             See Full Process
             <ArrowRight className="w-4 h-4" />
           </a>

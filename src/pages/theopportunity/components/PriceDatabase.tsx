@@ -8,7 +8,6 @@ const neighborhoodCategories = [
     description: 'Exclusive villa communities with premium amenities',
     neighborhoods: [
       { id: 'palm-jumeirah', name: 'Palm Jumeirah', active: true, description: 'Iconic man-made island with beachfront villas' },
-      { id: 'emirates-hills', name: 'Emirates Hills', active: false, description: 'Dubai\'s Beverly Hills with golf course views' },
       { id: 'jumeirah-islands', name: 'Jumeirah Islands', active: true, description: 'Gated community with 46 islands and lakes' },
       { id: 'al-barari', name: 'Al Barari', active: true, description: 'Botanical luxury living with lush greenery' },
       { id: 'arabian-ranches', name: 'Arabian Ranches', active: true, description: 'Desert-themed golf community' },
@@ -32,10 +31,10 @@ const neighborhoodCategories = [
     neighborhoods: [
       { id: 'springs', name: 'The Springs', active: true, description: 'Lakeside villas with community parks' },
       { id: 'meadows', name: 'The Meadows', active: true, description: 'Spacious villas with landscaped gardens' },
-      { id: 'victory-heights', name: 'Victory Heights', active: false, description: 'Sports-themed community' },
+      { id: 'victory-heights', name: 'Victory Heights', active: true, description: 'Sports-themed community' },
+      { id: 'jumeirah-village-triangle', name: 'Jumeirah Village Triangle', active: true, description: 'Affordable villa community' },
       { id: 'jumeirah-park', name: 'Jumeirah Park', active: true, description: 'Green community with parks' },
-      { id: 'mira', name: 'Mira', active: false, description: 'Modern townhouses and villas' },
-    ]
+          ]
   },
   {
     category: 'Emerging Areas',
@@ -43,8 +42,8 @@ const neighborhoodCategories = [
     neighborhoods: [
       { id: 'damac-hills', name: 'DAMAC Hills', active: true, description: 'Golf community with Trump International' },
       { id: 'dubai-south', name: 'Dubai South', active: true, description: 'Near Expo 2020 and Al Maktoum Airport' },
-      { id: 'tilal-al-ghaf', name: 'Tilal Al Ghaf', active: false, description: 'Lagoon community by Majid Al Futtaim' },
-      { id: 'town-square', name: 'Town Square', active: false, description: 'Affordable family community' },
+      { id: 'tilal-al-ghaf', name: 'Tilal Al Ghaf', active: true, description: 'Lagoon community by Majid Al Futtaim' },
+      { id: 'town-square', name: 'Town Square', active: true, description: 'Affordable family community' },
     ]
   }
 ];
@@ -53,6 +52,108 @@ const neighborhoodCategories = [
 const neighborhoods = neighborhoodCategories.flatMap(cat => 
   cat.neighborhoods.map(n => ({ ...n, category: cat.category }))
 );
+
+// Victory Heights market data (TRANSFERRED SALES - AED per sqft)
+const victoryHeightsData = [
+  { quarter: 'Q3-2020', price: 692 },
+  { quarter: 'Q4-2020', price: 667 },
+  { quarter: 'Q1-2021', price: 700 },
+  { quarter: 'Q2-2021', price: 797 },
+  { quarter: 'Q3-2021', price: 836 },
+  { quarter: 'Q4-2021', price: 912 },
+  { quarter: 'Q1-2022', price: 960 },
+  { quarter: 'Q2-2022', price: 1002 },
+  { quarter: 'Q3-2022', price: 1004 },
+  { quarter: 'Q4-2022', price: 1080 },
+  { quarter: 'Q1-2023', price: 1056 },
+  { quarter: 'Q2-2023', price: 1150 },
+  { quarter: 'Q3-2023', price: 1232 },
+  { quarter: 'Q4-2023', price: 1260 },
+  { quarter: 'Q1-2024', price: 1260 },
+  { quarter: 'Q2-2024', price: 1421 },
+  { quarter: 'Q3-2024', price: 1374 },
+  { quarter: 'Q4-2024', price: 1497 },
+  { quarter: 'Q1-2025', price: 1732 },
+  { quarter: 'Q2-2025', price: 1838 },
+  { quarter: 'Q3-2025', price: 1877 },
+  { quarter: 'Q4-2025', price: 2037 },
+];
+
+// Tilal Al Ghaf market data (TRANSFERRED SALES - AED per sqft)
+const tilalAlGhafData = [
+  { quarter: 'Q1-2021', price: 850 },
+  { quarter: 'Q2-2021', price: 932 },
+  { quarter: 'Q3-2021', price: 804 },
+  { quarter: 'Q4-2021', price: 938 },
+  { quarter: 'Q1-2022', price: 1095 },
+  { quarter: 'Q2-2022', price: 1100 },
+  { quarter: 'Q3-2022', price: 1159 },
+  { quarter: 'Q4-2022', price: 1193 },
+  { quarter: 'Q1-2023', price: 1167 },
+  { quarter: 'Q2-2023', price: 1232 },
+  { quarter: 'Q3-2023', price: 1379 },
+  { quarter: 'Q4-2023', price: 1343 },
+  { quarter: 'Q1-2024', price: 1455 },
+  { quarter: 'Q2-2024', price: 1540 },
+  { quarter: 'Q3-2024', price: 1667 },
+  { quarter: 'Q4-2024', price: 1765 },
+  { quarter: 'Q1-2025', price: 1884 },
+  { quarter: 'Q2-2025', price: 1948 },
+  { quarter: 'Q3-2025', price: 2004 },
+  { quarter: 'Q4-2025', price: 1966 },
+];
+
+// Town Square market data (TRANSFERRED SALES - AED per sqft)
+const townSquareData = [
+  { quarter: 'Q3-2020', price: 839 },
+  { quarter: 'Q4-2020', price: 886 },
+  { quarter: 'Q1-2021', price: 897 },
+  { quarter: 'Q2-2021', price: 860 },
+  { quarter: 'Q3-2021', price: 852 },
+  { quarter: 'Q4-2021', price: 801 },
+  { quarter: 'Q1-2022', price: 771 },
+  { quarter: 'Q2-2022', price: 795 },
+  { quarter: 'Q3-2022', price: 827 },
+  { quarter: 'Q4-2022', price: 839 },
+  { quarter: 'Q1-2023', price: 1075 },
+  { quarter: 'Q2-2023', price: 972 },
+  { quarter: 'Q3-2023', price: 1021 },
+  { quarter: 'Q4-2023', price: 1063 },
+  { quarter: 'Q1-2024', price: 1117 },
+  { quarter: 'Q2-2024', price: 1134 },
+  { quarter: 'Q3-2024', price: 1156 },
+  { quarter: 'Q4-2024', price: 1219 },
+  { quarter: 'Q1-2025', price: 1315 },
+  { quarter: 'Q2-2025', price: 1362 },
+  { quarter: 'Q3-2025', price: 1416 },
+  { quarter: 'Q4-2025', price: 1362 },
+];
+
+// Jumeirah Village Triangle market data (TRANSFERRED SALES - AED per sqft)
+const jumeirahVillageTriangleData = [
+  { quarter: 'Q3-2020', price: 781 },
+  { quarter: 'Q4-2020', price: 669 },
+  { quarter: 'Q1-2021', price: 701 },
+  { quarter: 'Q2-2021', price: 794 },
+  { quarter: 'Q3-2021', price: 822 },
+  { quarter: 'Q4-2021', price: 800 },
+  { quarter: 'Q1-2022', price: 898 },
+  { quarter: 'Q2-2022', price: 947 },
+  { quarter: 'Q3-2022', price: 933 },
+  { quarter: 'Q4-2022', price: 992 },
+  { quarter: 'Q1-2023', price: 1049 },
+  { quarter: 'Q2-2023', price: 998 },
+  { quarter: 'Q3-2023', price: 1535 },
+  { quarter: 'Q4-2023', price: 1350 },
+  { quarter: 'Q1-2024', price: 1316 },
+  { quarter: 'Q2-2024', price: 1301 },
+  { quarter: 'Q3-2024', price: 1390 },
+  { quarter: 'Q4-2024', price: 1437 },
+  { quarter: 'Q1-2025', price: 1440 },
+  { quarter: 'Q2-2025', price: 1429 },
+  { quarter: 'Q3-2025', price: 1522 },
+  { quarter: 'Q4-2025', price: 1707 },
+];
 
 // JBR market data (TRANSFERRED SALES - AED per sqft)
 const jbrData = [
@@ -461,6 +562,10 @@ const neighborhoodPriceData: Record<string, { quarter: string; price: number }[]
   'jbr': jbrData,
   'city-walk': cityWalkData,
   'damac-hills': damacHillsData,
+  'victory-heights': victoryHeightsData,
+  'tilal-al-ghaf': tilalAlGhafData,
+  'town-square': townSquareData,
+  'jumeirah-village-triangle': jumeirahVillageTriangleData,
 };
 
 // Helper to get price metrics
@@ -518,7 +623,6 @@ export const PriceDatabase = () => {
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-400">
             <a href="/theopportunity" className="hover:text-white transition-colors">The Opportunity</a>
             <a href="/how-it-works" className="hover:text-white transition-colors">How It Works</a>
-            <a href="/investopedia" className="hover:text-white transition-colors">Investopedia</a>
             <a href="/price-database" className="text-white border-b-2 border-white pb-1">Price Database</a>
             <a href="/faq" className="hover:text-white transition-colors">FAQ</a>
           </div>

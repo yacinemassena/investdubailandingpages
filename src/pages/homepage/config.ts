@@ -85,7 +85,7 @@ export const homepageConfig = {
         { title: 'Shorter cycles', description: '12–18 months means your capital isn\'t locked for years. Reinvest faster.' },
         { title: 'Premium exits', description: 'Our properties attract HNW buyers from 20+ countries willing to pay top dollar.' },
       ],
-      cta: 'Get Started →',
+      cta: 'Get Started',
     },
     fr: {
       label: 'Comment Ça Marche',
@@ -102,7 +102,7 @@ export const homepageConfig = {
         { title: 'Cycles courts', description: '12–18 mois signifie que votre capital n\'est pas bloqué pendant des années. Réinvestissez plus vite.' },
         { title: 'Sorties premium', description: 'Nos propriétés attirent des acheteurs fortunés de 20+ pays prêts à payer le prix fort.' },
       ],
-      cta: 'Commencer →',
+      cta: 'Commencer',
     },
   },
 
@@ -126,7 +126,7 @@ export const homepageConfig = {
         { name: 'Flip 36', investment: 'AED 30.5M', salePrice: 'AED 45.0M', roi: '64%', image: 'https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/flip-36.jpg' },
       ],
       disclaimer: '',
-      cta: 'See Full Track Record →',
+      cta: 'See Full Track Record',
     },
     fr: {
       label: 'Track Record',
@@ -147,7 +147,7 @@ export const homepageConfig = {
         { name: 'Flip 36', investment: '30,5M AED', salePrice: '45,0M AED', roi: '47%' },
       ],
       disclaimer: 'Les performances passées ne préjugent pas des performances futures. Tout investissement comporte des risques, y compris la perte en capital.',
-      cta: 'Voir Tout le Track Record →',
+      cta: 'Voir Tout le Track Record',
     },
   },
 
@@ -187,7 +187,7 @@ export const homepageConfig = {
         { protection: 'Guaranteed budget', meaning: 'No capital calls — EVER' },
         { protection: '15% preferred return', meaning: 'You\'re paid first' },
       ],
-      cta: 'Get Started. Your Capital Is Protected →',
+      cta: 'Get Started. Your Capital Is Protected',
     },
     fr: {
       label: 'Votre Protection',
@@ -224,7 +224,7 @@ export const homepageConfig = {
         { protection: 'Budget garanti', meaning: 'Jamais d\'appel de fonds' },
         { protection: '15% rendement prioritaire', meaning: 'Vous êtes payé en premier' },
       ],
-      cta: 'Commencer — Votre Capital Est Protégé →',
+      cta: 'Commencer — Votre Capital Est Protégé',
     },
   },
 
@@ -393,7 +393,7 @@ export const homepageConfig = {
     en: {
       title: 'Ready to outperform?',
       subtitle: 'Join thousands of investors already building wealth with Dubai luxury flips. Start from AED 4,000, no paperwork, no meetings, just results.',
-      primaryCta: 'Get Started : Create Your Account →',
+      primaryCta: 'Get Started : Create Your Account',
       secondaryCta: 'Book a Call : Talk to Our Team',
       reassurance: 'Questions? Our team is here to help. Book a free call anytime.',
     },
