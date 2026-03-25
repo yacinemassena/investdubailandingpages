@@ -1,4 +1,4 @@
-import { Check, X, ArrowRight, Phone } from 'lucide-react';
+﻿import { Check, X, ArrowRight, Phone } from 'lucide-react';
 import { homepageConfig } from '../config';
 
 const lang = 'en';
@@ -62,7 +62,7 @@ export const WhoIsItFor = () => {
               href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" 
               className="bg-brand-accent text-white px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium flex items-center gap-2 text-body hover:bg-brand-accent/90 transition-colors shadow-xl"
             >
-              Get Started
+              Commencer
               <ArrowRight className="w-4 h-4" />
             </a>
             <a 
@@ -72,7 +72,7 @@ export const WhoIsItFor = () => {
               className="border border-brand-border bg-brand-surface text-brand-dark px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium flex items-center gap-2 text-body hover:bg-brand-bg transition-colors"
             >
               <Phone className="w-4 h-4" />
-              Book a Call
+              Réserver un Appel
             </a>
           </div>
         </div>

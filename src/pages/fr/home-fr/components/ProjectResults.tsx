@@ -39,7 +39,7 @@ export const ProjectResults = () => {
                 />
                 <div className="absolute top-3 left-3 flex items-center gap-1.5 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-full border border-black/5">
                   <div className="w-1.5 h-1.5 bg-[#1DB976] rounded-full shadow-[0_0_8px_rgba(29,219,118,0.6)]" />
-                  <span className="text-label text-black">Sold</span>
+                  <span className="text-label text-black">Revendu</span>
                 </div>
               </div>
 
@@ -49,11 +49,11 @@ export const ProjectResults = () => {
                 
                 <div className="space-y-2 mb-6">
                   <div className="flex flex-col text-body">
-                    <span className="text-gray-500">Total Investment:</span>
+                    <span className="text-gray-500">Coût total :</span>
                     <span className="font-bold text-gray-900">{project.investment}</span>
                   </div>
                   <div className="flex flex-col text-body">
-                    <span className="text-gray-500">Selling Price:</span>
+                    <span className="text-gray-500">Prix de revente :</span>
                     <span className="font-bold text-gray-900">{project.selling}</span>
                   </div>
                 </div>

@@ -1,7 +1,7 @@
-import { ArrowRight, TrendingUp, Clock, Users, Wallet, Search, Hammer, BadgeDollarSign, Phone } from 'lucide-react';
+﻿import { ArrowRight, TrendingUp, Clock, Users, Wallet, Search, Hammer, BadgeDollarSign, Phone } from 'lucide-react';
 import { homepageConfig } from '../config';
 
-const lang = 'en';
+const lang = 'fr';
 const solution = homepageConfig.solution[lang];
 
 const whyHigherIcons = [TrendingUp, Clock, Users];
@@ -39,8 +39,8 @@ export const Solution = () => {
         </div>
 
         <div className="mb-12">
-          <h3 className="text-h3 mb-8 text-center text-brand-dark">
-            {solution.whyHigherTitle || 'Why the return profile is different'}
+          <h3 className="text-h3 text-brand-dark mb-8 text-center">
+            {solution.whyHigherTitle || 'Pourquoi notre profil de rendement est-il différent ?'}
           </h3>
           <div className="grid md:grid-cols-3 gap-4">
             {solution.whyHigher.map((item, i) => {
@@ -62,12 +62,12 @@ export const Solution = () => {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brand-accent text-white px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium hover:opacity-90 transition-opacity shadow-xl">
-            Create an Account
+            Commencer
             <ArrowRight className="w-5 h-5" />
           </a>
           <a href="https://calendly.com/acheffi/invest-dubai" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto inline-flex items-center justify-center gap-2 border border-brand-border bg-white text-brand-dark px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium hover:bg-brand-bg transition-colors">
             <Phone className="w-4 h-4" />
-            Book a Call
+            Réserver un Appel
           </a>
         </div>
       </div>

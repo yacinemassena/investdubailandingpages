@@ -166,8 +166,8 @@ export function Investopedia() {
               <div className="pt-4">
                 <div className="p-6 rounded-3xl bg-white/5 border border-white/10 flex items-center justify-between group cursor-pointer hover:bg-white/10 transition-colors">
                   <div>
-                    <div className="text-body text-white/40 uppercase tracking-widest mb-1">Trending now</div>
-                    <div className="text-h4">Market Analysis 2026</div>
+                    <div className="text-body text-white/40 uppercase tracking-widest mb-1">Tendances</div>
+                    <div className="text-h4">Analyse du Marché 2026</div>
                   </div>
                   <TrendingUp className="text-brand-accent" />
                 </div>
@@ -232,7 +232,7 @@ export function Investopedia() {
               </h3>
               <div className="h-px flex-grow mx-8 bg-white/10" />
               {searchQuery && (
-                <span className="text-body-sm text-white/40">Found {filteredArticles.length} results</span>
+                <span className="text-body-sm text-white/40">{filteredArticles.length} résultats trouvés</span>
               )}
             </div>
 
@@ -271,12 +271,12 @@ export function Investopedia() {
         {filteredArticles.length === 0 && (
           <div className="text-center py-32 border border-dashed border-white/10 rounded-3xl">
             <Search className="mx-auto text-white/10 mb-4" size={48} />
-            <p className="text-body-lg text-white/40">No articles found matching your criteria.</p>
-            <button 
+            <p className="text-body-lg text-white/40">Aucun article ne correspond à votre recherche.</p>
+            <button
               onClick={() => { setActiveCategory('all'); setSearchQuery(''); }}
               className="mt-6 text-brand-accent hover:underline"
             >
-              Clear all filters
+              Effacer les filtres
             </button>
           </div>
         )}
@@ -285,14 +285,14 @@ export function Investopedia() {
         <div className="mt-16 md:mt-32 pt-16 md:pt-32 border-t border-white/10 text-center relative">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-16 md:h-32 bg-gradient-to-b from-white/20 to-transparent" />
           <h2 className="text-h2 font-serif mb-8 md:mb-12">
-            Start your investment <br />
-            <span className="italic text-white/40">journey in 10 minutes today</span>
+            Démarrez votre investissement <br />
+            <span className="italic text-white/40">en moins de 10 minutes dès aujourd'hui</span>
           </h2>
-          <Link 
-            to="/" 
+          <Link
+            to="/"
             className="inline-flex items-center gap-3 md:gap-4 px-6 md:px-10 py-4 md:py-5 bg-white text-brand-dark rounded-full font-bold text-body-lg hover:bg-brand-accent hover:text-white transition-all transform hover:scale-105 shadow-xl hover:shadow-brand-accent/20"
           >
-            START NOW
+            COMMENCER
             <ArrowRight size={20} />
           </Link>
         </div>

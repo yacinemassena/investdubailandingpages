@@ -33,7 +33,7 @@ export default function Page() {
                 40+ villas acquises, rénovées et revendues
               </motion.h2>
               <motion.p variants={fadeUp} className="text-body-lg text-gray-400 px-2 sm:px-0">
-                Chaque projet suit le même modèle : identifier des villas sous-évaluées dans les quartiers premium, les rénover selon les standards actuels et les revendre au prix du marché. Voici un aperçu des sorties réalisées.
+                Chaque opération suit le même modèle : identifier des biens sous-évalués dans les quartiers les plus prisés, les rénover selon les standards actuels et les revendre à leur pleine valeur de marché. Voici un aperçu de nos récentes reventes.
               </motion.p>
             </motion.div>
           </div>

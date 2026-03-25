@@ -35,7 +35,7 @@ export const HowItWorks = () => {
                     <div className="w-10 h-10 bg-brand-accent-light rounded-xl flex items-center justify-center">
                       <Icon className="w-5 h-5 text-brand-accent" />
                     </div>
-                    <span className="text-label text-brand-muted">STEP {step.number}</span>
+                    <span className="text-label text-brand-muted">ÉTAPE {step.number}</span>
                   </div>
                   <h3 className="text-h4 text-brand-dark mb-2">{step.title}</h3>
                   <p className="text-body-sm text-brand-muted">{step.description}</p>
@@ -64,7 +64,7 @@ export const HowItWorks = () => {
                       <Icon className="w-5 h-5" />
                     </div>
                     <div>
-                      <span className="text-label text-brand-muted block mb-0.5">STEP {step.number}</span>
+                      <span className="text-label text-brand-muted block mb-0.5">ÉTAPE {step.number}</span>
                       <h3 className="text-h4 text-brand-dark">{step.title}</h3>
                     </div>
                   </div>
@@ -95,7 +95,7 @@ export const HowItWorks = () => {
             <ArrowRight className="w-4 h-4" />
           </motion.a>
           <motion.a variants={fadeUp} href="/how-it-works" className="w-full sm:w-auto border border-brand-border bg-brand-surface text-brand-dark px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium inline-flex items-center justify-center gap-2 text-body hover:bg-brand-bg transition-colors">
-            See Full Process
+            Voir le processus complet
             <ArrowRight className="w-4 h-4" />
           </motion.a>
         </motion.div>

@@ -24,41 +24,43 @@ const ProjectCard = ({ project, compact = false }: { project: TrackRecordProject
         />
         <div className="absolute top-2 left-2 flex items-center gap-1.5 bg-white/95 backdrop-blur-sm px-2 py-1 rounded-full border border-black/5">
           <div className={`w-1.5 h-1.5 ${statusColors.dot} rounded-full`} />
-          <span className="text-[12px] text-black">{project.status}</span>
+          <span className="text-[12px] text-black">
+            {project.status === 'Sold' ? 'Revendu' : project.status === 'Hold' ? 'En Portefeuille' : 'En Cours'}
+          </span>
         </div>
         {project.isGroup && (
           <div className="hidden md:flex absolute top-2 right-2 items-center gap-1 bg-blue-600 px-2 py-1 rounded-full shadow-sm">
-            <span className="text-[10px] md:text-[12px] text-white font-bold">{project.groupCount} Projects</span>
+            <span className="text-[10px] md:text-[12px] text-white font-bold">{project.groupCount} Opérations</span>
           </div>
         )}
       </div>
 
       <div className={`flex-1 flex flex-col p-3`}>
         <h3 className={`font-bold text-black text-[15px] md:text-[16px] mb-2`}>
-          {project.isGroup ? '10 Projects' : project.name}
+          {project.isGroup ? '10 Opérations' : project.name.replace('Flip', 'Villa')}
         </h3>
         
         {project.isGroup ? (
           <div className="flex-1 flex flex-col justify-center">
             <div className="text-center py-1">
-              <span className="text-[14px] text-blue-600 font-bold block mb-1 leading-tight">Under Renovation</span>
-              <span className="text-[13px] md:text-[14px] text-gray-600 font-medium">Flips 37 to 46</span>
+              <span className="text-[14px] text-blue-600 font-bold block mb-1 leading-tight">En cours de Rénovation</span>
+              <span className="text-[13px] md:text-[14px] text-gray-600 font-medium">Villas 37 à 46</span>
             </div>
           </div>
         ) : project.status === 'In-Progress' ? (
           <div className="flex-1 flex flex-col justify-center">
             <div className="text-center py-2">
-              <span className="text-[13px] md:text-[14px] text-blue-600 leading-tight">Renovation in Progress</span>
+              <span className="text-[13px] md:text-[14px] text-blue-600 leading-tight">Rénovation en cours</span>
             </div>
           </div>
         ) : (
           <div className="space-y-1 mb-1 md:mb-3">
             <div className="flex flex-col text-[13px] md:text-[14px] leading-tight md:leading-snug">
-              <span className="text-gray-500 font-medium">Investment:</span>
+              <span className="text-gray-500 font-medium">Coût total :</span>
               <span className="font-bold text-gray-900">{project.totalInvestment}</span>
             </div>
             <div className="flex flex-col text-[13px] md:text-[14px] leading-tight md:leading-snug">
-              <span className="text-gray-500 font-medium">Sale Price:</span>
+              <span className="text-gray-500 font-medium">Prix revente :</span>
               <span className="font-bold text-gray-900">{project.sellingPrice}</span>
             </div>
           </div>
@@ -67,7 +69,7 @@ const ProjectCard = ({ project, compact = false }: { project: TrackRecordProject
         <div className="mt-auto">
           {project.status === 'In-Progress' ? (
             <div className="bg-blue-500 rounded-lg p-1.5 md:p-2 text-center">
-              <span className="text-white text-[12px] md:text-[13px] font-medium uppercase tracking-wider">Coming Soon</span>
+              <span className="text-white text-[12px] md:text-[13px] font-medium uppercase tracking-wider">À Venir</span>
             </div>
           ) : (
             <div className={`${statusColors.bg} rounded-lg p-1.5 md:p-2 flex justify-between items-center`}>
@@ -118,41 +120,43 @@ const ProjectCardGrid = ({ project }: { project: TrackRecordProject }) => {
         />
         <div className="absolute top-2 left-2 flex items-center gap-1.5 bg-white/95 backdrop-blur-sm px-2 py-1 rounded-full border border-black/5">
           <div className={`w-1.5 h-1.5 ${statusColors.dot} rounded-full`} />
-          <span className="text-[12px] text-black">{project.status}</span>
+          <span className="text-[12px] text-black">
+            {project.status === 'Sold' ? 'Revendu' : project.status === 'Hold' ? 'En Portefeuille' : 'En Cours'}
+          </span>
         </div>
         {project.isGroup && (
           <div className="hidden md:flex absolute top-2 right-2 items-center gap-1 bg-blue-600 px-2 py-1 rounded-full shadow-sm">
-            <span className="text-[10px] md:text-[12px] text-white font-bold">{project.groupCount} Projects</span>
+            <span className="text-[10px] md:text-[12px] text-white font-bold">{project.groupCount} Opérations</span>
           </div>
         )}
       </div>
 
       <div className="flex-1 flex flex-col p-3">
         <h3 className="font-bold text-black text-[15px] md:text-[16px] mb-2">
-          {project.isGroup ? '10 Projects' : project.name}
+          {project.isGroup ? '10 Opérations' : project.name.replace('Flip', 'Villa')}
         </h3>
         
         {project.isGroup ? (
           <div className="flex-1 flex flex-col justify-center">
             <div className="text-center py-1">
-              <span className="text-[14px] text-blue-600 font-bold block mb-1 leading-tight">Under Renovation</span>
-              <span className="text-[13px] md:text-[14px] text-gray-600 font-medium">Flips 37 to 46</span>
+              <span className="text-[14px] text-blue-600 font-bold block mb-1 leading-tight">En cours de Rénovation</span>
+              <span className="text-[13px] md:text-[14px] text-gray-600 font-medium">Villas 37 à 46</span>
             </div>
           </div>
         ) : project.status === 'In-Progress' ? (
           <div className="flex-1 flex flex-col justify-center">
             <div className="text-center py-2">
-              <span className="text-[13px] md:text-[14px] text-blue-600 leading-tight">Renovation in Progress</span>
+              <span className="text-[13px] md:text-[14px] text-blue-600 leading-tight">Rénovation en cours</span>
             </div>
           </div>
         ) : (
           <div className="space-y-1 mb-1 md:mb-3">
             <div className="flex flex-col text-[13px] md:text-[14px] leading-tight md:leading-snug">
-              <span className="text-gray-500 font-medium">Investment:</span>
+              <span className="text-gray-500 font-medium">Coût total :</span>
               <span className="font-bold text-gray-900">{project.totalInvestment}</span>
             </div>
             <div className="flex flex-col text-[13px] md:text-[14px] leading-tight md:leading-snug">
-              <span className="text-gray-500 font-medium">Sale Price:</span>
+              <span className="text-gray-500 font-medium">Prix revente :</span>
               <span className="font-bold text-gray-900">{project.sellingPrice}</span>
             </div>
           </div>
@@ -161,7 +165,7 @@ const ProjectCardGrid = ({ project }: { project: TrackRecordProject }) => {
         <div className="mt-auto">
           {project.status === 'In-Progress' ? (
             <div className="bg-blue-500 rounded-lg p-1.5 md:p-2 text-center">
-              <span className="text-white text-[12px] md:text-[13px] font-medium uppercase tracking-wider">Coming Soon</span>
+              <span className="text-white text-[12px] md:text-[13px] font-medium uppercase tracking-wider">À Venir</span>
             </div>
           ) : (
             <div className={`${statusColors.bg} rounded-lg p-1.5 md:p-2 flex justify-between items-center`}>

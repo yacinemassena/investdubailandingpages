@@ -1,4 +1,4 @@
-import { useState } from "react";
+﻿import { useState } from "react";
 import { useDocumentHead } from "../../../hooks/useDocumentHead";
 import { motion, AnimatePresence } from "motion/react";
 import {
@@ -97,7 +97,7 @@ const experienceFeatures = [
     icon: MessageCircle,
     title: "Groupe WhatsApp Dédié",
     description:
-      "Chaque projet a son propre canal WhatsApp. Mises à jour directes de l'équipe sur le terrain, photos d'avancement, calendriers et réponses à vos questions en temps réel.",
+      "Chaque opération dispose de son propre canal WhatsApp. Recevez en direct les informations de l'équipe terrain : photos d'avancement, respect des plannings et réponses à vos questions en temps réel.",
     highlight: "Communication en temps réel",
     type: "whatsapp",
   },
@@ -105,7 +105,7 @@ const experienceFeatures = [
     icon: Instagram,
     title: "Stories Instagram Hebdomadaires",
     description:
-      "Démolition, construction, finitions. Suivez la rénovation semaine après semaine grâce aux mises à jour visuelles. Vous voyez la villa se transformer.",
+      "Démolition, gros œuvre, finitions. Suivez la rénovation semaine après semaine grâce à nos reportages visuels. Vous assistez à la transformation de la villa étape par étape.",
     highlight: "Suivi visuel de l'avancement",
     type: "instagram",
   },
@@ -113,7 +113,7 @@ const experienceFeatures = [
     icon: Users,
     title: "Rencontrez l'Opérateur",
     description:
-      "Chaque projet InvestDubai est exécuté par Greenbull Properties, un opérateur immobilier basé à Dubaï avec 40+ villas de luxe acquises, rénovées et vendues.\n\nArchitectes internes, chefs de projet dédiés et supervision quotidienne sur site de l'acquisition à la sortie. Vous savez exactement qui fait le travail.",
+      "Chaque opération InvestDubai est exécutée par Greenbull Properties, notre pôle immobilier basé à Dubaï ayant déjà acquis, rénové et revendu plus de 40 villas de luxe.\n\nNous intégrons nos propres architectes, chefs de projet et superviseurs de chantier pour un contrôle total de l'acquisition à la revente. Vous confiez votre capital à l'équipe qui réalise véritablement les travaux.",
     highlight: "40+ villas de luxe",
     video:
       "https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/videos/architectes.mp4",
@@ -122,7 +122,7 @@ const experienceFeatures = [
     icon: LayoutDashboard,
     title: "Votre Tableau de Bord",
     description:
-      "Jalons du projet, suivi budgétaire, calendrier, documentation. Tout au même endroit. Accessible 24h/24.",
+      "Jalons de l'opération, suivi budgétaire, échéanciers, documentation juridique et financière. Tout est centralisé et accessible 24h/24.",
     highlight: "Accès 24h/24",
     image:
       "https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/dashboard-2.png",
@@ -131,7 +131,7 @@ const experienceFeatures = [
     icon: Mail,
     title: "Mises à Jour Email Régulières",
     description:
-      "Emails structurés à chaque jalon important : acquisition finalisée, phases de rénovation, mise en vente, offres reçues, vente finale.",
+      "Des rapports structurés à chaque étape décisive : finalisation de l'acquisition, avancées majeures de la rénovation, mise sur le marché, réception des offres, et clôture de la vente.",
     highlight: "Notifications aux jalons",
     image:
       "https://pub-46bf43f4e0fb4daab5a13e7a41223da4.r2.dev/images/investdubai-how-it-works.png",
@@ -169,14 +169,13 @@ export const HowItWorksPage = () => {
             transition={{ duration: 0.6 }}
           >
             <span className="inline-block px-4 py-1.5 bg-black/5 text-black text-label rounded-full mb-6 border border-black/10">
-              Comment Ça Marche
+              Le Processus
             </span>
             <h1 className="text-display-1 text-black mb-6">
-              De l'inscription aux gains. Chaque étape expliquée.
+              De l'inscription aux plus-values. Une transparence totale.
             </h1>
             <p className="text-body-lg text-gray-600 max-w-2xl mx-auto mb-10">
-              Pas de zone d'ombre. Vous voyez où va votre argent, ce qui arrive à la
-              villa et comment vous êtes payé. Voici le processus complet.
+              Aucune zone d'ombre. Vous savez exactement comment votre capital est alloué, comment la propriété est valorisée et comment vos plus-values sont générées. Découvrez notre méthodologie.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -185,13 +184,13 @@ export const HowItWorksPage = () => {
                 target="_blank" rel="noopener noreferrer"
                 className="w-full sm:w-auto bg-black text-white px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium inline-flex items-center justify-center gap-2 shadow-xl shadow-black/20 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
               >
-                Create Your Account <ArrowRight className="w-4 h-4" />
+                Commencer <ArrowRight className="w-4 h-4" />
               </a>
               <a
                 href="#experience"
                 className="w-full sm:w-auto border border-gray-300 bg-white/50 backdrop-blur-md text-black px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium inline-flex items-center justify-center gap-2 hover:bg-white hover:border-gray-400 transition-all duration-300"
               >
-                <Play className="w-4 h-4" /> Voir Comment Fonctionnent les Mises à Jour
+                <Play className="w-4 h-4" /> Découvrir l'expérience
               </a>
             </div>
           </motion.div>
@@ -205,14 +204,13 @@ export const HowItWorksPage = () => {
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-12">
           <div className="text-center mb-20">
             <span className="text-label text-gray-400 mb-2 block">
-              5 Étapes Simples
+              Notre Méthodologie
             </span>
             <h2 className="text-h2 text-black mb-6">
-              Votre parcours d'investissement
+              Le déroulement de votre investissement
             </h2>
             <p className="text-body-lg text-gray-600 max-w-2xl mx-auto">
-              Nous gérons le sourcing, la rénovation et la vente. Vous choisissez un projet,
-              investissez, suivez la transformation et recevez vos gains.
+              Nous prenons en charge la recherche, la rénovation et la commercialisation. Il vous suffit de sélectionner une opportunité, d'investir, de suivre la transformation du bien et d'encaisser vos plus-values.
             </p>
           </div>
 
@@ -393,14 +391,13 @@ export const HowItWorksPage = () => {
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-12 relative z-10">
           <div className="text-center mb-20">
             <span className="inline-block px-4 py-1.5 bg-white/10 text-white text-label rounded-full mb-6 border border-white/10">
-              After You Invest
+              Après votre investissement
             </span>
             <h2 className="text-h2 text-white mb-6">
-              What it actually looks like to be an investor
+              L'expérience d'investisseur au quotidien
             </h2>
             <p className="text-body-lg text-gray-400 max-w-2xl mx-auto">
-              We keep you informed because this is your money, your villa, your
-              project. Here's how.
+              Vous êtes informé en temps réel. C'est votre capital, votre villa, votre projet.
             </p>
           </div>
 
@@ -543,18 +540,17 @@ export const HowItWorksPage = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="text-h2 text-white mb-6">
-                  You see everything.
+                  Une transparence absolue.
                 </h3>
                 <p className="text-body-lg text-gray-400 mb-8">
-                  Traditional real estate funds deploy your capital and go quiet
-                  until the exit. We do the opposite.
+                  Les fonds immobiliers traditionnels placent votre argent et restent silencieux jusqu'à la revente. Nous faisons l'inverse.
                 </p>
                 <ul className="space-y-4">
                   {[
-                    "See exactly where your money goes",
-                    "Watch the renovation happen week by week",
-                    "Direct access to the team on the ground",
-                    "Full documentation at every milestone",
+                    "Sachez exactement où va votre argent",
+                    "Suivez la rénovation semaine après semaine",
+                    "Accès direct à l'équipe sur le terrain",
+                    "Documentation complète à chaque étape",
                   ].map((item, i) => (
                     <li key={i} className="flex items-center gap-4">
                       <div className="w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0">
@@ -572,7 +568,7 @@ export const HowItWorksPage = () => {
                     2,500+
                   </div>
                   <div className="text-body text-gray-400 mb-8">
-                    Active investors
+                    Investisseurs actifs
                   </div>
                   <div className="grid grid-cols-2 gap-3 md:gap-4">
                     <div className="bg-white/5 rounded-2xl p-4 md:p-6 border border-white/10">
@@ -580,7 +576,7 @@ export const HowItWorksPage = () => {
                         40+
                       </div>
                       <div className="text-body-sm text-gray-400 font-medium">
-                        Villas completed
+                        Villas terminées
                       </div>
                     </div>
                     <div className="bg-white/5 rounded-2xl p-4 md:p-6 border border-white/10">
@@ -588,7 +584,7 @@ export const HowItWorksPage = () => {
                         $327M
                       </div>
                       <div className="text-body-sm text-gray-400 font-medium">
-                        Capital deployed
+                        Capital déployé
                       </div>
                     </div>
                   </div>
@@ -604,11 +600,11 @@ export const HowItWorksPage = () => {
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-12 mb-12">
           <div className="text-center">
             <h2 className="text-h2 text-white mb-6">
-              40+ villas acquired, renovated & sold
+              Plus de 40 villas acquises, rénovées et revendues
             </h2>
             <p className="text-body-lg text-gray-400 max-w-2xl mx-auto">
-              Every project follows the same model: find undervalued villas,
-              renovate to modern standards, and sell at full market value.
+              Chaque opération suit le même modèle : trouver des biens sous-évalués,
+              les rénover selon des standards modernes, et les revendre à leur pleine valeur de marché.
             </p>
           </div>
         </div>
@@ -629,14 +625,13 @@ export const HowItWorksPage = () => {
             viewport={{ once: true }}
           >
             <span className="text-label text-gray-400 mb-4 block">
-              Ready to Start?
+              Prêt à commencer ?
             </span>
             <h2 className="text-h2 text-black mb-6">
-              Ready to see current projects?
+              Découvrez les projets en cours
             </h2>
             <p className="text-body-lg text-gray-600 mb-10 max-w-2xl mx-auto">
-              Create your account in minutes and explore live villa
-              opportunities.
+              Créez votre compte en quelques minutes et explorez les opportunités d'investissement disponibles.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
@@ -644,18 +639,18 @@ export const HowItWorksPage = () => {
                 target="_blank" rel="noopener noreferrer"
                 className="w-full sm:w-auto bg-black text-white px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium inline-flex items-center justify-center gap-2 shadow-xl shadow-black/20 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
               >
-                Create Your Account <ArrowRight className="w-4 h-4" />
+                Commencer <ArrowRight className="w-4 h-4" />
               </a>
               <a
                 href="https://calendly.com/acheffi/invest-dubai"
                 target="_blank" rel="noopener noreferrer"
                 className="w-full sm:w-auto border border-gray-300 bg-white text-black px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium inline-flex items-center justify-center gap-2 hover:bg-gray-50 hover:border-gray-400 transition-all duration-300"
               >
-                <Phone className="w-4 h-4" /> Book a Call
+                <Phone className="w-4 h-4" /> Réserver un Appel
               </a>
             </div>
             <p className="text-body text-gray-400 mt-8">
-              No capital committed until you choose to invest.
+              Aucun capital n'est engagé tant que vous n'avez pas choisi d'investir.
             </p>
           </motion.div>
         </div>

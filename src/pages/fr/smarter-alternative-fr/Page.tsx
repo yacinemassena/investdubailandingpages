@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { useDocumentHead } from '../../../hooks/useDocumentHead';
 import { Shield, History, Scale, Lock, ShieldCheck, ArrowRight, TrendingUp, Clock, Users, Wallet, Search, Hammer, BadgeDollarSign, BarChart3, Target, CalendarClock, CheckCircle, Phone, ChevronDown, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -17,78 +17,78 @@ const steps = [
   {
     title: 'Vous accédez au projet',
     description:
-      'Consultez une opportunité spécifique et investissez à partir de 1 000 $ (~4 000 AED). Chaque projet est détenu via une SPV dédiée qui donne aux investisseurs une exposition à un actif sous-jacent spécifique.',
+      'Consultez une opportunité spécifique et investissez à partir de 4 000 AED. Chaque opération est structurée via une SPV dédiée, vous garantissant une exposition directe à l\'actif immobilier sous-jacent.',
     icon: Wallet,
   },
   {
     title: 'Nous sourçons',
     description:
-      'Nous identifions des villas de luxe à fort potentiel dans les emplacements haut de gamme de Dubaï, appuyés par les données, l\'expérience et le timing.',
+      'Nous identifions des villas de luxe décotées dans les quartiers les plus exclusifs de Dubaï. Notre approche est fondée sur l\'analyse des données, notre expertise marché et le timing.',
     icon: Search,
   },
   {
     title: 'Nous exécutons',
     description:
-      'Notre équipe gère la conception, les autorisations, la rénovation, les finitions haut de gamme et la revente. Les investisseurs bénéficient de l\'exécution sans rien gérer.',
+      'Notre équipe pilote l\'intégralité du processus : conception architecturale, obtention des permis, rénovation haut de gamme et commercialisation. L\'investisseur bénéficie de notre force de frappe opérationnelle, sans aucune gestion.',
     icon: Hammer,
   },
   {
-    title: 'Vous gagnez',
+    title: 'Vous percevez vos plus-values',
     description:
-      'À la vente du bien, les investisseurs récupèrent leur capital plus leur part de la plus-value via la structure du projet.',
+      'Lors de la revente de la propriété, vous récupérez votre capital initial ainsi que votre quote-part des bénéfices générés par l\'opération.',
     icon: BadgeDollarSign,
   },
 ];
 
 const whyDifferent = [
   {
-    title: 'Création de valeur',
+    title: 'Création de valeur active',
     description:
-      'Les rendements proviennent de la rénovation et du repositionnement, pas d\'une attente passive de l\'appréciation.',
+      'Notre rentabilité est le fruit direct de la rénovation et du repositionnement du bien sur le marché, et non d\'une spéculation attentiste.',
     icon: TrendingUp,
   },
   {
-    title: 'Cycles plus courts',
+    title: 'Cycles de capitaux optimisés',
     description:
-      '12-18 mois signifie que votre capital n\'est pas bloqué pendant des années. Vous pouvez redéployer plus rapidement qu\'avec un investissement locatif traditionnel.',
+      'Avec des durées de 12 à 18 mois, votre capital n\'est pas immobilisé indéfiniment. Vous conservez votre capacité à redéployer vos fonds rapidement.',
     icon: Clock,
   },
   {
-    title: 'Reventes attractives',
+    title: 'Stratégie de revente premium',
     description:
-      'Les quartiers haut de gamme de Dubaï attirent des acheteurs internationaux à la recherche de luxe clé en main. Ce bassin d\'acheteurs soutient une dynamique de revente solide.',
+      'Les communautés prestigieuses de Dubaï attirent une clientèle internationale fortunée exigeant un niveau de finition clé en main. Cette demande structurelle garantit la liquidité de nos reventes.',
     icon: Shield,
   },
 ];
 
 const protectionCards = [
   {
-    title: 'Vous détenez des parts dans l\'entité qui possède la villa.',
+    title: 'Vous êtes actionnaire de l\'entité détentrice de l\'actif.',
     description:
-      'Chaque projet passe par sa propre SPV. Cette SPV détient le titre de propriété. Vous êtes actionnaire de cette entité — une propriété réelle liée à un bien réel, pas un fonds mutualisé.',
+      'Chaque opération est adossée à sa propre SPV, titulaire exclusive du titre de propriété. En tant qu\'actionnaire, votre investissement est directement lié à un actif immobilier tangible, loin de l\'opacité des fonds communs.',
     subtext:
       '',
   },
   {
-    title: 'Budgets de rénovation fixés. Pas d\'appel de fonds.',
+    title: 'Budgets de rénovation garantis. Aucun appel de fonds.',
     description:
-      'Nous définissons le budget de rénovation à l\'avance. En cas de dépassement, c\'est pour nous. Vous ne recevrez pas de demande de capital supplémentaire pendant le projet.',
+      'Nous validons les budgets de rénovation en amont. Tout dépassement éventuel est absorbé par l\'opérateur. Vous ne serez jamais sollicité pour des versements complémentaires.',
     subtext:
       '',
   },
   {
-    title: 'Les investisseurs sont payés en premier. Rendement prioritaire de 15%.',
+    title: 'Rendement prioritaire de 15% pour les investisseurs.',
     description:
-      'Vous recevez un rendement préférentiel de 15% avant le partage des bénéfices. Ce n\'est qu\'après ce seuil que nous participons à la plus-value. 60% pour vous, 40% pour nous.',
+      'La structure vous octroie les premiers 15% de rentabilité générée. Ce n\'est qu\'au-delà de ce palier de performance que nous percevons notre rémunération (répartition 60% investisseurs / 40% InvestDubai).',
     subtext:
       '',
   },
 ];
 
 const whyChoose = [
-  'Résultats réalisés sur des projets terminés, soutenus par un historique de sorties réelles et de bénéfices distribués.',
-  'L\'équipe gère le sourcing, la rénovation et l\'exécution de la revente, tandis que les investisseurs accèdent à l\'opportunité sans gestion directe du bien.',
-  'Commencez à partir de 1 000 $ (~4 000 AED) et construisez votre exposition progressivement sur plusieurs projets.',
+  'Des performances établies sur des opérations clôturées, documentées par un historique de reventes réelles et de plus-values distribuées.',
+  'Notre équipe internalise le sourcing, la maîtrise d\'œuvre et la commercialisation. L\'investisseur accède à une classe d\'actifs exclusive, sans les contraintes de gestion.',
+  'Accessible dès 4 000 AED, permettant une diversification progressive de votre portefeuille sur de multiples opérations.',
 ];
 
 const fit = [
@@ -136,22 +136,22 @@ const faqItems = [
   },
   {
     q: "Quel est l'investissement minimum ?",
-    a: 'Le minimum est de 1 000 $ (~4 000 AED).\nCe point d\'entrée vous permet de comprendre le fonctionnement du modèle avant de monter en puissance. De nombreux investisseurs qui ont commencé au minimum déploient maintenant significativement plus par projet à mesure qu\'ils gagnent en confiance dans la stratégie.',
+    a: 'Le minimum est de 1 000 € (~4 000 AED).\nCe point d\'entrée vous permet de comprendre le fonctionnement du modèle avant de monter en puissance. De nombreux investisseurs qui ont commencé au minimum déploient maintenant significativement plus par projet à mesure qu\'ils gagnent en confiance dans la stratégie.',
   },
   {
-    q: 'Combien de temps mon argent est-il bloqué ?',
-    a: 'Le cycle de projet typique est de 12 à 18 mois, couvrant l\'acquisition, la rénovation, la commercialisation et la vente.\nLe capital est restitué après la vente de la villa et la finalisation du bilan. Généralement sous 2 à 4 semaines après la clôture.\nIl n\'existe actuellement pas de marché secondaire pour les sorties anticipées, donc n\'investissez que des capitaux que vous êtes prêt à laisser immobilisés pendant toute la durée.',
+    q: 'Pendant combien de temps mon capital est-il immobilisé ?',
+    a: 'La durée type d\'une opération est de 12 à 18 mois, englobant l\'acquisition, la rénovation, la commercialisation et la revente.\nLes fonds vous sont distribués suite à la vente de la villa et la clôture comptable, généralement sous 2 à 4 semaines.\nIl n\'existe actuellement aucun marché secondaire pour des sorties anticipées. Nous vous recommandons donc de n\'investir que des fonds dont vous n\'aurez pas besoin durant cette période.',
   },
   {
-    q: 'Quels sont les principaux risques ?',
-    a: 'Comme tout investissement immobilier, il y a des risques :\n• Risque de marché : les prix des villas peuvent baisser.\n• Risque d\'exécution : retards de rénovation ou dépassements de coûts.\n• Risque de liquidité : le capital est bloqué pendant le projet.\n• Risque de timing : la vente pourrait prendre plus de temps que prévu.\nNous réduisons l\'exposition en achetant sous le marché, en contrôlant les budgets rigoureusement et en opérant sans effet de levier. Mais aucun investissement n\'est sans risque.',
+    q: 'Quels sont les risques principaux ?',
+    a: 'Comme pour tout investissement immobilier, des risques existent :\n• Risque de marché : la valorisation des biens peut fluctuer.\n• Risque d\'exécution : retards éventuels ou aléas de chantier.\n• Risque d\'illiquidité : votre capital est bloqué sur la durée de l\'opération.\n• Risque de liquidité à la sortie : la revente peut exiger plus de temps que prévu.\nNous atténuons ces risques par des acquisitions décotées, un contrôle budgétaire rigoureux et une stratégie sans endettement. Toutefois, le risque zéro n\'existe pas.',
   },
 ];
 
 export default function SmarterAlternative() {
   useDocumentHead({
-    title: 'Une Alternative Plus Intelligente aux Investissements Traditionnels | InvestDubai',
-    description: 'Rénovation de villas de luxe à Dubaï. 29% de rendement moyen. Cycles de 12-18 mois. Comparez aux ETF, locatif et VEFA. Accès régulé dès 1 000 $.',
+    title: 'Une Alternative Plus Performante aux Investissements Traditionnels | InvestDubai',
+    description: 'Acquisition et valorisation de villas de luxe à Dubaï. Objectif de rentabilité 20%+. Cycles de capitaux de 12-18 mois. Accès exclusif et régulé dès 1 000 $.',
     canonical: 'https://www.investdubai.com/fr/smarteralternative',
   });
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -178,30 +178,30 @@ export default function SmarterAlternative() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <span className="section-label shadow-sm border border-emerald-100">A smarter alternative to traditional investing</span>
+            <span className="section-label shadow-sm border border-emerald-100">Une alternative plus performante à l'investissement traditionnel</span>
             <h1 className="text-display-1 text-zinc-900 mb-6 md:mb-8">
-              Dubai luxury villa flips. <br className="hidden md:block" />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-400">29% average payout.</span>
+              Rénovation de villas de luxe à Dubaï. <br className="hidden md:block" />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-400">Objectif 20%+ de rendement.</span>
             </h1>
             <p className="text-body-lg text-zinc-600 max-w-3xl mx-auto mb-8 md:mb-10">
-              For investors who want real estate exposure with shorter timelines, active value creation, and a defined exit - instead of waiting years for appreciation or managing tenants.
+              Pour les investisseurs qui recherchent une exposition à l'immobilier sur des cycles courts, une création de valeur active et une sortie définie - au lieu d'attendre des années pour une plus-value ou de gérer des locataires.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 md:mb-16">
               <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-zinc-900 text-white px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium inline-flex items-center justify-center gap-2 shadow-xl shadow-zinc-900/20 hover:bg-zinc-800 hover:-translate-y-0.5 transition-all">
-                Create an Account <ArrowRight className="w-4 h-4" />
+                Commencer <ArrowRight className="w-4 h-4" />
               </a>
               <a href="#how-it-works" className="w-full sm:w-auto bg-white text-zinc-900 px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium inline-flex items-center justify-center gap-2 border border-zinc-200 hover:bg-zinc-50 transition-all">
-                See How It Works
+                Notre Méthodologie
               </a>
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 max-w-4xl mx-auto">
               {[
-                { label: 'Historical Payout', value: '29% avg' },
-                { label: 'Hold Period', value: '12-18 mo' },
-                { label: 'Leverage Used', value: '0%' },
-                { label: 'Profits Distributed', value: '$80M+' }
+                { label: 'Rendement moyen', value: '29%' },
+                { label: 'Durée moyenne', value: '12-18 mois' },
+                { label: 'Endettement', value: '0%' },
+                { label: 'Plus-values distribuées', value: '$80M+' }
               ].map((stat, i) => (
                 <motion.div 
                   initial={{ opacity: 0, y: 20 }}
@@ -224,9 +224,9 @@ export default function SmarterAlternative() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-zinc-900 via-zinc-950 to-zinc-950 -z-10" />
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-12">
           <div className="text-center mb-16">
-            <span className="inline-block px-4 py-1.5 bg-emerald-500/10 text-emerald-400 text-label rounded-full mb-6 border border-emerald-500/20">Why this strategy</span>
-            <h2 className="text-h2 text-white mb-6">How villa flips compare to what you're probably already doing</h2>
-            <p className="text-body-lg text-zinc-400 max-w-3xl mx-auto">Most investors juggle the same options: ETFs, buy-to-let, off-plan. Each has trade-offs. Here's where Dubai luxury villa flips sit.</p>
+            <span className="inline-block px-4 py-1.5 bg-emerald-500/10 text-emerald-400 text-label rounded-full mb-6 border border-emerald-500/20">La différence d'approche</span>
+            <h2 className="text-h2 text-white mb-6">Comparatif : Notre stratégie face aux placements traditionnels</h2>
+            <p className="text-body-lg text-zinc-400 max-w-3xl mx-auto">La plupart des investisseurs jonglent entre les mêmes options : ETF, immobilier locatif, achat sur plan (VEFA). Chacune a ses compromis. Voici comment se positionne notre stratégie de rénovation de villas de luxe à Dubaï.</p>
           </div>
           
           {/* Desktop Table View */}
@@ -234,10 +234,10 @@ export default function SmarterAlternative() {
             <table className="w-full text-body whitespace-nowrap md:whitespace-normal">
               <thead>
                 <tr className="border-b border-zinc-800 bg-zinc-900/80">
-                  <th className="text-left px-6 py-5 text-white font-semibold tracking-wide">Investment</th>
-                  <th className="text-left px-6 py-5 text-white font-semibold tracking-wide">Return Profile</th>
-                  <th className="text-left px-6 py-5 text-white font-semibold tracking-wide">Timeline</th>
-                  <th className="text-left px-6 py-5 text-white font-semibold tracking-wide">Trade-off</th>
+                  <th className="text-left px-6 py-5 text-white font-semibold tracking-wide">Investissement</th>
+                  <th className="text-left px-6 py-5 text-white font-semibold tracking-wide">Profil de Rendement</th>
+                  <th className="text-left px-6 py-5 text-white font-semibold tracking-wide">Horizon de temps</th>
+                  <th className="text-left px-6 py-5 text-white font-semibold tracking-wide">Compromis</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-zinc-800/50">
@@ -274,15 +274,15 @@ export default function SmarterAlternative() {
                   </h3>
                   <div className="space-y-4">
                     <div>
-                      <span className="text-label text-zinc-500 block mb-1.5">Return Profile</span>
+                      <span className="text-label text-zinc-500 block mb-1.5">Profil de Rendement</span>
                       <span className={`text-body ${i === 3 ? 'text-emerald-400 font-semibold' : 'text-zinc-300'}`}>{row[1]}</span>
                     </div>
                     <div>
-                      <span className="text-label text-zinc-500 block mb-1.5">Timeline</span>
+                      <span className="text-label text-zinc-500 block mb-1.5">Horizon de temps</span>
                       <span className={`text-body ${i === 3 ? 'text-white font-medium' : 'text-zinc-300'}`}>{row[2]}</span>
                     </div>
                     <div>
-                      <span className="text-label text-zinc-500 block mb-1.5">Trade-off</span>
+                      <span className="text-label text-zinc-500 block mb-1.5">Compromis</span>
                       <span className={`text-body leading-relaxed block ${i === 3 ? 'text-white' : 'text-zinc-400'}`}>{row[3]}</span>
                     </div>
                   </div>
@@ -290,7 +290,7 @@ export default function SmarterAlternative() {
               );
             })}
           </div>
-          <p className="text-center text-zinc-500 max-w-3xl mx-auto text-body">This strategy works best for investors who want exposure to tangible real estate, shorter capital cycles, and returns driven by execution rather than market timing.</p>
+          <p className="text-center text-zinc-500 max-w-3xl mx-auto text-body">Cette stratégie est idéale pour les investisseurs souhaitant s'exposer à l'immobilier tangible sur des cycles de capitaux plus courts, avec des rendements basés sur la création de valeur concrète plutôt que sur la spéculation de marché.</p>
         </div>
       </section>
 
@@ -300,12 +300,12 @@ export default function SmarterAlternative() {
         
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-12 relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-20">
-            <span className="section-label border border-emerald-100">How it works</span>
+            <span className="section-label border border-emerald-100">Notre Méthodologie</span>
             <h2 className="text-h2 text-zinc-900 mb-6">
-              Buy. Renovate. Sell. That's the model.
+              Acheter. Rénover. Revendre.
             </h2>
             <p className="text-body-lg text-zinc-600">
-              We acquire undervalued luxury villas, renovate them to premium standards, and sell them at the renovated market price. The return comes from execution.
+              Nous acquérons des villas de luxe sous-évaluées, nous les rénovons selon des standards d'excellence, et nous les revendons à leur pleine valeur sur le marché. Le rendement est le fruit de notre exécution.
             </p>
           </div>
 
@@ -335,7 +335,7 @@ export default function SmarterAlternative() {
           </div>
 
           <div>
-            <h3 className="text-h3 text-zinc-900 text-center mb-12">Why the return profile is different?</h3>
+            <h3 className="text-h3 text-zinc-900 text-center mb-12">Pourquoi notre profil de rendement est-il différent ?</h3>
             <div className="grid md:grid-cols-3 gap-4 md:gap-8">
               {whyDifferent.map((item) => {
                 const Icon = item.icon;
@@ -354,12 +354,12 @@ export default function SmarterAlternative() {
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-12">
               <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brand-accent text-white px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium hover:opacity-90 transition-opacity shadow-lg">
-                Create an Account
+                Commencer
                 <ArrowRight className="w-5 h-5" />
               </a>
               <a href="https://calendly.com/acheffi/invest-dubai" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto inline-flex items-center justify-center gap-2 border border-zinc-300 bg-white text-zinc-900 px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium hover:bg-zinc-50 transition-colors">
                 <Phone className="w-4 h-4" />
-                Book a Call
+                Réserver un Appel
               </a>
             </div>
           </div>
@@ -379,9 +379,9 @@ export default function SmarterAlternative() {
         </div>
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-12 relative z-10">
           <div className="text-center mb-16">
-            <span className="inline-block px-4 py-1.5 bg-emerald-500/10 text-emerald-400 text-label rounded-full mb-6 border border-emerald-500/20">Investor safeguards</span>
-            <h2 className="text-h2 text-white mb-6">How the structure protects you</h2>
-            <p className="text-body-lg text-zinc-400 max-w-3xl mx-auto">Strong returns matter. So does knowing your money is handled properly. Here's how each project is structured.</p>
+            <span className="inline-block px-4 py-1.5 bg-emerald-500/10 text-emerald-400 text-label rounded-full mb-6 border border-emerald-500/20">La protection des investisseurs</span>
+            <h2 className="text-h2 text-white mb-6">La structuration de la protection de votre investissement</h2>
+            <p className="text-body-lg text-zinc-400 max-w-3xl mx-auto">Offrir des rendements élevés est important, mais la sécurité de vos capitaux l'est tout autant. Voici comment nous structurons chaque opération.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-4 md:gap-8">
             {protectionCards.map((card) => (
@@ -404,9 +404,9 @@ export default function SmarterAlternative() {
       <section id="track-record" className="py-12 md:py-20 bg-zinc-950 border-t border-zinc-900">
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-12 mb-12">
           <div className="text-center">
-            <span className="inline-block px-4 py-1.5 bg-emerald-500/10 text-emerald-400 text-label rounded-full mb-6 border border-emerald-500/20">Track Record</span>
-            <h2 className="text-h2 text-white mb-6">40+ villas acquired, renovated & sold</h2>
-            <p className="text-body-lg text-zinc-400 max-w-2xl mx-auto">Every project follows the same model: find undervalued villas, renovate to modern standards, and sell at full market value.</p>
+            <span className="inline-block px-4 py-1.5 bg-emerald-500/10 text-emerald-400 text-label rounded-full mb-6 border border-emerald-500/20">Nos Performances</span>
+            <h2 className="text-h2 text-white mb-6">Plus de 40 villas acquises, rénovées et revendues</h2>
+            <p className="text-body-lg text-zinc-400 max-w-2xl mx-auto">Chaque opération suit le même modèle : trouver des biens sous-évalués, les rénover selon des standards modernes, et les revendre à leur pleine valeur de marché.</p>
           </div>
         </div>
         <TrackRecordCarousel rows={1} showTitle={false} showExpandButton={false} />
@@ -416,14 +416,14 @@ export default function SmarterAlternative() {
       <section className="py-12 md:py-20 bg-zinc-50">
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-12">
           <div className="text-center mb-16">
-            <span className="section-label border border-emerald-100">Portfolio fit</span>
-            <h2 className="text-h2 text-zinc-900 mb-6">Is this the right fit for your portfolio?</h2>
-            <p className="text-body-lg text-zinc-600 max-w-3xl mx-auto">If you are looking for a more deliberate alternative to traditional investing, this model may be worth exploring further.</p>
+            <span className="section-label border border-emerald-100">Votre profil</span>
+            <h2 className="text-h2 text-zinc-900 mb-6">Ce modèle est-il adapté à votre portefeuille ?</h2>
+            <p className="text-body-lg text-zinc-600 max-w-3xl mx-auto">Si vous recherchez une alternative plus performante aux investissements traditionnels, ce modèle mérite votre attention.</p>
           </div>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <div className="bg-white rounded-3xl border border-zinc-200 p-10 shadow-sm relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-50 rounded-bl-full -z-0 opacity-50" />
-              <h3 className="text-h3 text-zinc-900 mb-8 relative z-10">This may fit if you...</h3>
+              <h3 className="text-h3 text-zinc-900 mb-8 relative z-10">Cette stratégie est pour vous si...</h3>
               <div className="space-y-3 md:space-y-6 relative z-10">
                 {fit.map((item) => (
                   <div key={item} className="flex gap-4 items-start">
@@ -436,7 +436,7 @@ export default function SmarterAlternative() {
               </div>
             </div>
             <div className="bg-zinc-100 rounded-3xl border border-zinc-200 p-10 relative overflow-hidden">
-              <h3 className="text-h3 text-zinc-900 mb-8 relative z-10">This may not fit if you...</h3>
+              <h3 className="text-h3 text-zinc-900 mb-8 relative z-10">Cette stratégie n'est pas pour vous si...</h3>
               <div className="space-y-3 md:space-y-6 relative z-10">
                 {notFit.map((item) => (
                   <div key={item} className="flex gap-4 items-start">
@@ -464,15 +464,15 @@ export default function SmarterAlternative() {
           <div className="absolute inset-0 bg-zinc-900/80 backdrop-blur-sm" />
         </div>
         <div className="max-w-4xl mx-auto px-5 sm:px-6 lg:px-12 text-center relative z-10">
-          <span className="inline-block px-4 py-1.5 bg-emerald-500/20 text-emerald-400 text-label rounded-full mb-8 border border-emerald-500/30">Get Started</span>
-          <h2 className="text-h2 text-white mb-6">Start with $1,000. See what's available now.</h2>
-          <p className="text-body-lg text-zinc-300 mb-12 max-w-2xl mx-auto">Create your account, explore current projects, and invest through a regulated structure.</p>
+          <span className="inline-block px-4 py-1.5 bg-emerald-500/20 text-emerald-400 text-label rounded-full mb-8 border border-emerald-500/30">Commencer</span>
+          <h2 className="text-h2 text-white mb-6">Prêt à commencer ? Découvrez les projets en cours.</h2>
+          <p className="text-body-lg text-zinc-300 mb-12 max-w-2xl mx-auto">Créez votre compte, explorez les opportunités disponibles, et investissez via une structure régulée.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-emerald-500 text-white px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium inline-flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/25 hover:bg-emerald-400 hover:-translate-y-0.5 transition-all">
-              Create an Account <ArrowRight className="w-4 h-4" />
+              Commencer <ArrowRight className="w-4 h-4" />
             </a>
             <a href="https://calendly.com/acheffi/invest-dubai" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-transparent text-white px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium inline-flex items-center justify-center gap-2 border border-white/20 hover:bg-white/10 transition-all">
-              <Phone className="w-4 h-4" /> Book a Call
+              <Phone className="w-4 h-4" /> Réserver un Appel
             </a>
           </div>
         </div>
@@ -483,8 +483,8 @@ export default function SmarterAlternative() {
         <div className="max-w-4xl mx-auto px-5 sm:px-6 lg:px-12">
           <div className="text-center mb-16">
             <span className="section-label border border-emerald-100">FAQ</span>
-            <h2 className="text-h2 text-zinc-900 mb-6">Common investor questions</h2>
-            <p className="text-body-lg text-zinc-600 max-w-2xl mx-auto">Key questions around structure, returns, liquidity, and risk.</p>
+            <h2 className="text-h2 text-zinc-900 mb-6">Questions fréquentes</h2>
+            <p className="text-body-lg text-zinc-600 max-w-2xl mx-auto">Tout ce que vous devez savoir sur la structure, les rendements, la liquidité et les risques.</p>
           </div>
           <div className="space-y-4">
             {faqItems.map((item, i) => (

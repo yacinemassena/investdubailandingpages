@@ -66,7 +66,7 @@ export const Opportunity = () => {
               <div className="relative h-[200px] md:h-[280px] flex items-end justify-center gap-6 md:gap-12">
                 {/* Left Bar - Non-renovated */}
                 <div className="flex flex-col items-center w-24 md:w-32">
-                  <span className="text-label text-brand-muted mb-3">Purchase</span>
+                  <span className="text-label text-brand-muted mb-3">ACHAT</span>
                   <motion.div 
                     initial={{ height: 0 }} whileInView={{ height: '85px' }} viewport={{ once: true }} transition={{ duration: 1, delay: 0.2 }}
                     className="w-full bg-gray-200 rounded-t-xl border border-gray-300"
@@ -75,7 +75,7 @@ export const Opportunity = () => {
 
                 {/* Right Bar - Renovated */}
                 <div className="flex flex-col items-center w-24 md:w-32">
-                  <span className="text-label text-brand-muted mb-3">Sale</span>
+                  <span className="text-label text-brand-accent mb-3">VENTE</span>
                   <motion.div 
                     initial={{ height: 0 }} whileInView={{ height: '180px' }} viewport={{ once: true }} transition={{ duration: 1, delay: 0.4 }}
                     className="w-full bg-brand-accent rounded-t-xl border border-brand-accent shadow-[0_0_30px_rgba(5,150,105,0.3)]"

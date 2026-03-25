@@ -1,4 +1,4 @@
-import { Grid3x3, MapPin, LineChart, ArrowRight, Phone } from 'lucide-react';
+﻿import { Grid3x3, MapPin, LineChart, ArrowRight, Phone } from 'lucide-react';
 import { motion } from 'motion/react';
 import { homepageContent } from '../config';
 import { fadeUp, staggerContainer } from './animations';
@@ -42,12 +42,12 @@ export const WhyGapExists = () => {
 
         <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={staggerContainer} className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4">
           <motion.a variants={fadeUp} href="https://investdubai.my.smartcrowd.ae/" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-brand-accent text-white px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium inline-flex items-center justify-center gap-2 text-body hover:opacity-90 transition-opacity">
-            Create an Account
+            Commencer
             <ArrowRight className="w-4 h-4" />
           </motion.a>
           <motion.a variants={fadeUp} href="https://calendly.com/acheffi/invest-dubai" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto border border-brand-border bg-brand-surface text-brand-dark px-6 md:px-8 py-3.5 md:py-4 rounded-full font-medium inline-flex items-center justify-center gap-2 text-body hover:bg-brand-bg transition-colors">
             <Phone className="w-4 h-4" />
-            Book a Call
+            Réserver un Appel
           </motion.a>
         </motion.div>
       </div>

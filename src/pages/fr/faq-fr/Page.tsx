@@ -40,7 +40,7 @@ const faqItems: FAQItem[] = [
   { category: 'process', question: 'Comment puis-je suivre mon investissement ?', answer: "Via votre tableau de bord (jalons, budget, calendrier), un groupe WhatsApp dédié par projet, des mises à jour Instagram hebdomadaires et des notifications par email aux étapes clés." },
   { category: 'process', question: 'Que signifie concrètement « exécution en interne » ?', answer: "Nous faisons la rénovation nous-mêmes : architectes internes, chefs de projet et équipes de construction. Supervision quotidienne sur site. Aucune sous-traitance sur le cœur de métier." },
   { category: 'process', question: 'Puis-je visiter la villa ?', answer: "Oui. Les investisseurs peuvent visiter les sites de projet à Dubaï. Contactez l'équipe pour organiser une visite." },
-  { category: 'getting-started', question: "Quel est l'investissement minimum ?", answer: "1 000 $ (~4 000 AED)." },
+  { category: 'getting-started', question: "Quel est l'investissement minimum ?", answer: "1 000 € (~4 000 AED)." },
   { category: 'getting-started', question: 'Comment créer un compte ?', answer: "Inscrivez-vous en ligne, soumettez votre pièce d'identité et un justificatif de domicile, et complétez la vérification. Approbation généralement sous 24-48 heures. Aucun capital engagé tant que vous n'avez pas choisi un projet." },
   { category: 'getting-started', question: 'Quid de la fiscalité pour les résidents français ?', answer: "Dubaï n'a pas d'impôt sur le revenu. Les résidents fiscaux français doivent consulter leur conseiller pour les obligations déclaratives. Nous fournissons une documentation claire pour votre déclaration." },
 ];
@@ -48,7 +48,7 @@ const faqItems: FAQItem[] = [
 export const FAQPage = () => {
   useDocumentHead({
     title: 'FAQ : Questions des Investisseurs Avant de Commencer | InvestDubai',
-    description: '27 questions sur la structure, les rendements, les risques, la liquidité et le processus. Des réponses claires sur les villas de luxe à Dubaï, les SPV, les rendements prioritaires et le fonctionnement d\'InvestDubai.',
+    description: '27 questions sur la structure, les rendements, les risques, la liquidité et le processus. Des réponses claires sur les propriétés de luxe à Dubaï, les SPV, les rendements prioritaires et le fonctionnement d\'InvestDubai.',
     canonical: 'https://www.investdubai.com/fr/faq',
   });
 
@@ -69,8 +69,8 @@ export const FAQPage = () => {
       <section className="pt-40 md:pt-32 pb-16">
         <div className="max-w-4xl mx-auto px-5 sm:px-6 lg:px-12 text-center">
           <span className="section-label">FAQ Complète</span>
-          <h1 className="text-display-1 text-brand-dark mb-6">Les questions que se posent les investisseurs avant de commencer</h1>
-          <p className="text-body-lg text-brand-muted max-w-2xl mx-auto mb-12 leading-relaxed">Des réponses claires sur la structure, les rendements, les risques et le processus. Sans jargon.</p>
+          <h1 className="text-display-1 text-brand-dark mb-6">Toutes les réponses à vos questions d'investissement</h1>
+          <p className="text-body-lg text-brand-muted max-w-2xl mx-auto mb-12 leading-relaxed">De la structuration de l'investissement à la distribution des plus-values. Une transparence absolue.</p>
           <div className="relative max-w-xl mx-auto mb-8">
             <input
               type="text"
