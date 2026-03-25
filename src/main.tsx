@@ -26,6 +26,17 @@ import LegalInformationPage from './pages/legal/legal-information/Page';
 import PrivacyPolicyPage from './pages/legal/privacy-policy/Page';
 import TermsOfUsePage from './pages/legal/terms-of-use/Page';
 
+// French pages
+import HomepageFr from './pages/fr/home-fr/Page';
+import SmarterAlternativeFr from './pages/fr/smarter-alternative-fr/Page';
+import PriceDatabaseFr from './pages/fr/price-database-fr/Page';
+import FAQPageFr from './pages/fr/faq-fr/Page';
+import HowItWorksPageFr from './pages/fr/how-it-works-fr/Page';
+import ContactPageFr from './pages/fr/contact-fr/Page';
+import LegalInformationPageFr from './pages/fr/legal-fr/legal-information/Page';
+import PrivacyPolicyPageFr from './pages/fr/legal-fr/privacy-policy/Page';
+import TermsOfUsePageFr from './pages/fr/legal-fr/terms-of-use/Page';
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -53,6 +64,16 @@ const App = () => {
         <Route path="/legal/legal-information" element={<LegalInformationPage />} />
         <Route path="/legal/privacy-policy" element={<PrivacyPolicyPage />} />
         <Route path="/legal/terms-of-use" element={<TermsOfUsePage />} />
+        {/* French routes */}
+        <Route path="/fr" element={<HomepageFr />} />
+        <Route path="/fr/smarteralternative" element={<SmarterAlternativeFr />} />
+        <Route path="/fr/faq" element={<FAQPageFr />} />
+        <Route path="/fr/price-database" element={<PriceDatabaseFr />} />
+        <Route path="/fr/how-it-works" element={<HowItWorksPageFr />} />
+        <Route path="/fr/contact" element={<ContactPageFr />} />
+        <Route path="/fr/legal/legal-information" element={<LegalInformationPageFr />} />
+        <Route path="/fr/legal/privacy-policy" element={<PrivacyPolicyPageFr />} />
+        <Route path="/fr/legal/terms-of-use" element={<TermsOfUsePageFr />} />
       </Routes>
     </BrowserRouter>
   );
