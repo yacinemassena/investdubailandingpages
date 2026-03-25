@@ -1,0 +1,9 @@
+{
+  "name": "investdubailandingpages",
+  "compatibility_date": "2026-02-12",
+  "main": "./worker.js",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}

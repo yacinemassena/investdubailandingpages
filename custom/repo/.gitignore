@@ -1,0 +1,20 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Large media files (stored on R2)
+Story investdubai/
+Website/
+flip photo/
+video/
+public/videos/
+public/stories/
+public/*.jpg
+public/*.JPG
+public/images/*.jpg
+public/images/*.JPG
+images/
+
+# Upload scripts
+upload-to-r2.js

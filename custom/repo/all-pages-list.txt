@@ -1,0 +1,42 @@
+InvestDubai Landing Pages - Complete Page List
+
+HOME PAGE:
+- Homepage with Video Hero (/)
+
+STANDALONE PAGES:
+- The Opportunity (/theopportunity)
+- FAQ (/faq)
+- How It Works (/how-it-works)
+- Investopedia (/investopedia)
+- Investopedia Article (/investopedia/:slug)
+- Price Database (/price-database)
+
+LANDING PAGES:
+- Page 01: How Hands-Free Property Flipping Works (/page/1)
+- Page 02: Minimum Investment (5,000 AED) (/page/2)
+- Page 03: Flipping vs Buy-to-Let (/page/3)
+- Page 04: Security & SPV Ownership (/page/4)
+- Page 05: Dubai Market 2026 (/page/5)
+- Page 06: Timeline (6-18 Months) (/page/6)
+- Page 07: Returns & Profit Sharing (/page/7)
+- Page 08: Remote Investing (/page/8)
+- Page 09: Beginner's Guide (/page/9)
+- Page 10: Complete FAQ Hub (/page/10)
+
+TOTAL: 16 unique pages + dynamic article pages
+
+DIRECTORY STRUCTURE:
+/src/pages/homepage/          <- Main homepage (/)
+/src/pages/theopportunity/    <- Components used for standalone pages
+/src/pages/page-01-v2/
+/src/pages/page-02-v2/
+/src/pages/page-03-v2/
+/src/pages/page-04-v2/
+/src/pages/page-05-v2/
+/src/pages/page-06-v2/
+/src/pages/page-07-v2/
+/src/pages/page-08-v2/
+/src/pages/page-09-v2/
+/src/pages/page-10-v2/
+
+NOTE: /src/pages/newhomepage/ can be deleted (duplicate, no longer used)
