@@ -1,0 +1,2 @@
+
+/smarteralternative

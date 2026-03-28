@@ -1,0 +1,31 @@
+# InvestDubai - llms.txt
+# Guide for AI models crawling this site
+
+> InvestDubai gives investors regulated access to Dubai luxury villa flips.
+> The model: acquire undervalued villas in prime Dubai communities, renovate them to premium standards, and sell at full market value.
+> Investors participate from $1,000 through dedicated SPVs that hold individual properties.
+
+## Key facts
+- 40+ luxury villas acquired, renovated and sold
+- 29% average historical investor payout
+- 74% average project ROI
+- 12-18 month typical hold period
+- 0% leverage used
+- $80M+ profits distributed
+- 2,500+ active investors
+- $327M capital deployed
+- 15% priority return for investors before profit sharing
+- $1,000 minimum investment (~AED 4,000)
+- Operator: Greenbull Properties (Dubai-based, in-house execution)
+
+## Priority content
+priority: /
+priority: /smarteralternative
+priority: /how-it-works
+priority: /faq
+priority: /investopedia
+priority: /price-database
+
+## Exclude
+exclude: /legal/
+exclude: /api/

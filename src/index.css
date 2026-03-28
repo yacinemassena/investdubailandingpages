@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Instrument+Serif:ital@0;1&display=swap');
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayXXThin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayXXThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayXThin.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayXThinItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayThin.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayThinItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayLight.ttf') format('truetype');
+  font-weight: 350;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayLightItalic.ttf') format('truetype');
+  font-weight: 350;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayRoman.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayRomanItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayMediu.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayMediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayBoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  src: url('/fonts/NeueHaasDisplayBlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-text antialiased;
+    font-family: "Neue Haas Display", "DM Sans", sans-serif;
+  }
+  
+  p, .text-brand-muted {
+    @apply font-medium;
+  }
+}
+
+/* ── Unified Typography Scale ── */
+
+@layer components {
+  /* Display 1 - Hero H1 */
+  .text-display-1 {
+    @apply text-4xl font-bold tracking-tight;
+    line-height: 1.15;
+  }
+
+  /* H2 - Section titles */
+  .text-h2 {
+    @apply text-3xl font-bold tracking-tight leading-tight;
+  }
+
+  /* H3 - Card / sub-section titles */
+  .text-h3 {
+    @apply text-xl font-bold tracking-tight leading-snug;
+  }
+
+  /* H4 - Small titles */
+  .text-h4 {
+    @apply text-lg font-bold leading-snug;
+  }
+
+  /* Body Large - Intro / subtitle text */
+  .text-body-lg {
+    @apply text-lg font-medium leading-relaxed;
+  }
+
+  /* Body - Default body text */
+  .text-body {
+    @apply text-base font-medium leading-relaxed;
+  }
+
+  /* Body Small - Supporting text (min 16px) */
+  .text-body-sm {
+    @apply text-base font-medium leading-relaxed;
+  }
+
+  /* Stat Value - Metric numbers */
+  .text-stat {
+    @apply text-xl font-bold;
+  }
+
+  /* Label - Overlines, caps, pill text */
+  .text-label {
+    font-size: 0.6875rem;
+    @apply font-bold uppercase tracking-widest;
+  }
+}
+
+/* Responsive typography overrides */
+@media (min-width: 640px) {
+  .text-display-1 { font-size: 3rem; }
+}
+
+@media (min-width: 768px) {
+  .text-display-1 { font-size: 4.5rem; line-height: 1.1; }
+  .text-h2 { font-size: 3rem; }
+  .text-h3 { font-size: 1.5rem; }
+  .text-body-lg { font-size: 1.125rem; }
+  .text-stat { font-size: 1.5rem; }
+  .text-label { font-size: 0.75rem; }
+}
+
+.font-serif {
+  font-family: 'Neue Haas Display', sans-serif;
+  font-weight: 300;
+}
+
+.answer-capsule {
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+}
+
+.brand-green-glow {
+  background: radial-gradient(circle, rgba(27, 77, 62, 0.08) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.btn-primary {
+  @apply bg-brand-accent text-white px-6 py-3.5 rounded-full font-medium transition-all duration-200 hover:opacity-90 active:scale-[0.98];
+}
+
+.btn-primary-responsive {
+  @apply bg-brand-accent text-white px-6 py-3.5 rounded-full font-medium transition-all duration-200 hover:opacity-90 active:scale-[0.98];
+  @apply md:px-8 md:py-4;
+}
+
+.btn-secondary {
+  @apply border border-brand-border bg-brand-surface text-brand-dark px-6 py-3.5 rounded-full font-medium transition-all duration-200 hover:bg-brand-bg active:scale-[0.98];
+  @apply md:px-8 md:py-4;
+}
+
+.btn-secondary-dark {
+  @apply border border-white/20 bg-white/10 backdrop-blur-sm text-white px-6 py-3.5 rounded-full font-medium transition-all duration-200 hover:bg-white/20 active:scale-[0.98];
+  @apply md:px-8 md:py-4;
+}
+
+.btn-ghost {
+  @apply text-brand-accent font-medium hover:underline;
+}
+
+/* Standardized section spacing */
+.section-padding {
+  @apply py-12 md:py-20;
+}
+
+.section-padding-lg {
+  @apply py-12 md:py-20;
+}
+
+/* Standardized container padding */
+.container-padding {
+  @apply px-5 sm:px-6 lg:px-12;
+}
+
+.section-label {
+  @apply inline-block px-4 py-1.5 bg-brand-accent/10 text-brand-accent text-label rounded-full mb-6 border border-brand-accent/20;
+}
+
+/* Hide scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
